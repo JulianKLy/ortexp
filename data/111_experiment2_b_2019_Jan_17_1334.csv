@@ -1,0 +1,4 @@
+﻿Plural,Singular,Test_cond,New_seg,Filler,Picture,Picture_pl,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,key_resp_1.keys,key_resp_1.rt,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,,,space,1.19099000852475,111,001,2019_Jan_17_1334,experiment2_b,3.0.0,60.30396435007561,
+nalupu,nalub,0,1,0,Images/horse.jpg,Images/horse_pl.jpg,0,0,0,49,,,111,001,2019_Jan_17_1334,experiment2_b,3.0.0,60.30396435007561,
+lumutu,lumud,0,0,0,Images/knife.jpg,Images/knife_pl.jpg,0,1,1,29,,,111,001,2019_Jan_17_1334,experiment2_b,3.0.0,60.30396435007561,

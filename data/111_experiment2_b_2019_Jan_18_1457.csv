@@ -1,0 +1,6 @@
+﻿Plural,Singular,Test_cond,New_seg,Filler,Picture,Picture_pl,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials_2.thisRepN,trials_2.thisTrialN,trials_2.thisN,trials_2.thisIndex,Trigger_txt,Target_txt,Target_img,Trigger_img,key_resp_1.keys,key_resp_1.rt,key_resp_3.keys,key_resp_3.rt,key_resp_5.keys,key_resp_5.rt,key_resp_2.keys,key_resp_2.rt,inputText,text_resp.keys,text_resp.rt,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,,,,,,,,,,,space,0.42637622468100744,,,,,,,,,,111,001,2019_Jan_18_1457,experiment2_b,3.0.0,60.085980819228226,
+larupu,larub,0,0,0,Images/rock.jpg,Images/rock_pl.jpg,0,0,0,1,,,,,,,,,,,p,0.2992129276462947,p,0.9745391821052181,,,,,,111,001,2019_Jan_18_1457,experiment2_b,3.0.0,60.085980819228226,
+musapu,musab,0,0,0,Images/apple.jpg,Images/apple_pl.jpg,0,1,1,0,,,,,,,,,,,p,0.45310246787630604,p,0.9717450923162687,,,,,,111,001,2019_Jan_18_1457,experiment2_b,3.0.0,60.085980819228226,
+,,,,,,,,,,,,,,,,,,,,,,,,,space,1.5019527483564161,,,,111,001,2019_Jan_18_1457,experiment2_b,3.0.0,60.085980819228226,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,musab,"['m', 'u', 's', 'a', 'b', 'return']","[0.4730617148707097, 0.7672410997874977, 0.8841615341443685, 1.100666161521076, 1.266294803994242, 2.5200112975289812]",,,,,,,

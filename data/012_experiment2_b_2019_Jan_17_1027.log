@@ -1,0 +1,23 @@
+5.9079 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+6.8771 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0BE8CE30>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0F70B850>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.8772 	EXP 	window1: recordFrameIntervals = False
+7.0423 	EXP 	window1: recordFrameIntervals = True
+7.1468 	WARNING 	t of last frame was 20.70ms (=1/48)
+7.2969 	WARNING 	t of last frame was 21.27ms (=1/47)
+7.3964 	WARNING 	t of last frame was 21.54ms (=1/46)
+7.4470 	WARNING 	t of last frame was 22.15ms (=1/45)
+7.6256 	EXP 	window1: recordFrameIntervals = False
+7.7197 	EXP 	Created lub = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='Images/Instruction_Screen.png', interpolate=True, mask=None, maskParams=None, name='lub', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='norm', win=Window(...))
+7.7252 	EXP 	lub: autoDraw = True
+9.2127 	DATA 	Keypress: space
+9.2878 	EXP 	window1: mouseVisible = True
+5.6167 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+6.7931 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0BDAFE50>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0F70B890>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.7933 	EXP 	window1: recordFrameIntervals = False
+6.9573 	EXP 	window1: recordFrameIntervals = True
+7.0460 	WARNING 	t of last frame was 22.89ms (=1/43)
+7.2244 	EXP 	window1: recordFrameIntervals = False
+7.3459 	EXP 	Created lub = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='Images/Instruction_Screen.png', interpolate=True, mask=None, maskParams=None, name='lub', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=128, units='norm', win=Window(...))
+7.3536 	EXP 	lub: autoDraw = True
+29.7691 	DATA 	Keypress: space
+29.8216 	EXP 	window1: mouseVisible = True

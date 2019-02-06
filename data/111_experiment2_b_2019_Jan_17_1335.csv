@@ -1,0 +1,7 @@
+﻿Plural,Singular,Test_cond,New_seg,Filler,Picture,Picture_pl,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,key_resp_1.keys,key_resp_1.rt,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,,,space,0.8321770903457946,111,001,2019_Jan_17_1335,experiment2_b,3.0.0,60.02412440205629,
+silutu,silud,0,0,0,Images/moustache.jpg,Images/moustache_pl.jpg,0,0,0,26,,,111,001,2019_Jan_17_1335,experiment2_b,3.0.0,60.02412440205629,
+lunitu,lunid,0,0,0,Images/ship.jpg,Images/ship_pl.jpg,0,1,1,9,,,111,001,2019_Jan_17_1335,experiment2_b,3.0.0,60.02412440205629,
+murupu,murub,0,1,0,Images/beer.jpg,Images/beer_pl.jpg,0,2,2,74,,,111,001,2019_Jan_17_1335,experiment2_b,3.0.0,60.02412440205629,
+sunaku,sunag,0,0,0,Images/nose.jpg,Images/nose_pl.jpg,0,3,3,7,,,111,001,2019_Jan_17_1335,experiment2_b,3.0.0,60.02412440205629,
+samuku,samug,0,0,0,Images/sleigh.jpg,Images/sleigh_pl.jpg,0,4,4,37,,,111,001,2019_Jan_17_1335,experiment2_b,3.0.0,60.02412440205629,

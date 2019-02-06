@@ -1,0 +1,105 @@
+7.7196 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+8.9798 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0BF423D0>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0F73CD90>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.9799 	EXP 	window1: recordFrameIntervals = False
+9.1448 	EXP 	window1: recordFrameIntervals = True
+9.4284 	EXP 	window1: recordFrameIntervals = False
+9.5151 	EXP 	Created lub = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='Images/Instruction_Screen.png', interpolate=True, mask=None, maskParams=None, name='lub', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=128, units='norm', win=Window(...))
+9.5815 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 3.]), rgb=array([255., 255., 255.]), text='Say the words you see out loud', units='norm', win=Window(...), wrapWidth=1)
+9.5844 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+9.5867 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+9.5946 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([ 0., -2.]), rgb=array([255., 255., 255.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+9.5994 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([ 0., -2.]), rgb=array([255., 255., 255.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+9.6150 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Any text\n\nincluding line breaks', units='norm', win=Window(...), wrapWidth=1)
+9.6224 	EXP 	lub: autoDraw = True
+11.1922 	DATA 	Keypress: space
+11.2746 	EXP 	Imported Lists/Experiment_Word_list_voicing.xlsx as conditions, 79 conditions, 7 params
+11.2834 	EXP 	Created sequence: random, trialTypes=79, nReps=1, seed=None
+11.2839 	EXP 	New trial (rep=0, index=0): OrderedDict([('Plural', 'munipu'), ('Singular', 'munib'), ('Test_cond', 0), ('New_seg', 1), ('Filler', 0), ('Picture', 'Images/calender.jpg'), ('Picture_pl', 'Images/calender_pl.jpg')])
+11.3410 	EXP 	lub: autoDraw = False
+11.3410 	EXP 	image: image = 'Images/calender.jpg'
+11.3410 	EXP 	image_2: image = 'Images/calender_pl.jpg'
+11.3410 	EXP 	text: text = 'munib'
+11.3410 	EXP 	text_2: text = 'munipu'
+11.3410 	EXP 	text_3: autoDraw = True
+11.3410 	EXP 	image: autoDraw = True
+11.3410 	EXP 	text: autoDraw = True
+14.2891 	EXP 	image: autoDraw = False
+14.2891 	EXP 	text: autoDraw = False
+14.3055 	EXP 	image_2: autoDraw = True
+14.3055 	EXP 	text_2: autoDraw = True
+17.2043 	EXP 	New trial (rep=0, index=1): OrderedDict([('Plural', 'lilitu'), ('Singular', 'lilid'), ('Test_cond', 0), ('New_seg', 1), ('Filler', 0), ('Picture', 'Images/hamburger.jpg'), ('Picture_pl', 'Images/hamburger_pl.jpg')])
+17.2767 	EXP 	text_3: autoDraw = False
+17.2767 	EXP 	image: autoDraw = False
+17.2767 	EXP 	image_2: autoDraw = False
+17.2767 	EXP 	text: autoDraw = False
+17.2767 	EXP 	text_2: autoDraw = False
+17.2767 	EXP 	image: image = 'Images/hamburger.jpg'
+17.2767 	EXP 	image_2: image = 'Images/hamburger_pl.jpg'
+17.2767 	EXP 	text: text = 'lilid'
+17.2767 	EXP 	text_2: text = 'lilitu'
+17.2767 	EXP 	text_3: autoDraw = True
+17.2767 	EXP 	image: autoDraw = True
+17.2767 	EXP 	text: autoDraw = True
+20.2172 	EXP 	image: autoDraw = False
+20.2172 	EXP 	text: autoDraw = False
+20.2337 	EXP 	image_2: autoDraw = True
+20.2337 	EXP 	text_2: autoDraw = True
+23.1989 	EXP 	New trial (rep=0, index=2): OrderedDict([('Plural', 'runuku'), ('Singular', 'runug'), ('Test_cond', 0), ('New_seg', 0), ('Filler', 0), ('Picture', 'Images/cup.jpg'), ('Picture_pl', 'Images/cup_pl.jpg')])
+23.2706 	EXP 	text_3: autoDraw = False
+23.2706 	EXP 	image: autoDraw = False
+23.2706 	EXP 	image_2: autoDraw = False
+23.2706 	EXP 	text: autoDraw = False
+23.2706 	EXP 	text_2: autoDraw = False
+23.2706 	EXP 	image: image = 'Images/cup.jpg'
+23.2706 	EXP 	image_2: image = 'Images/cup_pl.jpg'
+23.2706 	EXP 	text: text = 'runug'
+23.2706 	EXP 	text_2: text = 'runuku'
+23.2706 	EXP 	text_3: autoDraw = True
+23.2706 	EXP 	image: autoDraw = True
+23.2706 	EXP 	text: autoDraw = True
+26.2112 	EXP 	image: autoDraw = False
+26.2112 	EXP 	text: autoDraw = False
+26.2281 	EXP 	image_2: autoDraw = True
+26.2281 	EXP 	text_2: autoDraw = True
+29.1935 	EXP 	New trial (rep=0, index=3): OrderedDict([('Plural', 'malitu'), ('Singular', 'malid'), ('Test_cond', 0), ('New_seg', 1), ('Filler', 0), ('Picture', 'Images/fork.jpg'), ('Picture_pl', 'Images/fork_pl.jpg')])
+29.2833 	EXP 	text_3: autoDraw = False
+29.2833 	EXP 	image_2: autoDraw = False
+29.2833 	EXP 	text_2: autoDraw = False
+29.2833 	EXP 	text_3: autoDraw = False
+29.2833 	EXP 	image: autoDraw = False
+29.2833 	EXP 	image_2: autoDraw = False
+29.2833 	EXP 	text: autoDraw = False
+29.2833 	EXP 	text_2: autoDraw = False
+29.2833 	EXP 	image: image = 'Images/fork.jpg'
+29.2833 	EXP 	image_2: image = 'Images/fork_pl.jpg'
+29.2833 	EXP 	text: text = 'malid'
+29.2833 	EXP 	text_2: text = 'malitu'
+29.2833 	EXP 	text_3: autoDraw = True
+29.2833 	EXP 	image: autoDraw = True
+29.2833 	EXP 	text: autoDraw = True
+32.2111 	EXP 	image: autoDraw = False
+32.2111 	EXP 	text: autoDraw = False
+32.2224 	EXP 	image_2: autoDraw = True
+32.2224 	EXP 	text_2: autoDraw = True
+35.1873 	EXP 	New trial (rep=0, index=4): OrderedDict([('Plural', 'milupu'), ('Singular', 'milub'), ('Test_cond', 0), ('New_seg', 0), ('Filler', 0), ('Picture', 'Images/soap.jpg'), ('Picture_pl', 'Images/soap_pl.jpg')])
+35.2453 	EXP 	text_3: autoDraw = False
+35.2453 	EXP 	image_2: autoDraw = False
+35.2453 	EXP 	text_2: autoDraw = False
+35.2453 	EXP 	text_3: autoDraw = False
+35.2453 	EXP 	image: autoDraw = False
+35.2453 	EXP 	image_2: autoDraw = False
+35.2453 	EXP 	text: autoDraw = False
+35.2453 	EXP 	text_2: autoDraw = False
+35.2453 	EXP 	image: image = 'Images/soap.jpg'
+35.2453 	EXP 	image_2: image = 'Images/soap_pl.jpg'
+35.2453 	EXP 	text: text = 'milub'
+35.2453 	EXP 	text_2: text = 'milupu'
+35.2453 	EXP 	text_3: autoDraw = True
+35.2453 	EXP 	image: autoDraw = True
+35.2453 	EXP 	text: autoDraw = True
+38.1997 	EXP 	image: autoDraw = False
+38.1997 	EXP 	text: autoDraw = False
+38.2164 	EXP 	image_2: autoDraw = True
+38.2164 	EXP 	text_2: autoDraw = True
+40.2320 	DATA 	Keypress: escape
+40.2735 	EXP 	window1: mouseVisible = True

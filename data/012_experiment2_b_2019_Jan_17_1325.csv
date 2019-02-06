@@ -1,0 +1,6 @@
+﻿Plural,Singular,Test_cond,New_seg,Filler,Picture,Picture_pl,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,key_resp_1.keys,key_resp_1.rt,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,,,space,1.5700414455513965,012,001,2019_Jan_17_1325,experiment2_b,3.0.0,59.861774809308145,
+munipu,munib,0,1,0,Images/calender.jpg,Images/calender_pl.jpg,0,0,0,47,,,012,001,2019_Jan_17_1325,experiment2_b,3.0.0,59.861774809308145,
+lilitu,lilid,0,1,0,Images/hamburger.jpg,Images/hamburger_pl.jpg,0,1,1,54,,,012,001,2019_Jan_17_1325,experiment2_b,3.0.0,59.861774809308145,
+runuku,runug,0,0,0,Images/cup.jpg,Images/cup_pl.jpg,0,2,2,35,,,012,001,2019_Jan_17_1325,experiment2_b,3.0.0,59.861774809308145,
+malitu,malid,0,1,0,Images/fork.jpg,Images/fork_pl.jpg,0,3,3,63,,,012,001,2019_Jan_17_1325,experiment2_b,3.0.0,59.861774809308145,

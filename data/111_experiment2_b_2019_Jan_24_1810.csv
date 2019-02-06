@@ -1,0 +1,6 @@
+﻿Plural,Singular,Test_cond,New_seg,Filler,Picture,Picture_pl,Trigger_txt,Target_txt,Target_img,Trigger_img,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials_2.thisRepN,trials_2.thisTrialN,trials_2.thisN,trials_2.thisIndex,trials_3.thisRepN,trials_3.thisTrialN,trials_3.thisN,trials_3.thisIndex,Corr,Incorr,key_resp_1.keys,key_resp_1.rt,key_resp_2.keys,key_resp_2.rt,inputText,text_resp.keys,text_resp.rt,key_resp_4.keys,key_resp_4.rt,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,,,,,,,,,,,,,,,,,space,0.8361927109363023,,,,,,,,111,001,2019_Jan_24_1810,experiment2_b,3.0.0,60.021382023776795,
+musapu,musab,0,0,0,Images/apple.jpg,Images/apple_pl.jpg,,,,,0,0,0,0,,,,,,,,,,,,,,,,,,,,111,001,2019_Jan_24_1810,experiment2_b,3.0.0,60.021382023776795,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,space,0.5880721439461922,,,,,,111,001,2019_Jan_24_1810,experiment2_b,3.0.0,60.021382023776795,
+,,0,0,0,,,musapu,musab,Images/apple.jpg,Images/apple_pl.jpg,,,,,0,0,0,0,,,,,,,,,,,musab,"['m', 'u', 's', 'a', 'b', 'return']","[0.566405495046638, 0.8164911419880809, 0.916346726109623, 0.9995345414208714, 1.1661439679155592, 1.5823275062139146]",,,111,001,2019_Jan_24_1810,experiment2_b,3.0.0,60.021382023776795,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,space,1.6535878920985851,111,001,2019_Jan_24_1810,experiment2_b,3.0.0,60.021382023776795,
