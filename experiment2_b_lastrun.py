@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.0.0),
-    on februar 12, 2019, at 14:42
+    on februar 12, 2019, at 15:23
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -29,7 +29,10 @@ os.chdir(_thisDir)
 # Store info about the experiment session
 psychopyVersion = '3.0.0'
 expName = 'experiment2_b'  # from the Builder filename that created this script
-expInfo = {'gender': '', 'age': '', 'language': '', 'participant': '001'}
+expInfo = {'gender': '', 'age': '', 'language': '', 'group': 'voicing', 'participant': '001'}
+dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
+if dlg.OK == False:
+    core.quit()  # user pressed cancel
 expInfo['date'] = data.getDateStr()  # add a simple timestamp
 expInfo['expName'] = expName
 expInfo['psychopyVersion'] = psychopyVersion
@@ -424,7 +427,7 @@ for thisComponent in ISI_PreComponents:
 # set up handler to look after randomisation of conditions etc
 trials = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('Lists\\voicing.xlsx', selection='0:3'),
+    trialList=data.importConditions(group + '.xlsx', selection='0:3'),
     seed=None, name='trials')
 thisExp.addLoop(trials)  # add the loop to the experiment
 thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
@@ -722,7 +725,7 @@ for thisComponent in ISI_PreComponents:
 # set up handler to look after randomisation of conditions etc
 trials_2 = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('Lists\\voicing.xlsx', selection='45:47'),
+    trialList=data.importConditions(group + '.xlsx', selection='45:47'),
     seed=None, name='trials_2')
 thisExp.addLoop(trials_2)  # add the loop to the experiment
 thisTrial_2 = trials_2.trialList[0]  # so we can initialise stimuli with some values
@@ -1089,7 +1092,7 @@ for thisComponent in ISI_PreComponents:
 # set up handler to look after randomisation of conditions etc
 trials_3 = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('Lists\\voicing.xlsx', selection='75:77'),
+    trialList=data.importConditions(group + '.xlsx', selection='75:77'),
     seed=None, name='trials_3')
 thisExp.addLoop(trials_3)  # add the loop to the experiment
 thisTrial_3 = trials_3.trialList[0]  # so we can initialise stimuli with some values
