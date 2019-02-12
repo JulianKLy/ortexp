@@ -1,0 +1,4 @@
+﻿Plural,Singular,Type,Picture,Picture_pl,Final_C,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,key_resp_1.keys,key_resp_1.rt,gender,age,language,participant,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,,space,1.6563190643682901,,,,001,2019_Feb_12_0953,experiment2_b,3.0.0,60.27604545720187,
+musapu,musab,Alt,Images/apple.jpg,Images/apple_pl.jpg,b,0,0,0,0,,,,,,001,2019_Feb_12_0953,experiment2_b,3.0.0,60.27604545720187,
+larupu,larub,Alt,Images/rock.jpg,Images/rock_pl.jpg,b,0,1,1,1,,,,,,001,2019_Feb_12_0953,experiment2_b,3.0.0,60.27604545720187,

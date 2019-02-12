@@ -1,0 +1,8 @@
+﻿Plural,Singular,Type,Picture,Picture_pl,Final_C,Trigger_txt,Target_txt,New,Target_img,Trigger_img,Target,Number,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials_2.thisRepN,trials_2.thisTrialN,trials_2.thisN,trials_2.thisIndex,trials_3.thisRepN,trials_3.thisTrialN,trials_3.thisN,trials_3.thisIndex,a,k,New_seg,Corr,key_resp_1.keys,key_resp_1.rt,key_resp_2.keys,key_resp_2.rt,inputText,text_resp.keys,text_resp.rt,key_resp_4.keys,key_resp_4.rt,gender,age,language,participant,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,space,2.929587836650171,,,,,,,,,,,001,2019_Feb_12_1002,experiment2_b,3.0.0,59.97175184608415,
+musapu,musab,Alt,Images/apple.jpg,Images/apple_pl.jpg,b,,,,,,,,0,0,0,0,,,,,,,,,,,,,,,,,,,,,,,,,001,2019_Feb_12_1002,experiment2_b,3.0.0,59.97175184608415,
+larupu,larub,Alt,Images/rock.jpg,Images/rock_pl.jpg,b,,,,,,,,0,1,1,1,,,,,,,,,,,,,,,,,,,,,,,,,001,2019_Feb_12_1002,experiment2_b,3.0.0,59.97175184608415,
+nalipu,nalib,Alt,Images/coin.jpg,Images/coin_pl.jpg,b,,,,,,,,0,2,2,2,,,,,,,,,,,,,,,,,,,,,,,,,001,2019_Feb_12_1002,experiment2_b,3.0.0,59.97175184608415,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,space,5.168410821955149,,,,,,,,,001,2019_Feb_12_1002,experiment2_b,3.0.0,59.97175184608415,
+,,Alt,,,b,musapu,musab,Given,Images/apple.jpg,Images/apple_pl.jpg,sg,Write the plural form on your keyboard - then press enter,,,,,0,0,0,0,,,,,,,,,,,,,musab,"['m', 'u', 's', 'a', 'b', 'return']","[2.2319060954987435, 2.4981662476939164, 2.6147208754227904, 2.797802142477849, 3.031067552738932, 3.3305916645767866]",,,,,,001,2019_Feb_12_1002,experiment2_b,3.0.0,59.97175184608415,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,space,2.4720487168860927,,,,001,2019_Feb_12_1002,experiment2_b,3.0.0,59.97175184608415,

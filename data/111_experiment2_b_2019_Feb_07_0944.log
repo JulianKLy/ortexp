@@ -1,0 +1,250 @@
+10.0125 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([1., 1., 1.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0E69FF70>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0FF2F950>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.0127 	EXP 	window1: recordFrameIntervals = False
+10.1690 	EXP 	window1: recordFrameIntervals = True
+10.3526 	EXP 	window1: recordFrameIntervals = False
+10.4531 	EXP 	Created lub = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='Images/Instruction_Screen.png', interpolate=True, mask=None, maskParams=None, name='lub', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=128, units='norm', win=Window(...))
+10.6174 	EXP 	Created Instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='Instr', opacity=0.95, ori=0, pos=array([0. , 0.8]), rgb=array([-1., -1., -1.]), text='Say the words you see out loud', units='norm', win=Window(...), wrapWidth=1)
+10.6199 	EXP 	Created Sing_img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Sing_img', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+10.6221 	EXP 	Created Pl_img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Pl_img', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+10.6633 	EXP 	Created Sing_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='Sing_txt', opacity=1.0, ori=0, pos=array([ 0. , -0.5]), rgb=array([ 1., -1., -1.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+10.6703 	EXP 	Created Pl_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='Pl_txt', opacity=1.0, ori=0, pos=array([ 0. , -0.5]), rgb=array([ 1., -1., -1.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+10.7048 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='Images/Instruction_Screen_Prod.png', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=128, units='norm', win=Window(...))
+10.7334 	EXP 	Created Trigger_ins1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Trigger_ins1', opacity=1.0, ori=0, pos=array([0. , 0.8]), rgb=array([-1., -1., -1.]), text='Read the word out loud', units='norm', win=Window(...), wrapWidth=1)
+10.7528 	EXP 	Created Target_ins1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Target_ins1', opacity=1.0, ori=0, pos=array([0. , 0.8]), rgb=array([-1., -1., -1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+10.7550 	EXP 	Created Trigger_img1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Trigger_img1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+10.7568 	EXP 	Created Target_img1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Target_img1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+10.7637 	EXP 	Created Trigger_txt1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='Trigger_txt1', opacity=1.0, ori=0, pos=array([ 0. , -0.5]), rgb=array([ 1., -1., -1.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+10.7707 	EXP 	Created txtinp = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='txtinp', opacity=1.0, ori=0, pos=array([ 0. , -0.5]), rgb=array([ 1., -1., -1.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+10.8100 	EXP 	Created image_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='Images/Instruction_Screen_FC.png', interpolate=True, mask=None, maskParams=None, name='image_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=128, units='norm', win=Window(...))
+10.8291 	EXP 	Created Trigger_ins2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Trigger_ins2', opacity=1.0, ori=0, pos=array([0. , 0.8]), rgb=array([-1., -1., -1.]), text='Repeat the word you see', units='norm', win=Window(...), wrapWidth=1)
+10.8472 	EXP 	Created Target_ins2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Target_ins2', opacity=1.0, ori=0, pos=array([0. , 0.8]), rgb=array([-1., -1., -1.]), text=str(...), units='norm', win=Window(...), wrapWidth=1)
+10.8493 	EXP 	Created Trigger_img2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Trigger_img2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+10.8513 	EXP 	Created Target_img2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Target_img2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+10.8584 	EXP 	Created Trigger_txt2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='Trigger_txt2', opacity=1.0, ori=0, pos=array([ 0. , -0.5]), rgb=array([ 1., -1., -1.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+10.8654 	EXP 	Created Target_instr_l = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='Target_instr_l', opacity=1.0, ori=0, pos=array([-0.5, -0.8]), rgb=array([-1., -1., -1.]), text='Press a\n\n', units='norm', win=Window(...), wrapWidth=1)
+10.8714 	EXP 	Created Target_instr_r = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='Target_instr_r', opacity=1.0, ori=0, pos=array([ 0.5, -0.7]), rgb=array([-1., -1., -1.]), text='Press k', units='norm', win=Window(...), wrapWidth=1)
+10.8783 	EXP 	Created Resp_a = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='Resp_a', opacity=1.0, ori=0, pos=array([-0.5, -0.5]), rgb=array([ 1., -1., -1.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+10.8855 	EXP 	Created Resp_b = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='Resp_b', opacity=1.0, ori=0, pos=array([ 0.5, -0.5]), rgb=array([ 1., -1., -1.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+10.8919 	EXP 	lub: autoDraw = True
+12.2676 	DATA 	Keypress: space
+12.3366 	EXP 	Imported Lists\Voi_exposure.xlsx as conditions, 3 conditions, 6 params
+12.3371 	EXP 	Created sequence: random, trialTypes=3, nReps=1, seed=None
+12.3377 	EXP 	New trial (rep=0, index=0): OrderedDict([('Plural', 'musapu'), ('Singular', 'musab'), ('Type', 'Alt'), ('Picture', 'Images/apple.jpg'), ('Picture_pl', 'Images/apple_pl.jpg'), ('Final_C', 'b')])
+12.4092 	EXP 	lub: autoDraw = False
+12.4092 	EXP 	Sing_img: size = array([0.45, 0.8 ])
+12.4092 	EXP 	Sing_img: image = 'Images/apple.jpg'
+12.4092 	EXP 	Pl_img: size = array([0.55416667, 0.44444444])
+12.4092 	EXP 	Pl_img: image = 'Images/apple_pl.jpg'
+12.4092 	EXP 	Sing_txt: text = 'musab'
+12.4092 	EXP 	Pl_txt: text = 'musapu'
+12.4092 	EXP 	Instr: autoDraw = True
+12.4092 	EXP 	Sing_img: autoDraw = True
+12.4092 	EXP 	Sing_txt: autoDraw = True
+15.3469 	EXP 	Sing_img: autoDraw = False
+15.3469 	EXP 	Sing_txt: autoDraw = False
+15.3634 	EXP 	Pl_img: autoDraw = True
+15.3634 	EXP 	Pl_txt: autoDraw = True
+18.2776 	EXP 	window1: recordFrameIntervals = False
+18.2938 	EXP 	Instr: autoDraw = False
+18.2938 	EXP 	Sing_img: autoDraw = False
+18.2938 	EXP 	Pl_img: autoDraw = False
+18.2938 	EXP 	Sing_txt: autoDraw = False
+18.2938 	EXP 	Pl_txt: autoDraw = False
+18.2942 	EXP 	window1: recordFrameIntervals = False
+19.0122 	EXP 	New trial (rep=0, index=1): OrderedDict([('Plural', 'larupu'), ('Singular', 'larub'), ('Type', 'Alt'), ('Picture', 'Images/rock.jpg'), ('Picture_pl', 'Images/rock_pl.jpg'), ('Final_C', 'b')])
+19.0683 	EXP 	Sing_img: size = array([0.5625    , 0.66666667])
+19.0683 	EXP 	Sing_img: image = 'Images/rock.jpg'
+19.0683 	EXP 	Pl_img: size = array([0.76354167, 0.44444444])
+19.0683 	EXP 	Pl_img: image = 'Images/rock_pl.jpg'
+19.0683 	EXP 	Sing_txt: text = 'larub'
+19.0683 	EXP 	Pl_txt: text = 'larupu'
+19.0683 	EXP 	Instr: autoDraw = True
+19.0683 	EXP 	Sing_img: autoDraw = True
+19.0683 	EXP 	Sing_txt: autoDraw = True
+22.0234 	EXP 	Sing_img: autoDraw = False
+22.0234 	EXP 	Sing_txt: autoDraw = False
+22.0399 	EXP 	Pl_img: autoDraw = True
+22.0399 	EXP 	Pl_txt: autoDraw = True
+25.0041 	EXP 	window1: recordFrameIntervals = False
+25.0200 	EXP 	Instr: autoDraw = False
+25.0200 	EXP 	Pl_img: autoDraw = False
+25.0200 	EXP 	Pl_txt: autoDraw = False
+25.0200 	EXP 	Instr: autoDraw = False
+25.0200 	EXP 	Sing_img: autoDraw = False
+25.0200 	EXP 	Pl_img: autoDraw = False
+25.0200 	EXP 	Sing_txt: autoDraw = False
+25.0200 	EXP 	Pl_txt: autoDraw = False
+25.0203 	EXP 	window1: recordFrameIntervals = False
+25.7412 	EXP 	New trial (rep=0, index=2): OrderedDict([('Plural', 'nalipu'), ('Singular', 'nalib'), ('Type', 'Alt'), ('Picture', 'Images/coin.jpg'), ('Picture_pl', 'Images/coin_pl.jpg'), ('Final_C', 'b')])
+25.8086 	EXP 	Sing_img: size = array([0.4625    , 0.82037037])
+25.8086 	EXP 	Sing_img: image = 'Images/coin.jpg'
+25.8086 	EXP 	Pl_img: size = array([0.32395833, 1.16481481])
+25.8086 	EXP 	Pl_img: image = 'Images/coin_pl.jpg'
+25.8086 	EXP 	Sing_txt: text = 'nalib'
+25.8086 	EXP 	Pl_txt: text = 'nalipu'
+25.8086 	EXP 	Instr: autoDraw = True
+25.8086 	EXP 	Sing_img: autoDraw = True
+25.8086 	EXP 	Sing_txt: autoDraw = True
+28.7495 	EXP 	Sing_img: autoDraw = False
+28.7495 	EXP 	Sing_txt: autoDraw = False
+28.7659 	EXP 	Pl_img: autoDraw = True
+28.7659 	EXP 	Pl_txt: autoDraw = True
+31.7298 	EXP 	window1: recordFrameIntervals = False
+31.7461 	EXP 	Instr: autoDraw = False
+31.7461 	EXP 	Pl_img: autoDraw = False
+31.7461 	EXP 	Pl_txt: autoDraw = False
+31.7461 	EXP 	Instr: autoDraw = False
+31.7461 	EXP 	Sing_img: autoDraw = False
+31.7461 	EXP 	Pl_img: autoDraw = False
+31.7461 	EXP 	Sing_txt: autoDraw = False
+31.7461 	EXP 	Pl_txt: autoDraw = False
+31.7463 	EXP 	window1: recordFrameIntervals = False
+32.4738 	EXP 	image_3: autoDraw = True
+33.7781 	DATA 	Keypress: space
+33.8006 	EXP 	Imported Lists\Voi_Prod.xlsx as conditions, 1 conditions, 8 params
+33.8011 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+33.8017 	EXP 	New trial (rep=0, index=0): OrderedDict([('Trigger_txt', 'musapu'), ('Target_txt', 'musab'), ('Type', 'Alt'), ('New', 'Given'), ('Target_img', 'Images/apple.jpg'), ('Trigger_img', 'Images/apple_pl.jpg'), ('Final_C', 'b'), ('Target', 'sg')])
+33.8459 	EXP 	image_3: autoDraw = False
+33.8459 	EXP 	Trigger_img1: size = array([0.55416667, 0.44444444])
+33.8459 	EXP 	Trigger_img1: image = 'Images/apple_pl.jpg'
+33.8459 	EXP 	Target_img1: size = array([0.45, 0.8 ])
+33.8459 	EXP 	Target_img1: image = 'Images/apple.jpg'
+33.8459 	EXP 	Trigger_txt1: text = 'musapu'
+33.8459 	EXP 	txtinp: alignHoriz = 'center'
+33.8459 	EXP 	Trigger_ins1: autoDraw = True
+33.8459 	EXP 	Trigger_img1: autoDraw = True
+33.8459 	EXP 	Trigger_txt1: autoDraw = True
+38.8222 	EXP 	Trigger_ins1: autoDraw = False
+38.8222 	EXP 	Target_ins1: autoDraw = True
+38.8222 	EXP 	Trigger_img1: autoDraw = False
+38.8222 	EXP 	Target_img1: autoDraw = True
+38.8222 	EXP 	Trigger_txt1: autoDraw = False
+38.8222 	EXP 	txtinp: autoDraw = True
+39.8726 	DATA 	Keypress: m
+40.0948 	DATA 	Keypress: u
+40.2224 	DATA 	Keypress: s
+40.3551 	DATA 	Keypress: a
+40.5882 	DATA 	Keypress: b
+41.3874 	DATA 	Keypress: return
+41.4058 	EXP 	window1: recordFrameIntervals = False
+41.4204 	EXP 	Trigger_ins1: autoDraw = False
+41.4204 	EXP 	Target_ins1: autoDraw = False
+41.4204 	EXP 	Trigger_img1: autoDraw = False
+41.4204 	EXP 	Target_img1: autoDraw = False
+41.4204 	EXP 	Trigger_txt1: autoDraw = False
+41.4204 	EXP 	txtinp: autoDraw = False
+41.4207 	EXP 	window1: recordFrameIntervals = False
+42.1480 	EXP 	image_6: autoDraw = True
+43.0527 	DATA 	Keypress: space
+43.1057 	EXP 	Imported Lists\Voi_FC.xlsx as conditions, 4 conditions, 10 params
+43.1061 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+43.1067 	EXP 	New trial (rep=0, index=0): OrderedDict([('Trigger_txt', 'minupu'), ('a', 'minup'), ('k', 'minub'), ('New_seg', 'Given'), ('Type', 'Alt'), ('Target_img', 'Images/raindrop.jpg'), ('Trigger_img', 'Images/raindrop_pl.jpg'), ('Final_C', 'b'), ('Corr', 'k'), ('Target', 'sg')])
+43.1786 	EXP 	image_6: autoDraw = False
+43.1786 	EXP 	Trigger_img2: size = array([0.46875   , 0.63518519])
+43.1786 	EXP 	Trigger_img2: image = 'Images/raindrop_pl.jpg'
+43.1786 	EXP 	Target_img2: size = array([0.29166667, 0.8       ])
+43.1786 	EXP 	Target_img2: image = 'Images/raindrop.jpg'
+43.1786 	EXP 	Trigger_txt2: text = 'minupu'
+43.1786 	EXP 	Resp_a: text = 'minup'
+43.1786 	EXP 	Resp_b: text = 'minub'
+43.1786 	EXP 	Trigger_ins2: autoDraw = True
+43.1786 	EXP 	Trigger_img2: autoDraw = True
+43.1786 	EXP 	Trigger_txt2: autoDraw = True
+47.1140 	EXP 	Trigger_ins2: autoDraw = False
+47.1140 	EXP 	Trigger_img2: autoDraw = False
+47.1140 	EXP 	Trigger_txt2: autoDraw = False
+47.1333 	EXP 	Target_ins2: autoDraw = True
+47.1333 	EXP 	Target_img2: autoDraw = True
+47.1333 	EXP 	Target_instr_l: autoDraw = True
+47.1333 	EXP 	Target_instr_r: autoDraw = True
+47.1333 	EXP 	Resp_a: autoDraw = True
+47.1333 	EXP 	Resp_b: autoDraw = True
+48.8125 	DATA 	Keypress: k
+48.8133 	EXP 	window1: recordFrameIntervals = False
+48.8286 	EXP 	Trigger_ins2: autoDraw = False
+48.8286 	EXP 	Target_ins2: autoDraw = False
+48.8286 	EXP 	Trigger_img2: autoDraw = False
+48.8286 	EXP 	Target_img2: autoDraw = False
+48.8286 	EXP 	Trigger_txt2: autoDraw = False
+48.8286 	EXP 	Target_instr_l: autoDraw = False
+48.8286 	EXP 	Target_instr_r: autoDraw = False
+48.8286 	EXP 	Resp_a: autoDraw = False
+48.8286 	EXP 	Resp_b: autoDraw = False
+48.8287 	EXP 	window1: recordFrameIntervals = False
+49.5452 	EXP 	New trial (rep=0, index=1): OrderedDict([('Trigger_txt', 'sanub'), ('a', 'sanupu'), ('k', 'sanubu'), ('New_seg', 'Given'), ('Type', 'Alt'), ('Target_img', 'Images/hammock.jpg'), ('Trigger_img', 'Images/hammock_pl.jpg'), ('Final_C', 'b'), ('Corr', 'a'), ('Target', 'pl')])
+49.6072 	EXP 	Trigger_img2: size = array([0.5, 0.9])
+49.6072 	EXP 	Trigger_img2: image = 'Images/hammock_pl.jpg'
+49.6072 	EXP 	Target_img2: size = array([0.52083333, 0.56481481])
+49.6072 	EXP 	Target_img2: image = 'Images/hammock.jpg'
+49.6072 	EXP 	Trigger_txt2: text = 'sanub'
+49.6072 	EXP 	Resp_a: text = 'sanupu'
+49.6072 	EXP 	Resp_b: text = 'sanubu'
+49.6072 	EXP 	Trigger_ins2: autoDraw = True
+49.6072 	EXP 	Trigger_img2: autoDraw = True
+49.6072 	EXP 	Trigger_txt2: autoDraw = True
+53.5577 	EXP 	Trigger_ins2: autoDraw = False
+53.5577 	EXP 	Trigger_img2: autoDraw = False
+53.5577 	EXP 	Trigger_txt2: autoDraw = False
+53.5808 	EXP 	Target_ins2: autoDraw = True
+53.5808 	EXP 	Target_img2: autoDraw = True
+53.5808 	EXP 	Target_instr_l: autoDraw = True
+53.5808 	EXP 	Target_instr_r: autoDraw = True
+53.5808 	EXP 	Resp_a: autoDraw = True
+53.5808 	EXP 	Resp_b: autoDraw = True
+57.1765 	DATA 	Keypress: a
+57.1890 	EXP 	window1: recordFrameIntervals = False
+57.2040 	EXP 	Trigger_ins2: autoDraw = False
+57.2040 	EXP 	Target_ins2: autoDraw = False
+57.2040 	EXP 	Trigger_img2: autoDraw = False
+57.2040 	EXP 	Target_img2: autoDraw = False
+57.2040 	EXP 	Trigger_txt2: autoDraw = False
+57.2040 	EXP 	Target_instr_l: autoDraw = False
+57.2040 	EXP 	Target_instr_r: autoDraw = False
+57.2040 	EXP 	Resp_a: autoDraw = False
+57.2040 	EXP 	Resp_b: autoDraw = False
+57.2044 	EXP 	window1: recordFrameIntervals = False
+57.9213 	EXP 	New trial (rep=0, index=2): OrderedDict([('Trigger_txt', 'rumab'), ('a', 'rumapu'), ('k', 'rumabu'), ('New_seg', 'Given'), ('Type', 'Alt'), ('Target_img', 'Images/soldier.jpg'), ('Trigger_img', 'Images/soldier_pl.jpg'), ('Final_C', 'b'), ('Corr', 'a'), ('Target', 'pl')])
+57.9800 	EXP 	Trigger_img2: size = array([0.46875   , 0.80740741])
+57.9800 	EXP 	Trigger_img2: image = 'Images/soldier_pl.jpg'
+57.9800 	EXP 	Target_img2: size = array([0.26041667, 0.92592593])
+57.9800 	EXP 	Target_img2: image = 'Images/soldier.jpg'
+57.9800 	EXP 	Trigger_txt2: text = 'rumab'
+57.9800 	EXP 	Resp_a: text = 'rumapu'
+57.9800 	EXP 	Resp_b: text = 'rumabu'
+57.9800 	EXP 	Trigger_ins2: autoDraw = True
+57.9800 	EXP 	Trigger_img2: autoDraw = True
+57.9800 	EXP 	Trigger_txt2: autoDraw = True
+61.9324 	EXP 	Trigger_ins2: autoDraw = False
+61.9324 	EXP 	Trigger_img2: autoDraw = False
+61.9324 	EXP 	Trigger_txt2: autoDraw = False
+61.9529 	EXP 	Target_ins2: autoDraw = True
+61.9529 	EXP 	Target_img2: autoDraw = True
+61.9529 	EXP 	Target_instr_l: autoDraw = True
+61.9529 	EXP 	Target_instr_r: autoDraw = True
+61.9529 	EXP 	Resp_a: autoDraw = True
+61.9529 	EXP 	Resp_b: autoDraw = True
+70.9900 	DATA 	Keypress: k
+70.9915 	EXP 	window1: recordFrameIntervals = False
+71.0064 	EXP 	Trigger_ins2: autoDraw = False
+71.0064 	EXP 	Target_ins2: autoDraw = False
+71.0064 	EXP 	Trigger_img2: autoDraw = False
+71.0064 	EXP 	Target_img2: autoDraw = False
+71.0064 	EXP 	Trigger_txt2: autoDraw = False
+71.0064 	EXP 	Target_instr_l: autoDraw = False
+71.0064 	EXP 	Target_instr_r: autoDraw = False
+71.0064 	EXP 	Resp_a: autoDraw = False
+71.0064 	EXP 	Resp_b: autoDraw = False
+71.0068 	EXP 	window1: recordFrameIntervals = False
+71.7271 	EXP 	New trial (rep=0, index=3): OrderedDict([('Trigger_txt', 'nasapu'), ('a', 'nasap'), ('k', 'nasab'), ('New_seg', 'Given'), ('Type', 'Alt'), ('Target_img', 'Images/spear.jpg'), ('Trigger_img', 'Images/spear_pl.jpg'), ('Final_C', 'b'), ('Corr', 'k'), ('Target', 'sg')])
+71.7653 	EXP 	Trigger_img2: size = array([0.18333333, 0.98888889])
+71.7653 	EXP 	Trigger_img2: image = 'Images/spear_pl.jpg'
+71.7653 	EXP 	Target_img2: size = array([0.08333333, 0.98888889])
+71.7653 	EXP 	Target_img2: image = 'Images/spear.jpg'
+71.7653 	EXP 	Trigger_txt2: text = 'nasapu'
+71.7653 	EXP 	Resp_a: text = 'nasap'
+71.7653 	EXP 	Resp_b: text = 'nasab'
+71.7653 	EXP 	Trigger_ins2: autoDraw = True
+71.7653 	EXP 	Trigger_img2: autoDraw = True
+71.7653 	EXP 	Trigger_txt2: autoDraw = True
+72.3915 	DATA 	Keypress: escape
+72.4606 	EXP 	window1: mouseVisible = True
