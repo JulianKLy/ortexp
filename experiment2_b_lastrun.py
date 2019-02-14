@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.0.3),
-    on februar 14, 2019, at 11:25
+    on februar 14, 2019, at 14:43
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -67,7 +67,7 @@ else:
 # Initialize components for Routine "Instruction_Intro"
 Instruction_IntroClock = core.Clock()
 lub = visual.ImageStim(
-    win=win, name='lub',
+    win=win, name='lub',units='norm', 
     image='sin', mask=None,
     ori=0, pos=(0, 0), size=(2, 2),
     color=[1,1,1], colorSpace='rgb', opacity=1,
@@ -90,14 +90,14 @@ fixation = visual.ShapeStim(
 # Initialize components for Routine "Exposure"
 ExposureClock = core.Clock()
 Sing_img = visual.ImageStim(
-    win=win, name='Sing_img',
+    win=win, name='Sing_img',units='norm', 
     image='sin', mask=None,
     ori=0, pos=(0, 0.2), size=None,
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
 Pl_img = visual.ImageStim(
-    win=win, name='Pl_img',
+    win=win, name='Pl_img',units='norm', 
     image='sin', mask=None,
     ori=0, pos=(0, 0.2), size=None,
     color=[1,1,1], colorSpace='rgb', opacity=1,
@@ -106,14 +106,14 @@ Pl_img = visual.ImageStim(
 Sing_txt = visual.TextStim(win=win, name='Sing_txt',
     text='default text',
     font='Arial',
-    pos=(0, -0.6), height=0.3, wrapWidth=None, ori=0, 
+    units='norm', pos=(0, -0.6), height=0.3, wrapWidth=None, ori=0, 
     color=[1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-2.0);
 Pl_txt = visual.TextStim(win=win, name='Pl_txt',
     text='default text',
     font='Arial',
-    pos=(0, -0.6), height=0.3, wrapWidth=None, ori=0, 
+    units='norm', pos=(0, -0.6), height=0.3, wrapWidth=None, ori=0, 
     color=[1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-3.0);
@@ -125,7 +125,7 @@ ISI_2 = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI_2')
 # Initialize components for Routine "Instruction_Prod"
 Instruction_ProdClock = core.Clock()
 image_3 = visual.ImageStim(
-    win=win, name='image_3',
+    win=win, name='image_3',units='norm', 
     image='sin', mask=None,
     ori=0, pos=(0, 0), size=(2, 2),
     color=[1,1,1], colorSpace='rgb', opacity=1,
@@ -148,19 +148,19 @@ Test_ProdClock = core.Clock()
 Target_ins1 = visual.TextStim(win=win, name='Target_ins1',
     text='default text',
     font='Arial',
-    pos=(0, 0.85), height=0.1, wrapWidth=None, ori=0, 
+    units='norm', pos=(0, 0.85), height=0.1, wrapWidth=None, ori=0, 
     color=[-1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
 Trigger_img1 = visual.ImageStim(
-    win=win, name='Trigger_img1',
+    win=win, name='Trigger_img1',units='norm', 
     image='sin', mask=None,
     ori=0, pos=(0, 0.2), size=None,
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=-1.0)
 Target_img1 = visual.ImageStim(
-    win=win, name='Target_img1',
+    win=win, name='Target_img1',units='norm', 
     image='sin', mask=None,
     ori=0, pos=(0, 0.2), size=None,
     color=[1,1,1], colorSpace='rgb', opacity=1,
@@ -169,7 +169,7 @@ Target_img1 = visual.ImageStim(
 Trigger_txt1 = visual.TextStim(win=win, name='Trigger_txt1',
     text='default text',
     font='Arial',
-    pos=(0, -0.6), height=0.3, wrapWidth=None, ori=0, 
+    units='norm', pos=(0, -0.6), height=0.3, wrapWidth=None, ori=0, 
     color=[1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-3.0);
@@ -177,7 +177,7 @@ inputText = ""
 txtinp = visual.TextStim(win=win, name='txtinp',
     text='default text',
     font='Arial',
-    pos=(0, -0.6), height=0.3, wrapWidth=None, ori=0, 
+    units='norm', pos=(0, -0.6), height=0.3, wrapWidth=None, ori=0, 
     color=[1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-5.0);
@@ -189,7 +189,7 @@ ISI_2 = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI_2')
 # Initialize components for Routine "Instruction_FC"
 Instruction_FCClock = core.Clock()
 image_6 = visual.ImageStim(
-    win=win, name='image_6',
+    win=win, name='image_6',units='norm', 
     image='sin', mask=None,
     ori=0, pos=(0, 0), size=(2, 2),
     color=[1,1,1], colorSpace='rgb', opacity=1,
@@ -212,19 +212,19 @@ Test_FCClock = core.Clock()
 Target_ins2 = visual.TextStim(win=win, name='Target_ins2',
     text='default text',
     font='Arial',
-    pos=(0, 0.85), height=0.1, wrapWidth=None, ori=0, 
+    units='norm', pos=(0, 0.85), height=0.1, wrapWidth=None, ori=0, 
     color=[-1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
 Trigger_img2 = visual.ImageStim(
-    win=win, name='Trigger_img2',
+    win=win, name='Trigger_img2',units='norm', 
     image='sin', mask=None,
     ori=0, pos=(0, 0.2), size=None,
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=-1.0)
 Target_img2 = visual.ImageStim(
-    win=win, name='Target_img2',
+    win=win, name='Target_img2',units='norm', 
     image='sin', mask=None,
     ori=0, pos=(0, 0.2), size=None,
     color=[1,1,1], colorSpace='rgb', opacity=1,
@@ -233,35 +233,35 @@ Target_img2 = visual.ImageStim(
 Trigger_txt2 = visual.TextStim(win=win, name='Trigger_txt2',
     text='default text',
     font='Arial',
-    pos=(0, -0.6), height=0.3, wrapWidth=None, ori=0, 
+    units='norm', pos=(0, -0.6), height=0.3, wrapWidth=None, ori=0, 
     color=[1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-3.0);
 Target_instr_l = visual.TextStim(win=win, name='Target_instr_l',
     text='Press a\n\n',
     font='Arial',
-    pos=(-0.5, -0.9), height=0.08, wrapWidth=None, ori=0, 
+    units='norm', pos=(-0.5, -0.9), height=0.08, wrapWidth=None, ori=0, 
     color=[-1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-4.0);
 Target_instr_r = visual.TextStim(win=win, name='Target_instr_r',
     text='Press k',
     font='Arial',
-    pos=(0.5, -0.8), height=0.08, wrapWidth=None, ori=0, 
+    units='norm', pos=(0.5, -0.8), height=0.08, wrapWidth=None, ori=0, 
     color=[-1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-5.0);
 Resp_a = visual.TextStim(win=win, name='Resp_a',
     text='default text',
     font='Arial',
-    pos=(-0.5, -0.6), height=0.3, wrapWidth=None, ori=0, 
+    units='norm', pos=(-0.5, -0.6), height=0.3, wrapWidth=None, ori=0, 
     color=[1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-7.0);
 Resp_b = visual.TextStim(win=win, name='Resp_b',
     text='default text',
     font='Arial',
-    pos=(0.5, -0.6), height=0.3, wrapWidth=None, ori=0, 
+    units='norm', pos=(0.5, -0.6), height=0.3, wrapWidth=None, ori=0, 
     color=[1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=-8.0);
@@ -275,7 +275,7 @@ Thank_youClock = core.Clock()
 text = visual.TextStim(win=win, name='text',
     text='Thank you very much for participating!\n\nPress q to quit.',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    units='norm', pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
     color=[-1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);

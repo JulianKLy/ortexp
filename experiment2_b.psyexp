@@ -67,7 +67,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="texture resolution" updates="constant" val="128" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
       </ImageComponent>
       <CodeComponent name="code">
         <Param name="Begin Experiment" updates="constant" val="import random&amp;#10;condition = random.choice(('A','B'))" valType="extendedCode"/>
@@ -105,7 +105,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="3" valType="code"/>
         <Param name="texture resolution" updates="constant" val="128" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
       </ImageComponent>
       <ImageComponent name="Pl_img">
         <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
@@ -127,7 +127,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="3" valType="code"/>
         <Param name="texture resolution" updates="constant" val="128" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
       </ImageComponent>
       <TextComponent name="Sing_txt">
         <Param name="color" updates="constant" val="$[1.000,-1.000,-1.000]" valType="str"/>
@@ -147,7 +147,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="3" valType="code"/>
         <Param name="text" updates="set every repeat" val="$trig" valType="str"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
       <TextComponent name="Pl_txt">
@@ -168,7 +168,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="3" valType="code"/>
         <Param name="text" updates="set every repeat" val="$targ" valType="str"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
     </Routine>
@@ -193,7 +193,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="texture resolution" updates="constant" val="128" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
       </ImageComponent>
       <KeyboardComponent name="key_resp_2">
         <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
@@ -231,7 +231,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="text" updates="set every repeat" val="$instr" valType="str"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
       <ImageComponent name="Trigger_img1">
@@ -254,7 +254,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="5" valType="code"/>
         <Param name="texture resolution" updates="constant" val="128" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
       </ImageComponent>
       <ImageComponent name="Target_img1">
         <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
@@ -276,7 +276,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="texture resolution" updates="constant" val="128" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
       </ImageComponent>
       <TextComponent name="Trigger_txt1">
         <Param name="color" updates="constant" val="$[1.000,-1.000,-1.000]" valType="str"/>
@@ -296,7 +296,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="5" valType="code"/>
         <Param name="text" updates="set every repeat" val="$trig" valType="str"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
       <CodeComponent name="textinput">
@@ -331,7 +331,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="text" updates="set every frame" val="$inputText" valType="str"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
       <KeyboardComponent name="text_resp">
@@ -384,7 +384,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="texture resolution" updates="constant" val="128" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
       </ImageComponent>
       <KeyboardComponent name="key_resp_4">
         <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
@@ -422,7 +422,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="text" updates="set every repeat" val="$instr" valType="str"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
       <ImageComponent name="Trigger_img2">
@@ -445,7 +445,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="4" valType="code"/>
         <Param name="texture resolution" updates="constant" val="128" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
       </ImageComponent>
       <ImageComponent name="Target_img2">
         <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
@@ -467,7 +467,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="texture resolution" updates="constant" val="128" valType="code"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
       </ImageComponent>
       <TextComponent name="Trigger_txt2">
         <Param name="color" updates="constant" val="$[1.000,-1.000,-1.000]" valType="str"/>
@@ -487,7 +487,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="4" valType="code"/>
         <Param name="text" updates="set every repeat" val="$trig" valType="str"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
       <TextComponent name="Target_instr_l">
@@ -508,7 +508,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="text" updates="constant" val="Press a&amp;#10;&amp;#10;" valType="str"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
       <TextComponent name="Target_instr_r">
@@ -529,7 +529,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="text" updates="constant" val="Press k" valType="str"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
       <KeyboardComponent name="FC_resp">
@@ -566,7 +566,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="text" updates="set every repeat" val="$a" valType="str"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
       <TextComponent name="Resp_b">
@@ -587,7 +587,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="text" updates="set every repeat" val="$k" valType="str"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
     </Routine>
@@ -692,7 +692,7 @@
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
         <Param name="text" updates="constant" val="Thank you very much for participating!&amp;#10;&amp;#10;Press q to quit." valType="str"/>
-        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="units" updates="None" val="norm" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
       <KeyboardComponent name="key_resp_3">

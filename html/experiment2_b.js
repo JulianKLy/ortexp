@@ -137,7 +137,7 @@ function experimentInit() {
   Instruction_IntroClock = new util.Clock();
   lub = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'lub', 
+    name : 'lub', units : 'norm', 
     image : undefined, mask : undefined,
     ori : 0, pos : [0, 0], size : [2, 2],
     color : new util.Color([1, 1, 1]), opacity : 1,
@@ -166,7 +166,7 @@ function experimentInit() {
   ExposureClock = new util.Clock();
   Sing_img = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'Sing_img', 
+    name : 'Sing_img', units : 'norm', 
     image : undefined, mask : undefined,
     ori : 0, pos : [0, 0.2], size : undefined,
     color : new util.Color([1, 1, 1]), opacity : 1,
@@ -175,7 +175,7 @@ function experimentInit() {
   });
   Pl_img = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'Pl_img', 
+    name : 'Pl_img', units : 'norm', 
     image : undefined, mask : undefined,
     ori : 0, pos : [0, 0.2], size : undefined,
     color : new util.Color([1, 1, 1]), opacity : 1,
@@ -187,7 +187,7 @@ function experimentInit() {
     name: 'Sing_txt',
     text: 'default text',
     font: 'Arial',
-    pos: [0, (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
+    units : 'norm',   pos: [0, (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
     color: new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity: 1,
     depth: -2.0 
   });
@@ -197,7 +197,7 @@ function experimentInit() {
     name: 'Pl_txt',
     text: 'default text',
     font: 'Arial',
-    pos: [0, (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
+    units : 'norm',   pos: [0, (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
     color: new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity: 1,
     depth: -3.0 
   });
@@ -208,7 +208,7 @@ function experimentInit() {
   Instruction_ProdClock = new util.Clock();
   image_3 = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'image_3', 
+    name : 'image_3', units : 'norm', 
     image : undefined, mask : undefined,
     ori : 0, pos : [0, 0], size : [2, 2],
     color : new util.Color([1, 1, 1]), opacity : 1,
@@ -234,14 +234,14 @@ function experimentInit() {
     name: 'Target_ins1',
     text: 'default text',
     font: 'Arial',
-    pos: [0, 0.85], height: 0.1,  wrapWidth: undefined, ori: 0,
+    units : 'norm',   pos: [0, 0.85], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity: 1,
     depth: 0.0 
   });
   
   Trigger_img1 = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'Trigger_img1', 
+    name : 'Trigger_img1', units : 'norm', 
     image : undefined, mask : undefined,
     ori : 0, pos : [0, 0.2], size : undefined,
     color : new util.Color([1, 1, 1]), opacity : 1,
@@ -250,7 +250,7 @@ function experimentInit() {
   });
   Target_img1 = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'Target_img1', 
+    name : 'Target_img1', units : 'norm', 
     image : undefined, mask : undefined,
     ori : 0, pos : [0, 0.2], size : undefined,
     color : new util.Color([1, 1, 1]), opacity : 1,
@@ -262,7 +262,7 @@ function experimentInit() {
     name: 'Trigger_txt1',
     text: 'default text',
     font: 'Arial',
-    pos: [0, (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
+    units : 'norm',   pos: [0, (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
     color: new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity: 1,
     depth: -3.0 
   });
@@ -273,7 +273,7 @@ function experimentInit() {
     name: 'txtinp',
     text: 'default text',
     font: 'Arial',
-    pos: [0, (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
+    units : 'norm',   pos: [0, (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
     color: new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity: 1,
     depth: -5.0 
   });
@@ -284,7 +284,7 @@ function experimentInit() {
   Instruction_FCClock = new util.Clock();
   image_6 = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'image_6', 
+    name : 'image_6', units : 'norm', 
     image : undefined, mask : undefined,
     ori : 0, pos : [0, 0], size : [2, 2],
     color : new util.Color([1, 1, 1]), opacity : 1,
@@ -310,14 +310,14 @@ function experimentInit() {
     name: 'Target_ins2',
     text: 'default text',
     font: 'Arial',
-    pos: [0, 0.85], height: 0.1,  wrapWidth: undefined, ori: 0,
+    units : 'norm',   pos: [0, 0.85], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity: 1,
     depth: 0.0 
   });
   
   Trigger_img2 = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'Trigger_img2', 
+    name : 'Trigger_img2', units : 'norm', 
     image : undefined, mask : undefined,
     ori : 0, pos : [0, 0.2], size : undefined,
     color : new util.Color([1, 1, 1]), opacity : 1,
@@ -326,7 +326,7 @@ function experimentInit() {
   });
   Target_img2 = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'Target_img2', 
+    name : 'Target_img2', units : 'norm', 
     image : undefined, mask : undefined,
     ori : 0, pos : [0, 0.2], size : undefined,
     color : new util.Color([1, 1, 1]), opacity : 1,
@@ -338,7 +338,7 @@ function experimentInit() {
     name: 'Trigger_txt2',
     text: 'default text',
     font: 'Arial',
-    pos: [0, (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
+    units : 'norm',   pos: [0, (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
     color: new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity: 1,
     depth: -3.0 
   });
@@ -348,7 +348,7 @@ function experimentInit() {
     name: 'Target_instr_l',
     text: 'Press a\n\n',
     font: 'Arial',
-    pos: [(- 0.5), (- 0.9)], height: 0.08,  wrapWidth: undefined, ori: 0,
+    units : 'norm',   pos: [(- 0.5), (- 0.9)], height: 0.08,  wrapWidth: undefined, ori: 0,
     color: new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity: 1,
     depth: -4.0 
   });
@@ -358,7 +358,7 @@ function experimentInit() {
     name: 'Target_instr_r',
     text: 'Press k',
     font: 'Arial',
-    pos: [0.5, (- 0.8)], height: 0.08,  wrapWidth: undefined, ori: 0,
+    units : 'norm',   pos: [0.5, (- 0.8)], height: 0.08,  wrapWidth: undefined, ori: 0,
     color: new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity: 1,
     depth: -5.0 
   });
@@ -368,7 +368,7 @@ function experimentInit() {
     name: 'Resp_a',
     text: 'default text',
     font: 'Arial',
-    pos: [(- 0.5), (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
+    units : 'norm',   pos: [(- 0.5), (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
     color: new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity: 1,
     depth: -7.0 
   });
@@ -378,7 +378,7 @@ function experimentInit() {
     name: 'Resp_b',
     text: 'default text',
     font: 'Arial',
-    pos: [0.5, (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
+    units : 'norm',   pos: [0.5, (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
     color: new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity: 1,
     depth: -8.0 
   });
@@ -392,7 +392,7 @@ function experimentInit() {
     name: 'text',
     text: 'Thank you very much for participating!\n\nPress q to quit.',
     font: 'Arial',
-    pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
+    units : 'norm',   pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
     color: new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity: 1,
     depth: 0.0 
   });
