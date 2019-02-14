@@ -2,13 +2,13 @@
  * Experiment2_B Test *
  **********************/
 
-import { PsychoJS } from './lib/core-3.0.0b11.js';
-import * as core from './lib/core-3.0.0b11.js';
-import { TrialHandler } from './lib/data-3.0.0b11.js';
-import { Scheduler } from './lib/util-3.0.0b11.js';
-import * as util from './lib/util-3.0.0b11.js';
-import * as visual from './lib/visual-3.0.0b11.js';
-import { Sound } from './lib/sound-3.0.0b11.js';
+import { PsychoJS } from './lib/core-3.0.3.js';
+import * as core from './lib/core-3.0.3.js';
+import { TrialHandler } from './lib/data-3.0.3.js';
+import { Scheduler } from './lib/util-3.0.3.js';
+import * as util from './lib/util-3.0.3.js';
+import * as visual from './lib/visual-3.0.3.js';
+import { Sound } from './lib/sound-3.0.3.js';
 
 // init psychoJS:
 var psychoJS = new PsychoJS({
@@ -83,7 +83,7 @@ var frameDur;
 function updateInfo() {
   expInfo['date'] = util.MonotonicClock.getDateStr();  // add a simple timestamp
   expInfo['expName'] = expName;
-  expInfo['psychopyVersion'] = '3.0.0';
+  expInfo['psychopyVersion'] = '3.0.3';
 
   // store frame rate of monitor if we can measure it successfully
   expInfo['frameRate'] = psychoJS.window.getActualFrameRate();
@@ -161,6 +161,7 @@ function experimentInit() {
     fillColor: new util.Color([(- 1.0), (- 1.0), (- 1.0)]),
     opacity: 1, depth: -1.0, interpolate: true,
   });
+  
   // Initialize components for Routine "Exposure"
   ExposureClock = new util.Clock();
   Sing_img = new visual.ImageStim({
@@ -182,23 +183,23 @@ function experimentInit() {
     texRes : 128, interpolate : true, depth : -1.0 
   });
   Sing_txt = new visual.TextStim({
-    win : psychoJS.window,
-    name : 'Sing_txt',
-    text : 'default text',
-    font : 'Arial',
-    pos : [0, (- 0.6)], height : 0.3,  wrapWidth : undefined, ori: 0,
-    color : new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity : 1,
-    depth : -2.0 
+    win: psychoJS.window,
+    name: 'Sing_txt',
+    text: 'default text',
+    font: 'Arial',
+    pos: [0, (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
+    color: new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity: 1,
+    depth: -2.0 
   });
   
   Pl_txt = new visual.TextStim({
-    win : psychoJS.window,
-    name : 'Pl_txt',
-    text : 'default text',
-    font : 'Arial',
-    pos : [0, (- 0.6)], height : 0.3,  wrapWidth : undefined, ori: 0,
-    color : new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity : 1,
-    depth : -3.0 
+    win: psychoJS.window,
+    name: 'Pl_txt',
+    text: 'default text',
+    font: 'Arial',
+    pos: [0, (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
+    color: new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity: 1,
+    depth: -3.0 
   });
   
   // Initialize components for Routine "ISI_1sec"
@@ -225,16 +226,17 @@ function experimentInit() {
     fillColor: new util.Color([(- 1.0), (- 1.0), (- 1.0)]),
     opacity: 1, depth: -1.0, interpolate: true,
   });
+  
   // Initialize components for Routine "Test_Prod"
   Test_ProdClock = new util.Clock();
   Target_ins1 = new visual.TextStim({
-    win : psychoJS.window,
-    name : 'Target_ins1',
-    text : 'default text',
-    font : 'Arial',
-    pos : [0, 0.85], height : 0.1,  wrapWidth : undefined, ori: 0,
-    color : new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity : 1,
-    depth : 0.0 
+    win: psychoJS.window,
+    name: 'Target_ins1',
+    text: 'default text',
+    font: 'Arial',
+    pos: [0, 0.85], height: 0.1,  wrapWidth: undefined, ori: 0,
+    color: new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity: 1,
+    depth: 0.0 
   });
   
   Trigger_img1 = new visual.ImageStim({
@@ -256,24 +258,24 @@ function experimentInit() {
     texRes : 128, interpolate : true, depth : -2.0 
   });
   Trigger_txt1 = new visual.TextStim({
-    win : psychoJS.window,
-    name : 'Trigger_txt1',
-    text : 'default text',
-    font : 'Arial',
-    pos : [0, (- 0.6)], height : 0.3,  wrapWidth : undefined, ori: 0,
-    color : new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity : 1,
-    depth : -3.0 
+    win: psychoJS.window,
+    name: 'Trigger_txt1',
+    text: 'default text',
+    font: 'Arial',
+    pos: [0, (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
+    color: new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity: 1,
+    depth: -3.0 
   });
   
   
   txtinp = new visual.TextStim({
-    win : psychoJS.window,
-    name : 'txtinp',
-    text : 'default text',
-    font : 'Arial',
-    pos : [0, (- 0.6)], height : 0.3,  wrapWidth : undefined, ori: 0,
-    color : new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity : 1,
-    depth : -5.0 
+    win: psychoJS.window,
+    name: 'txtinp',
+    text: 'default text',
+    font: 'Arial',
+    pos: [0, (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
+    color: new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity: 1,
+    depth: -5.0 
   });
   
   // Initialize components for Routine "ISI_1sec"
@@ -300,16 +302,17 @@ function experimentInit() {
     fillColor: new util.Color([(- 1.0), (- 1.0), (- 1.0)]),
     opacity: 1, depth: -1.0, interpolate: true,
   });
+  
   // Initialize components for Routine "Test_FC"
   Test_FCClock = new util.Clock();
   Target_ins2 = new visual.TextStim({
-    win : psychoJS.window,
-    name : 'Target_ins2',
-    text : 'default text',
-    font : 'Arial',
-    pos : [0, 0.85], height : 0.1,  wrapWidth : undefined, ori: 0,
-    color : new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity : 1,
-    depth : 0.0 
+    win: psychoJS.window,
+    name: 'Target_ins2',
+    text: 'default text',
+    font: 'Arial',
+    pos: [0, 0.85], height: 0.1,  wrapWidth: undefined, ori: 0,
+    color: new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity: 1,
+    depth: 0.0 
   });
   
   Trigger_img2 = new visual.ImageStim({
@@ -331,53 +334,53 @@ function experimentInit() {
     texRes : 128, interpolate : true, depth : -2.0 
   });
   Trigger_txt2 = new visual.TextStim({
-    win : psychoJS.window,
-    name : 'Trigger_txt2',
-    text : 'default text',
-    font : 'Arial',
-    pos : [0, (- 0.6)], height : 0.3,  wrapWidth : undefined, ori: 0,
-    color : new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity : 1,
-    depth : -3.0 
+    win: psychoJS.window,
+    name: 'Trigger_txt2',
+    text: 'default text',
+    font: 'Arial',
+    pos: [0, (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
+    color: new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity: 1,
+    depth: -3.0 
   });
   
   Target_instr_l = new visual.TextStim({
-    win : psychoJS.window,
-    name : 'Target_instr_l',
-    text : 'Press a\n\n',
-    font : 'Arial',
-    pos : [(- 0.5), (- 0.9)], height : 0.08,  wrapWidth : undefined, ori: 0,
-    color : new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity : 1,
-    depth : -4.0 
+    win: psychoJS.window,
+    name: 'Target_instr_l',
+    text: 'Press a\n\n',
+    font: 'Arial',
+    pos: [(- 0.5), (- 0.9)], height: 0.08,  wrapWidth: undefined, ori: 0,
+    color: new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity: 1,
+    depth: -4.0 
   });
   
   Target_instr_r = new visual.TextStim({
-    win : psychoJS.window,
-    name : 'Target_instr_r',
-    text : 'Press k',
-    font : 'Arial',
-    pos : [0.5, (- 0.8)], height : 0.08,  wrapWidth : undefined, ori: 0,
-    color : new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity : 1,
-    depth : -5.0 
+    win: psychoJS.window,
+    name: 'Target_instr_r',
+    text: 'Press k',
+    font: 'Arial',
+    pos: [0.5, (- 0.8)], height: 0.08,  wrapWidth: undefined, ori: 0,
+    color: new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity: 1,
+    depth: -5.0 
   });
   
   Resp_a = new visual.TextStim({
-    win : psychoJS.window,
-    name : 'Resp_a',
-    text : 'default text',
-    font : 'Arial',
-    pos : [(- 0.5), (- 0.6)], height : 0.3,  wrapWidth : undefined, ori: 0,
-    color : new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity : 1,
-    depth : -7.0 
+    win: psychoJS.window,
+    name: 'Resp_a',
+    text: 'default text',
+    font: 'Arial',
+    pos: [(- 0.5), (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
+    color: new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity: 1,
+    depth: -7.0 
   });
   
   Resp_b = new visual.TextStim({
-    win : psychoJS.window,
-    name : 'Resp_b',
-    text : 'default text',
-    font : 'Arial',
-    pos : [0.5, (- 0.6)], height : 0.3,  wrapWidth : undefined, ori: 0,
-    color : new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity : 1,
-    depth : -8.0 
+    win: psychoJS.window,
+    name: 'Resp_b',
+    text: 'default text',
+    font: 'Arial',
+    pos: [0.5, (- 0.6)], height: 0.3,  wrapWidth: undefined, ori: 0,
+    color: new util.Color([1.0, (- 1.0), (- 1.0)]),  opacity: 1,
+    depth: -8.0 
   });
   
   // Initialize components for Routine "ISI_1sec"
@@ -385,13 +388,13 @@ function experimentInit() {
   // Initialize components for Routine "Thank_you"
   Thank_youClock = new util.Clock();
   text = new visual.TextStim({
-    win : psychoJS.window,
-    name : 'text',
-    text : 'Thank you very much for participating!\n\nPress q to quit.',
-    font : 'Arial',
-    pos : [0, 0], height : 0.1,  wrapWidth : undefined, ori: 0,
-    color : new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity : 1,
-    depth : 0.0 
+    win: psychoJS.window,
+    name: 'text',
+    text: 'Thank you very much for participating!\n\nPress q to quit.',
+    font: 'Arial',
+    pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0,
+    color: new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity: 1,
+    depth: 0.0 
   });
   
   // Create some handy timers
@@ -442,7 +445,7 @@ function Instruction_IntroRoutineEachFrame() {
     key_resp_1.frameNStart = frameN;  // exact frame index
     key_resp_1.status = PsychoJS.Status.STARTED;
     // keyboard checking is just starting
-    psychoJS.window.callOnFlip(function(){ key_resp_1.clock.reset(); }); // t = 0 on screen flip
+    psychoJS.window.callOnFlip(function() { key_resp_1.clock.reset(); }); // t = 0 on screen flip
     psychoJS.eventManager.clearEvents({eventType:'keyboard'});
   }
 
@@ -454,7 +457,7 @@ function Instruction_IntroRoutineEachFrame() {
         psychoJS.experiment.experimentEnded = true;
     }
     if (theseKeys.length > 0) {  // at least one key was pressed
-      key_resp_1.keys = theseKeys[theseKeys.length-1]  // just the last key pressed
+      key_resp_1.keys = theseKeys[theseKeys.length-1];  // just the last key pressed
       key_resp_1.rt = key_resp_1.clock.getTime();
       // a response ends the routine
       continueRoutine = false;
@@ -470,6 +473,10 @@ function Instruction_IntroRoutineEachFrame() {
   }
 
   
+  // check for quit (typically the Esc key)
+  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+  }
   
   // check if the Routine should terminate
   if (!continueRoutine) {  // a component has requested a forced-end of Routine
@@ -485,7 +492,7 @@ function Instruction_IntroRoutineEachFrame() {
   
   // check for quit (the Esc key)
   if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+    return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
   }
   
   // refresh the screen if continuing
@@ -512,7 +519,7 @@ function Instruction_IntroRoutineEnd() {
   }
   
   psychoJS.experiment.addData('key_resp_1.keys', key_resp_1.keys);
-  if (key_resp_1.keys !== undefined) {  // we had a response
+  if (typeof key_resp_1.keys !== 'undefined') {  // we had a response
       psychoJS.experiment.addData('key_resp_1.rt', key_resp_1.rt);
       routineTimer.reset();
       }
@@ -564,6 +571,10 @@ function ISI_PreRoutineEachFrame() {
   if (fixation.status === PsychoJS.Status.STARTED && t >= frameRemains) {
     fixation.setAutoDraw(false);
   }
+  // check for quit (typically the Esc key)
+  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+  }
   
   // check if the Routine should terminate
   if (!continueRoutine) {  // a component has requested a forced-end of Routine
@@ -579,7 +590,7 @@ function ISI_PreRoutineEachFrame() {
   
   // check for quit (the Esc key)
   if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+    return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
   }
   
   // refresh the screen if continuing
@@ -642,7 +653,7 @@ function trials_2LoopBegin(thisScheduler) {
     psychoJS,
     nReps: 1, method: TrialHandler.Method.RANDOM,
     extraInfo: expInfo, originPath: undefined,
-    trialList: TrialHandler.importConditions(psychoJS.serverManager, (('Lists/OrderProd' + condition) + '.xlsx'), 'np.random.choice(31, size = 10, replace = False)'),
+    trialList: TrialHandler.importConditions(psychoJS.serverManager, (('Lists/OrderProd' + condition) + '.xlsx'), 'np.random.choice(30, size = 10, replace = False)'),
     seed: undefined, name: 'trials_2'});
   psychoJS.experiment.addLoop(trials_2); // add the loop to the experiment
 
@@ -787,6 +798,10 @@ function ExposureRoutineEachFrame() {
   if (Pl_txt.status === PsychoJS.Status.STARTED && t >= frameRemains) {
     Pl_txt.setAutoDraw(false);
   }
+  // check for quit (typically the Esc key)
+  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+  }
   
   // check if the Routine should terminate
   if (!continueRoutine) {  // a component has requested a forced-end of Routine
@@ -802,7 +817,7 @@ function ExposureRoutineEachFrame() {
   
   // check for quit (the Esc key)
   if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+    return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
   }
   
   // refresh the screen if continuing
@@ -851,6 +866,10 @@ function ISI_1secRoutineEachFrame() {
   t = ISI_1secClock.getTime();
   frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
   // update/draw components on each frame
+  // check for quit (typically the Esc key)
+  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+  }
   
   // check if the Routine should terminate
   if (!continueRoutine) {  // a component has requested a forced-end of Routine
@@ -866,7 +885,7 @@ function ISI_1secRoutineEachFrame() {
   
   // check for quit (the Esc key)
   if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+    return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
   }
   
   // refresh the screen if continuing
@@ -936,7 +955,7 @@ function Instruction_ProdRoutineEachFrame() {
     key_resp_2.frameNStart = frameN;  // exact frame index
     key_resp_2.status = PsychoJS.Status.STARTED;
     // keyboard checking is just starting
-    psychoJS.window.callOnFlip(function(){ key_resp_2.clock.reset(); }); // t = 0 on screen flip
+    psychoJS.window.callOnFlip(function() { key_resp_2.clock.reset(); }); // t = 0 on screen flip
     psychoJS.eventManager.clearEvents({eventType:'keyboard'});
   }
 
@@ -948,11 +967,15 @@ function Instruction_ProdRoutineEachFrame() {
         psychoJS.experiment.experimentEnded = true;
     }
     if (theseKeys.length > 0) {  // at least one key was pressed
-      key_resp_2.keys = theseKeys[theseKeys.length-1]  // just the last key pressed
+      key_resp_2.keys = theseKeys[theseKeys.length-1];  // just the last key pressed
       key_resp_2.rt = key_resp_2.clock.getTime();
       // a response ends the routine
       continueRoutine = false;
     }
+  }
+  // check for quit (typically the Esc key)
+  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
   }
   
   // check if the Routine should terminate
@@ -969,7 +992,7 @@ function Instruction_ProdRoutineEachFrame() {
   
   // check for quit (the Esc key)
   if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+    return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
   }
   
   // refresh the screen if continuing
@@ -996,7 +1019,7 @@ function Instruction_ProdRoutineEnd() {
   }
   
   psychoJS.experiment.addData('key_resp_2.keys', key_resp_2.keys);
-  if (key_resp_2.keys !== undefined) {  // we had a response
+  if (typeof key_resp_2.keys !== 'undefined') {  // we had a response
       psychoJS.experiment.addData('key_resp_2.rt', key_resp_2.rt);
       routineTimer.reset();
       }
@@ -1110,7 +1133,7 @@ function Test_ProdRoutineEachFrame() {
     text_resp.frameNStart = frameN;  // exact frame index
     text_resp.status = PsychoJS.Status.STARTED;
     // keyboard checking is just starting
-    psychoJS.window.callOnFlip(function(){ text_resp.clock.reset(); }); // t = 0 on screen flip
+    psychoJS.window.callOnFlip(function() { text_resp.clock.reset(); }); // t = 0 on screen flip
     psychoJS.eventManager.clearEvents({eventType:'keyboard'});
   }
 
@@ -1125,6 +1148,10 @@ function Test_ProdRoutineEachFrame() {
       text_resp.keys = text_resp.keys.concat(theseKeys);  // storing all keys
       text_resp.rt = text_resp.rt.concat(text_resp.clock.getTime());
     }
+  }
+  // check for quit (typically the Esc key)
+  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
   }
   
   // check if the Routine should terminate
@@ -1141,7 +1168,7 @@ function Test_ProdRoutineEachFrame() {
   
   // check for quit (the Esc key)
   if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+    return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
   }
   
   // refresh the screen if continuing
@@ -1169,7 +1196,7 @@ function Test_ProdRoutineEnd() {
   }
   
   psychoJS.experiment.addData('text_resp.keys', text_resp.keys);
-  if (text_resp.keys !== undefined) {  // we had a response
+  if (typeof text_resp.keys !== 'undefined') {  // we had a response
       psychoJS.experiment.addData('text_resp.rt', text_resp.rt);
       }
   
@@ -1226,7 +1253,7 @@ function Instruction_FCRoutineEachFrame() {
     key_resp_4.frameNStart = frameN;  // exact frame index
     key_resp_4.status = PsychoJS.Status.STARTED;
     // keyboard checking is just starting
-    psychoJS.window.callOnFlip(function(){ key_resp_4.clock.reset(); }); // t = 0 on screen flip
+    psychoJS.window.callOnFlip(function() { key_resp_4.clock.reset(); }); // t = 0 on screen flip
     psychoJS.eventManager.clearEvents({eventType:'keyboard'});
   }
 
@@ -1238,11 +1265,15 @@ function Instruction_FCRoutineEachFrame() {
         psychoJS.experiment.experimentEnded = true;
     }
     if (theseKeys.length > 0) {  // at least one key was pressed
-      key_resp_4.keys = theseKeys[theseKeys.length-1]  // just the last key pressed
+      key_resp_4.keys = theseKeys[theseKeys.length-1];  // just the last key pressed
       key_resp_4.rt = key_resp_4.clock.getTime();
       // a response ends the routine
       continueRoutine = false;
     }
+  }
+  // check for quit (typically the Esc key)
+  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
   }
   
   // check if the Routine should terminate
@@ -1259,7 +1290,7 @@ function Instruction_FCRoutineEachFrame() {
   
   // check for quit (the Esc key)
   if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+    return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
   }
   
   // refresh the screen if continuing
@@ -1286,7 +1317,7 @@ function Instruction_FCRoutineEnd() {
   }
   
   psychoJS.experiment.addData('key_resp_4.keys', key_resp_4.keys);
-  if (key_resp_4.keys !== undefined) {  // we had a response
+  if (typeof key_resp_4.keys !== 'undefined') {  // we had a response
       psychoJS.experiment.addData('key_resp_4.rt', key_resp_4.rt);
       routineTimer.reset();
       }
@@ -1409,7 +1440,7 @@ function Test_FCRoutineEachFrame() {
     FC_resp.frameNStart = frameN;  // exact frame index
     FC_resp.status = PsychoJS.Status.STARTED;
     // keyboard checking is just starting
-    psychoJS.window.callOnFlip(function(){ FC_resp.clock.reset(); }); // t = 0 on screen flip
+    psychoJS.window.callOnFlip(function() { FC_resp.clock.reset(); }); // t = 0 on screen flip
     psychoJS.eventManager.clearEvents({eventType:'keyboard'});
   }
 
@@ -1421,7 +1452,7 @@ function Test_FCRoutineEachFrame() {
         psychoJS.experiment.experimentEnded = true;
     }
     if (theseKeys.length > 0) {  // at least one key was pressed
-      FC_resp.keys = theseKeys[theseKeys.length-1]  // just the last key pressed
+      FC_resp.keys = theseKeys[theseKeys.length-1];  // just the last key pressed
       FC_resp.rt = FC_resp.clock.getTime();
       // a response ends the routine
       continueRoutine = false;
@@ -1445,6 +1476,10 @@ function Test_FCRoutineEachFrame() {
     Resp_b.setAutoDraw(true);
   }
 
+  // check for quit (typically the Esc key)
+  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+  }
   
   // check if the Routine should terminate
   if (!continueRoutine) {  // a component has requested a forced-end of Routine
@@ -1460,7 +1495,7 @@ function Test_FCRoutineEachFrame() {
   
   // check for quit (the Esc key)
   if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+    return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
   }
   
   // refresh the screen if continuing
@@ -1487,7 +1522,7 @@ function Test_FCRoutineEnd() {
   }
   
   psychoJS.experiment.addData('FC_resp.keys', FC_resp.keys);
-  if (FC_resp.keys !== undefined) {  // we had a response
+  if (typeof FC_resp.keys !== 'undefined') {  // we had a response
       psychoJS.experiment.addData('FC_resp.rt', FC_resp.rt);
       routineTimer.reset();
       }
@@ -1558,6 +1593,10 @@ function Thank_youRoutineEachFrame() {
       continueRoutine = false;
     }
   }
+  // check for quit (typically the Esc key)
+  if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+  }
   
   // check if the Routine should terminate
   if (!continueRoutine) {  // a component has requested a forced-end of Routine
@@ -1573,7 +1612,7 @@ function Thank_youRoutineEachFrame() {
   
   // check for quit (the Esc key)
   if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-    return psychoJS.quit('The [Escape] key was pressed. Goodbye!', false);
+    return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
   }
   
   // refresh the screen if continuing
