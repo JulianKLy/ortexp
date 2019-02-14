@@ -691,7 +691,7 @@
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
         <Param name="stopVal" updates="constant" val="" valType="code"/>
-        <Param name="text" updates="constant" val="Thank you very much for participating!" valType="str"/>
+        <Param name="text" updates="constant" val="Thank you very much for participating!&amp;#10;&amp;#10;Press q to quit." valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
@@ -717,7 +717,7 @@
     <Routine name="Instruction_Intro"/>
     <Routine name="ISI_Pre"/>
     <LoopInitiator loopType="TrialHandler" name="trials">
-      <Param name="Selected rows" updates="None" val="1:11" valType="str"/>
+      <Param name="Selected rows" updates="None" val="np.random.choice(43, size = 20, replace = False)" valType="str"/>
       <Param name="conditions" updates="None" val="None" valType="str"/>
       <Param name="conditionsFile" updates="None" val="$&quot;Lists/Order&quot;+condition+&quot;.xlsx&quot;" valType="str"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
@@ -733,9 +733,9 @@
     <Routine name="Instruction_Prod"/>
     <Routine name="ISI_Pre"/>
     <LoopInitiator loopType="TrialHandler" name="trials_2">
-      <Param name="Selected rows" updates="None" val="45:51" valType="str"/>
+      <Param name="Selected rows" updates="None" val="np.random.choice(31, size = 10, replace = False)" valType="str"/>
       <Param name="conditions" updates="None" val="None" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="$&quot;Lists/Order&quot;+condition+&quot;.xlsx&quot;" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="$&quot;Lists/OrderProd&quot;+condition+&quot;.xlsx&quot;" valType="str"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
@@ -749,9 +749,9 @@
     <Routine name="Instruction_FC"/>
     <Routine name="ISI_Pre"/>
     <LoopInitiator loopType="TrialHandler" name="trials_3">
-      <Param name="Selected rows" updates="None" val="75:101" valType="str"/>
+      <Param name="Selected rows" updates="None" val="np.random.choice(30, size = 10, replace = False)" valType="str"/>
       <Param name="conditions" updates="None" val="None" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="$&quot;Lists/Order&quot;+condition+&quot;.xlsx&quot;" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="$&quot;Lists/OrderFC&quot;+condition+&quot;.xlsx&quot;" valType="str"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>

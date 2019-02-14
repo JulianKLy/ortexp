@@ -1,0 +1,1035 @@
+4.1588 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([1., 1., 1.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0E07C2D0>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0EC64DB0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.1588 	EXP 	window1: recordFrameIntervals = False
+4.3254 	EXP 	window1: recordFrameIntervals = True
+4.5082 	EXP 	window1: recordFrameIntervals = False
+4.5126 	EXP 	Created lub = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='lub', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=128, units='norm', win=Window(...))
+4.5188 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineWidth=1, name='fixation', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.5, 0.5]), units='deg', vertices=ndarray(...), win=Window(...), windingRule=None)
+4.5230 	EXP 	Created Sing_img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Sing_img', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+4.5252 	EXP 	Created Pl_img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Pl_img', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+4.6149 	EXP 	Created Sing_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='Sing_txt', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 1., -1., -1.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+4.6229 	EXP 	Created Pl_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='Pl_txt', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 1., -1., -1.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+4.6253 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=128, units='norm', win=Window(...))
+4.6274 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineWidth=1, name='fixation', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.5, 0.5]), units='deg', vertices=ndarray(...), win=Window(...), windingRule=None)
+4.6435 	EXP 	Created Target_ins1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Target_ins1', opacity=1.0, ori=0, pos=array([0.  , 0.85]), rgb=array([-1., -1., -1.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+4.6457 	EXP 	Created Trigger_img1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Trigger_img1', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+4.6476 	EXP 	Created Target_img1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Target_img1', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+4.6556 	EXP 	Created Trigger_txt1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='Trigger_txt1', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 1., -1., -1.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+4.6639 	EXP 	Created txtinp = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='txtinp', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 1., -1., -1.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+4.6662 	EXP 	Created image_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([2., 2.]), texRes=128, units='norm', win=Window(...))
+4.6681 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineWidth=1, name='fixation', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.5, 0.5]), units='deg', vertices=ndarray(...), win=Window(...), windingRule=None)
+4.6739 	EXP 	Created Target_ins2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Target_ins2', opacity=1.0, ori=0, pos=array([0.  , 0.85]), rgb=array([-1., -1., -1.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+4.6763 	EXP 	Created Trigger_img2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Trigger_img2', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+4.6787 	EXP 	Created Target_img2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Target_img2', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+4.6888 	EXP 	Created Trigger_txt2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='Trigger_txt2', opacity=1.0, ori=0, pos=array([ 0. , -0.6]), rgb=array([ 1., -1., -1.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+4.7037 	EXP 	Created Target_instr_l = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='Target_instr_l', opacity=1.0, ori=0, pos=array([-0.5, -0.9]), rgb=array([-1., -1., -1.]), text='Press a\n\n', units='norm', win=Window(...), wrapWidth=1)
+4.7103 	EXP 	Created Target_instr_r = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='Target_instr_r', opacity=1.0, ori=0, pos=array([ 0.5, -0.8]), rgb=array([-1., -1., -1.]), text='Press k', units='norm', win=Window(...), wrapWidth=1)
+4.7184 	EXP 	Created Resp_a = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='Resp_a', opacity=1.0, ori=0, pos=array([-0.5, -0.6]), rgb=array([ 1., -1., -1.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+4.7277 	EXP 	Created Resp_b = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='Resp_b', opacity=1.0, ori=0, pos=array([ 0.5, -0.6]), rgb=array([ 1., -1., -1.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+4.7489 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([-1., -1., -1.]), text='Thank you very much for participating!', units='norm', win=Window(...), wrapWidth=1)
+4.8124 	EXP 	lub: image = 'Images/introB.png'
+4.8124 	EXP 	lub: autoDraw = True
+7.0222 	DATA 	Keypress: space
+7.0224 	EXP 	window1: recordFrameIntervals = False
+7.0420 	EXP 	lub: autoDraw = False
+7.0420 	EXP 	fixation: autoDraw = True
+7.0421 	EXP 	window1: recordFrameIntervals = False
+8.0614 	EXP 	Imported Lists/OrderB.xlsx as conditions, 20 conditions, 14 params
+8.0619 	EXP 	Created sequence: random, trialTypes=20, nReps=1, seed=None
+8.0624 	EXP 	New trial (rep=0, index=0): OrderedDict([('trig', 'silut'), ('targ', 'siludu'), ('type', 'alt'), ('trig_img', 'Images/moustache.jpg'), ('targ_img', 'Images/moustache_pl.jpg'), ('final_c', 'd'), ('new', None), ('num', None), ('instr', None), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'exposure')])
+8.1153 	EXP 	fixation: autoDraw = False
+8.1153 	EXP 	fixation: autoDraw = False
+8.1153 	EXP 	Sing_img: size = array([0.72916667, 0.64814815])
+8.1153 	EXP 	Sing_img: image = 'Images/moustache.jpg'
+8.1153 	EXP 	Pl_img: size = array([0.72916667, 0.64814815])
+8.1153 	EXP 	Pl_img: image = 'Images/moustache_pl.jpg'
+8.1153 	EXP 	Sing_txt: text = 'silut'
+8.1153 	EXP 	Pl_txt: text = 'siludu'
+8.1153 	EXP 	Sing_img: autoDraw = True
+8.1153 	EXP 	Sing_txt: autoDraw = True
+11.0683 	EXP 	Sing_img: autoDraw = False
+11.0683 	EXP 	Sing_txt: autoDraw = False
+11.0845 	EXP 	Pl_img: autoDraw = True
+11.0845 	EXP 	Pl_txt: autoDraw = True
+14.0318 	EXP 	window1: recordFrameIntervals = False
+14.0487 	EXP 	Sing_img: autoDraw = False
+14.0487 	EXP 	Pl_img: autoDraw = False
+14.0487 	EXP 	Sing_txt: autoDraw = False
+14.0487 	EXP 	Pl_txt: autoDraw = False
+14.0489 	EXP 	window1: recordFrameIntervals = False
+14.7691 	EXP 	New trial (rep=0, index=1): OrderedDict([('trig', 'masit'), ('targ', 'masidu'), ('type', 'alt'), ('trig_img', 'Images/thermometer.jpg'), ('targ_img', 'Images/thermometer_pl.jpg'), ('final_c', 'd'), ('new', None), ('num', None), ('instr', None), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'exposure')])
+14.8129 	EXP 	Sing_img: size = array([0.20833333, 0.74074074])
+14.8129 	EXP 	Sing_img: image = 'Images/thermometer.jpg'
+14.8129 	EXP 	Pl_img: size = array([0.34479167, 0.74074074])
+14.8129 	EXP 	Pl_img: image = 'Images/thermometer_pl.jpg'
+14.8129 	EXP 	Sing_txt: text = 'masit'
+14.8129 	EXP 	Pl_txt: text = 'masidu'
+14.8129 	EXP 	Sing_img: autoDraw = True
+14.8129 	EXP 	Sing_txt: autoDraw = True
+17.7781 	EXP 	Sing_img: autoDraw = False
+17.7781 	EXP 	Sing_txt: autoDraw = False
+17.7942 	EXP 	Pl_img: autoDraw = True
+17.7942 	EXP 	Pl_txt: autoDraw = True
+20.7583 	EXP 	window1: recordFrameIntervals = False
+20.7753 	EXP 	Pl_img: autoDraw = False
+20.7753 	EXP 	Pl_txt: autoDraw = False
+20.7753 	EXP 	Sing_img: autoDraw = False
+20.7753 	EXP 	Pl_img: autoDraw = False
+20.7753 	EXP 	Sing_txt: autoDraw = False
+20.7753 	EXP 	Pl_txt: autoDraw = False
+20.7755 	EXP 	window1: recordFrameIntervals = False
+21.4954 	EXP 	New trial (rep=0, index=2): OrderedDict([('trig', 'rumit'), ('targ', 'rumitu'), ('type', 'non_alt'), ('trig_img', 'Images/mushroom.jpg'), ('targ_img', 'Images/mushroom_pl.jpg'), ('final_c', 'd'), ('new', None), ('num', None), ('instr', None), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'exposure')])
+21.5438 	EXP 	Sing_img: size = array([0.46875   , 0.82222222])
+21.5438 	EXP 	Sing_img: image = 'Images/mushroom.jpg'
+21.5438 	EXP 	Pl_img: size = array([0.66666667, 0.57962963])
+21.5438 	EXP 	Pl_img: image = 'Images/mushroom_pl.jpg'
+21.5438 	EXP 	Sing_txt: text = 'rumit'
+21.5438 	EXP 	Pl_txt: text = 'rumitu'
+21.5438 	EXP 	Sing_img: autoDraw = True
+21.5438 	EXP 	Sing_txt: autoDraw = True
+24.5048 	EXP 	Sing_img: autoDraw = False
+24.5048 	EXP 	Sing_txt: autoDraw = False
+24.5210 	EXP 	Pl_img: autoDraw = True
+24.5210 	EXP 	Pl_txt: autoDraw = True
+27.4846 	EXP 	window1: recordFrameIntervals = False
+27.5018 	EXP 	Pl_img: autoDraw = False
+27.5018 	EXP 	Pl_txt: autoDraw = False
+27.5018 	EXP 	Sing_img: autoDraw = False
+27.5018 	EXP 	Pl_img: autoDraw = False
+27.5018 	EXP 	Sing_txt: autoDraw = False
+27.5018 	EXP 	Pl_txt: autoDraw = False
+27.5019 	EXP 	window1: recordFrameIntervals = False
+28.2197 	EXP 	New trial (rep=0, index=3): OrderedDict([('trig', 'nurak'), ('targ', 'nuraku'), ('type', 'non_alt'), ('trig_img', 'Images/lion.jpg'), ('targ_img', 'Images/lion_pl.jpg'), ('final_c', 'g'), ('new', None), ('num', None), ('instr', None), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'exposure')])
+28.2650 	EXP 	Sing_img: size = array([0.46875   , 0.55555556])
+28.2650 	EXP 	Sing_img: image = 'Images/lion.jpg'
+28.2650 	EXP 	Pl_img: size = array([0.70833333, 0.41481481])
+28.2650 	EXP 	Pl_img: image = 'Images/lion_pl.jpg'
+28.2650 	EXP 	Sing_txt: text = 'nurak'
+28.2650 	EXP 	Pl_txt: text = 'nuraku'
+28.2650 	EXP 	Sing_img: autoDraw = True
+28.2650 	EXP 	Sing_txt: autoDraw = True
+31.2313 	EXP 	Sing_img: autoDraw = False
+31.2313 	EXP 	Sing_txt: autoDraw = False
+31.2475 	EXP 	Pl_img: autoDraw = True
+31.2475 	EXP 	Pl_txt: autoDraw = True
+34.2113 	EXP 	window1: recordFrameIntervals = False
+34.2275 	EXP 	Pl_img: autoDraw = False
+34.2275 	EXP 	Pl_txt: autoDraw = False
+34.2275 	EXP 	Sing_img: autoDraw = False
+34.2275 	EXP 	Pl_img: autoDraw = False
+34.2275 	EXP 	Sing_txt: autoDraw = False
+34.2275 	EXP 	Pl_txt: autoDraw = False
+34.2276 	EXP 	window1: recordFrameIntervals = False
+34.9451 	EXP 	New trial (rep=0, index=4): OrderedDict([('trig', 'nasap'), ('targ', 'nasabu'), ('type', 'alt'), ('trig_img', 'Images/spear.jpg'), ('targ_img', 'Images/spear_pl.jpg'), ('final_c', 'b'), ('new', None), ('num', None), ('instr', None), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'exposure')])
+34.9824 	EXP 	Sing_img: size = array([0.08333333, 0.98888889])
+34.9824 	EXP 	Sing_img: image = 'Images/spear.jpg'
+34.9824 	EXP 	Pl_img: size = array([0.18333333, 0.98888889])
+34.9824 	EXP 	Pl_img: image = 'Images/spear_pl.jpg'
+34.9824 	EXP 	Sing_txt: text = 'nasap'
+34.9824 	EXP 	Pl_txt: text = 'nasabu'
+34.9824 	EXP 	Sing_img: autoDraw = True
+34.9824 	EXP 	Sing_txt: autoDraw = True
+37.9577 	EXP 	Sing_img: autoDraw = False
+37.9577 	EXP 	Sing_txt: autoDraw = False
+37.9736 	EXP 	Pl_img: autoDraw = True
+37.9736 	EXP 	Pl_txt: autoDraw = True
+40.9376 	EXP 	window1: recordFrameIntervals = False
+40.9539 	EXP 	Pl_img: autoDraw = False
+40.9539 	EXP 	Pl_txt: autoDraw = False
+40.9539 	EXP 	Sing_img: autoDraw = False
+40.9539 	EXP 	Pl_img: autoDraw = False
+40.9539 	EXP 	Sing_txt: autoDraw = False
+40.9539 	EXP 	Pl_txt: autoDraw = False
+40.9541 	EXP 	window1: recordFrameIntervals = False
+41.6713 	EXP 	New trial (rep=0, index=5): OrderedDict([('trig', 'sanup'), ('targ', 'sanubu'), ('type', 'alt'), ('trig_img', 'Images/hammock.jpg'), ('targ_img', 'Images/hammock_pl.jpg'), ('final_c', 'b'), ('new', None), ('num', None), ('instr', None), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'exposure')])
+41.7164 	EXP 	Sing_img: size = array([0.52083333, 0.56481481])
+41.7164 	EXP 	Sing_img: image = 'Images/hammock.jpg'
+41.7164 	EXP 	Pl_img: size = array([0.5, 0.9])
+41.7164 	EXP 	Pl_img: image = 'Images/hammock_pl.jpg'
+41.7164 	EXP 	Sing_txt: text = 'sanup'
+41.7164 	EXP 	Pl_txt: text = 'sanubu'
+41.7164 	EXP 	Sing_img: autoDraw = True
+41.7164 	EXP 	Sing_txt: autoDraw = True
+44.6839 	EXP 	Sing_img: autoDraw = False
+44.6839 	EXP 	Sing_txt: autoDraw = False
+44.7000 	EXP 	Pl_img: autoDraw = True
+44.7000 	EXP 	Pl_txt: autoDraw = True
+47.6639 	EXP 	window1: recordFrameIntervals = False
+47.6805 	EXP 	Pl_img: autoDraw = False
+47.6805 	EXP 	Pl_txt: autoDraw = False
+47.6805 	EXP 	Sing_img: autoDraw = False
+47.6805 	EXP 	Pl_img: autoDraw = False
+47.6805 	EXP 	Sing_txt: autoDraw = False
+47.6805 	EXP 	Pl_txt: autoDraw = False
+47.6807 	EXP 	window1: recordFrameIntervals = False
+48.3967 	EXP 	New trial (rep=0, index=6): OrderedDict([('trig', 'ranut'), ('targ', 'ranudu'), ('type', 'alt'), ('trig_img', 'Images/carpet.jpg'), ('targ_img', 'Images/carpet_pl.jpg'), ('final_c', 'd'), ('new', None), ('num', None), ('instr', None), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'exposure')])
+48.4486 	EXP 	Sing_img: size = array([0.48020833, 0.64074074])
+48.4486 	EXP 	Sing_img: image = 'Images/carpet.jpg'
+48.4486 	EXP 	Pl_img: size = array([0.65416667, 0.4       ])
+48.4486 	EXP 	Pl_img: image = 'Images/carpet_pl.jpg'
+48.4486 	EXP 	Sing_txt: text = 'ranut'
+48.4486 	EXP 	Pl_txt: text = 'ranudu'
+48.4486 	EXP 	Sing_img: autoDraw = True
+48.4486 	EXP 	Sing_txt: autoDraw = True
+51.4098 	EXP 	Sing_img: autoDraw = False
+51.4098 	EXP 	Sing_txt: autoDraw = False
+51.4264 	EXP 	Pl_img: autoDraw = True
+51.4264 	EXP 	Pl_txt: autoDraw = True
+54.3904 	EXP 	window1: recordFrameIntervals = False
+54.4073 	EXP 	Pl_img: autoDraw = False
+54.4073 	EXP 	Pl_txt: autoDraw = False
+54.4073 	EXP 	Sing_img: autoDraw = False
+54.4073 	EXP 	Pl_img: autoDraw = False
+54.4073 	EXP 	Sing_txt: autoDraw = False
+54.4073 	EXP 	Pl_txt: autoDraw = False
+54.4075 	EXP 	window1: recordFrameIntervals = False
+55.1251 	EXP 	New trial (rep=0, index=7): OrderedDict([('trig', 'niruk'), ('targ', 'nirugu'), ('type', 'alt'), ('trig_img', 'Images/garbage_can.jpg'), ('targ_img', 'Images/garbage_can_pl.jpg'), ('final_c', 'g'), ('new', None), ('num', None), ('instr', None), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'exposure')])
+55.1798 	EXP 	Sing_img: size = array([0.36458333, 0.9462963 ])
+55.1798 	EXP 	Sing_img: image = 'Images/garbage_can.jpg'
+55.1798 	EXP 	Pl_img: size = array([0.55208333, 0.71111111])
+55.1798 	EXP 	Pl_img: image = 'Images/garbage_can_pl.jpg'
+55.1798 	EXP 	Sing_txt: text = 'niruk'
+55.1798 	EXP 	Pl_txt: text = 'nirugu'
+55.1798 	EXP 	Sing_img: autoDraw = True
+55.1798 	EXP 	Sing_txt: autoDraw = True
+58.1364 	EXP 	Sing_img: autoDraw = False
+58.1364 	EXP 	Sing_txt: autoDraw = False
+58.1527 	EXP 	Pl_img: autoDraw = True
+58.1527 	EXP 	Pl_txt: autoDraw = True
+61.1167 	EXP 	window1: recordFrameIntervals = False
+61.1333 	EXP 	Pl_img: autoDraw = False
+61.1333 	EXP 	Pl_txt: autoDraw = False
+61.1333 	EXP 	Sing_img: autoDraw = False
+61.1333 	EXP 	Pl_img: autoDraw = False
+61.1333 	EXP 	Sing_txt: autoDraw = False
+61.1333 	EXP 	Pl_txt: autoDraw = False
+61.1336 	EXP 	window1: recordFrameIntervals = False
+61.8506 	EXP 	New trial (rep=0, index=8): OrderedDict([('trig', 'musap'), ('targ', 'musabu'), ('type', 'alt'), ('trig_img', 'Images/apple.jpg'), ('targ_img', 'Images/apple_pl.jpg'), ('final_c', 'b'), ('new', None), ('num', None), ('instr', None), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'exposure')])
+61.8967 	EXP 	Sing_img: size = array([0.45, 0.8 ])
+61.8967 	EXP 	Sing_img: image = 'Images/apple.jpg'
+61.8967 	EXP 	Pl_img: size = array([0.55416667, 0.44444444])
+61.8967 	EXP 	Pl_img: image = 'Images/apple_pl.jpg'
+61.8967 	EXP 	Sing_txt: text = 'musap'
+61.8967 	EXP 	Pl_txt: text = 'musabu'
+61.8967 	EXP 	Sing_img: autoDraw = True
+61.8967 	EXP 	Sing_txt: autoDraw = True
+64.8629 	EXP 	Sing_img: autoDraw = False
+64.8629 	EXP 	Sing_txt: autoDraw = False
+64.8793 	EXP 	Pl_img: autoDraw = True
+64.8793 	EXP 	Pl_txt: autoDraw = True
+67.8434 	EXP 	window1: recordFrameIntervals = False
+67.8598 	EXP 	Pl_img: autoDraw = False
+67.8598 	EXP 	Pl_txt: autoDraw = False
+67.8598 	EXP 	Sing_img: autoDraw = False
+67.8598 	EXP 	Pl_img: autoDraw = False
+67.8598 	EXP 	Sing_txt: autoDraw = False
+67.8598 	EXP 	Pl_txt: autoDraw = False
+67.8599 	EXP 	window1: recordFrameIntervals = False
+68.5766 	EXP 	New trial (rep=0, index=9): OrderedDict([('trig', 'musat'), ('targ', 'musadu'), ('type', 'alt'), ('trig_img', 'Images/foot.jpg'), ('targ_img', 'Images/foot_pl.jpg'), ('final_c', 'd'), ('new', None), ('num', None), ('instr', None), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'exposure')])
+68.6150 	EXP 	Sing_img: size = array([0.52083333, 0.61666667])
+68.6150 	EXP 	Sing_img: image = 'Images/foot.jpg'
+68.6150 	EXP 	Pl_img: size = array([0.72916667, 0.41296296])
+68.6150 	EXP 	Pl_img: image = 'Images/foot_pl.jpg'
+68.6150 	EXP 	Sing_txt: text = 'musat'
+68.6150 	EXP 	Pl_txt: text = 'musadu'
+68.6150 	EXP 	Sing_img: autoDraw = True
+68.6150 	EXP 	Sing_txt: autoDraw = True
+71.5892 	EXP 	Sing_img: autoDraw = False
+71.5892 	EXP 	Sing_txt: autoDraw = False
+71.6055 	EXP 	Pl_img: autoDraw = True
+71.6055 	EXP 	Pl_txt: autoDraw = True
+74.5695 	EXP 	window1: recordFrameIntervals = False
+74.5861 	EXP 	Pl_img: autoDraw = False
+74.5861 	EXP 	Pl_txt: autoDraw = False
+74.5861 	EXP 	Sing_img: autoDraw = False
+74.5861 	EXP 	Pl_img: autoDraw = False
+74.5861 	EXP 	Sing_txt: autoDraw = False
+74.5861 	EXP 	Pl_txt: autoDraw = False
+74.5863 	EXP 	window1: recordFrameIntervals = False
+75.3061 	EXP 	New trial (rep=0, index=10): OrderedDict([('trig', 'rimak'), ('targ', 'rimagu'), ('type', 'alt'), ('trig_img', 'Images/bottle.jpg'), ('targ_img', 'Images/bottle_pl.jpg'), ('final_c', 'g'), ('new', None), ('num', None), ('instr', None), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'exposure')])
+75.3511 	EXP 	Sing_img: size = array([0.38541667, 1.09259259])
+75.3511 	EXP 	Sing_img: image = 'Images/bottle.jpg'
+75.3511 	EXP 	Pl_img: size = array([0.546875  , 1.11111111])
+75.3511 	EXP 	Pl_img: image = 'Images/bottle_pl.jpg'
+75.3511 	EXP 	Sing_txt: text = 'rimak'
+75.3511 	EXP 	Pl_txt: text = 'rimagu'
+75.3511 	EXP 	Sing_img: autoDraw = True
+75.3511 	EXP 	Sing_txt: autoDraw = True
+78.3155 	EXP 	Sing_img: autoDraw = False
+78.3155 	EXP 	Sing_txt: autoDraw = False
+78.3320 	EXP 	Pl_img: autoDraw = True
+78.3320 	EXP 	Pl_txt: autoDraw = True
+81.2961 	EXP 	window1: recordFrameIntervals = False
+81.3128 	EXP 	Pl_img: autoDraw = False
+81.3128 	EXP 	Pl_txt: autoDraw = False
+81.3128 	EXP 	Sing_img: autoDraw = False
+81.3128 	EXP 	Pl_img: autoDraw = False
+81.3128 	EXP 	Sing_txt: autoDraw = False
+81.3128 	EXP 	Pl_txt: autoDraw = False
+81.3130 	EXP 	window1: recordFrameIntervals = False
+82.0313 	EXP 	New trial (rep=0, index=11): OrderedDict([('trig', 'sumak'), ('targ', 'sumagu'), ('type', 'alt'), ('trig_img', 'Images/basketball.jpg'), ('targ_img', 'Images/basketball_pl.jpg'), ('final_c', 'g'), ('new', None), ('num', None), ('instr', None), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'exposure')])
+82.0728 	EXP 	Sing_img: size = array([0.45833333, 0.81481481])
+82.0728 	EXP 	Sing_img: image = 'Images/basketball.jpg'
+82.0728 	EXP 	Pl_img: size = array([0.67708333, 0.61666667])
+82.0728 	EXP 	Pl_img: image = 'Images/basketball_pl.jpg'
+82.0728 	EXP 	Sing_txt: text = 'sumak'
+82.0728 	EXP 	Pl_txt: text = 'sumagu'
+82.0728 	EXP 	Sing_img: autoDraw = True
+82.0728 	EXP 	Sing_txt: autoDraw = True
+85.0422 	EXP 	Sing_img: autoDraw = False
+85.0422 	EXP 	Sing_txt: autoDraw = False
+85.0584 	EXP 	Pl_img: autoDraw = True
+85.0584 	EXP 	Pl_txt: autoDraw = True
+88.0224 	EXP 	window1: recordFrameIntervals = False
+88.0391 	EXP 	Pl_img: autoDraw = False
+88.0391 	EXP 	Pl_txt: autoDraw = False
+88.0391 	EXP 	Sing_img: autoDraw = False
+88.0391 	EXP 	Pl_img: autoDraw = False
+88.0391 	EXP 	Sing_txt: autoDraw = False
+88.0391 	EXP 	Pl_txt: autoDraw = False
+88.0393 	EXP 	window1: recordFrameIntervals = False
+88.7567 	EXP 	New trial (rep=0, index=12): OrderedDict([('trig', 'rumut'), ('targ', 'rumudu'), ('type', 'alt'), ('trig_img', 'Images/river.jpg'), ('targ_img', 'Images/river_pl.jpg'), ('final_c', 'd'), ('new', None), ('num', None), ('instr', None), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'exposure')])
+88.7954 	EXP 	Sing_img: size = array([0.37604167, 0.49074074])
+88.7954 	EXP 	Sing_img: image = 'Images/river.jpg'
+88.7954 	EXP 	Pl_img: size = array([0.803125  , 0.49074074])
+88.7954 	EXP 	Pl_img: image = 'Images/river_pl.jpg'
+88.7954 	EXP 	Sing_txt: text = 'rumut'
+88.7954 	EXP 	Pl_txt: text = 'rumudu'
+88.7954 	EXP 	Sing_img: autoDraw = True
+88.7954 	EXP 	Sing_txt: autoDraw = True
+91.7680 	EXP 	Sing_img: autoDraw = False
+91.7680 	EXP 	Sing_txt: autoDraw = False
+91.7848 	EXP 	Pl_img: autoDraw = True
+91.7848 	EXP 	Pl_txt: autoDraw = True
+94.7488 	EXP 	window1: recordFrameIntervals = False
+94.7656 	EXP 	Pl_img: autoDraw = False
+94.7656 	EXP 	Pl_txt: autoDraw = False
+94.7656 	EXP 	Sing_img: autoDraw = False
+94.7656 	EXP 	Pl_img: autoDraw = False
+94.7656 	EXP 	Sing_txt: autoDraw = False
+94.7656 	EXP 	Pl_txt: autoDraw = False
+94.7658 	EXP 	window1: recordFrameIntervals = False
+95.4820 	EXP 	New trial (rep=0, index=13): OrderedDict([('trig', 'narit'), ('targ', 'naridu'), ('type', 'alt'), ('trig_img', 'Images/squid.jpg'), ('targ_img', 'Images/squid_pl.jpg'), ('final_c', 'd'), ('new', None), ('num', None), ('instr', None), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'exposure')])
+95.5329 	EXP 	Sing_img: size = array([0.26041667, 0.96111111])
+95.5329 	EXP 	Sing_img: image = 'Images/squid.jpg'
+95.5329 	EXP 	Pl_img: size = array([0.55104167, 0.96111111])
+95.5329 	EXP 	Pl_img: image = 'Images/squid_pl.jpg'
+95.5329 	EXP 	Sing_txt: text = 'narit'
+95.5329 	EXP 	Pl_txt: text = 'naridu'
+95.5329 	EXP 	Sing_img: autoDraw = True
+95.5329 	EXP 	Sing_txt: autoDraw = True
+98.4947 	EXP 	Sing_img: autoDraw = False
+98.4947 	EXP 	Sing_txt: autoDraw = False
+98.5112 	EXP 	Pl_img: autoDraw = True
+98.5112 	EXP 	Pl_txt: autoDraw = True
+101.4750 	EXP 	window1: recordFrameIntervals = False
+101.4923 	EXP 	Pl_img: autoDraw = False
+101.4923 	EXP 	Pl_txt: autoDraw = False
+101.4923 	EXP 	Sing_img: autoDraw = False
+101.4923 	EXP 	Pl_img: autoDraw = False
+101.4923 	EXP 	Sing_txt: autoDraw = False
+101.4923 	EXP 	Pl_txt: autoDraw = False
+101.4924 	EXP 	window1: recordFrameIntervals = False
+102.2053 	EXP 	New trial (rep=0, index=14): OrderedDict([('trig', 'musabu'), ('targ', 'musap'), ('type', 'alt'), ('trig_img', 'Images/apple_pl.jpg'), ('targ_img', 'Images/apple.jpg'), ('final_c', 'b'), ('new', 'given'), ('num', 'sg'), ('instr', 'Write the singular form on your keyboard - then press enter'), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'prod')])
+102.2400 	EXP 	Sing_img: size = array([0.55416667, 0.44444444])
+102.2400 	EXP 	Sing_img: image = 'Images/apple_pl.jpg'
+102.2400 	EXP 	Pl_img: size = array([0.45, 0.8 ])
+102.2400 	EXP 	Pl_img: image = 'Images/apple.jpg'
+102.2400 	EXP 	Sing_txt: text = 'musabu'
+102.2400 	EXP 	Pl_txt: text = 'musap'
+102.2400 	EXP 	Sing_img: autoDraw = True
+102.2400 	EXP 	Sing_txt: autoDraw = True
+105.2206 	EXP 	Sing_img: autoDraw = False
+105.2206 	EXP 	Sing_txt: autoDraw = False
+105.2375 	EXP 	Pl_img: autoDraw = True
+105.2375 	EXP 	Pl_txt: autoDraw = True
+108.2013 	EXP 	window1: recordFrameIntervals = False
+108.2180 	EXP 	Pl_img: autoDraw = False
+108.2180 	EXP 	Pl_txt: autoDraw = False
+108.2180 	EXP 	Sing_img: autoDraw = False
+108.2180 	EXP 	Pl_img: autoDraw = False
+108.2180 	EXP 	Sing_txt: autoDraw = False
+108.2180 	EXP 	Pl_txt: autoDraw = False
+108.2182 	EXP 	window1: recordFrameIntervals = False
+108.9346 	EXP 	New trial (rep=0, index=15): OrderedDict([('trig', 'nulip'), ('targ', 'nulipu'), ('type', 'non_alt'), ('trig_img', 'Images/computer.jpg'), ('targ_img', 'Images/computer_pl.jpg'), ('final_c', 'b'), ('new', None), ('num', None), ('instr', None), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'exposure')])
+108.9893 	EXP 	Sing_img: size = array([0.45833333, 0.81481481])
+108.9893 	EXP 	Sing_img: image = 'Images/computer.jpg'
+108.9893 	EXP 	Pl_img: size = array([0.5625, 0.5   ])
+108.9893 	EXP 	Pl_img: image = 'Images/computer_pl.jpg'
+108.9893 	EXP 	Sing_txt: text = 'nulip'
+108.9893 	EXP 	Pl_txt: text = 'nulipu'
+108.9893 	EXP 	Sing_img: autoDraw = True
+108.9893 	EXP 	Sing_txt: autoDraw = True
+111.9477 	EXP 	Sing_img: autoDraw = False
+111.9477 	EXP 	Sing_txt: autoDraw = False
+111.9638 	EXP 	Pl_img: autoDraw = True
+111.9638 	EXP 	Pl_txt: autoDraw = True
+114.9280 	EXP 	window1: recordFrameIntervals = False
+114.9446 	EXP 	Pl_img: autoDraw = False
+114.9446 	EXP 	Pl_txt: autoDraw = False
+114.9446 	EXP 	Sing_img: autoDraw = False
+114.9446 	EXP 	Pl_img: autoDraw = False
+114.9446 	EXP 	Sing_txt: autoDraw = False
+114.9446 	EXP 	Pl_txt: autoDraw = False
+114.9448 	EXP 	window1: recordFrameIntervals = False
+115.6651 	EXP 	New trial (rep=0, index=16): OrderedDict([('trig', 'mamat'), ('targ', 'mamatu'), ('type', 'non_alt'), ('trig_img', 'Images/ice-cream.jpg'), ('targ_img', 'Images/ice-cream_pl.jpg'), ('final_c', 'd'), ('new', None), ('num', None), ('instr', None), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'exposure')])
+115.7152 	EXP 	Sing_img: size = array([0.36458333, 0.88888889])
+115.7152 	EXP 	Sing_img: image = 'Images/ice-cream.jpg'
+115.7152 	EXP 	Pl_img: size = array([0.625     , 0.76111111])
+115.7152 	EXP 	Pl_img: image = 'Images/ice-cream_pl.jpg'
+115.7152 	EXP 	Sing_txt: text = 'mamat'
+115.7152 	EXP 	Pl_txt: text = 'mamatu'
+115.7152 	EXP 	Sing_img: autoDraw = True
+115.7152 	EXP 	Sing_txt: autoDraw = True
+118.6741 	EXP 	Sing_img: autoDraw = False
+118.6741 	EXP 	Sing_txt: autoDraw = False
+118.6900 	EXP 	Pl_img: autoDraw = True
+118.6900 	EXP 	Pl_txt: autoDraw = True
+121.6540 	EXP 	window1: recordFrameIntervals = False
+121.6712 	EXP 	Pl_img: autoDraw = False
+121.6712 	EXP 	Pl_txt: autoDraw = False
+121.6712 	EXP 	Sing_img: autoDraw = False
+121.6712 	EXP 	Pl_img: autoDraw = False
+121.6712 	EXP 	Sing_txt: autoDraw = False
+121.6712 	EXP 	Pl_txt: autoDraw = False
+121.6714 	EXP 	window1: recordFrameIntervals = False
+122.3904 	EXP 	New trial (rep=0, index=17): OrderedDict([('trig', 'samuk'), ('targ', 'samugu'), ('type', 'alt'), ('trig_img', 'Images/sleigh.jpg'), ('targ_img', 'Images/sleigh_pl.jpg'), ('final_c', 'g'), ('new', None), ('num', None), ('instr', None), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'exposure')])
+122.4325 	EXP 	Sing_img: size = array([0.57291667, 0.57777778])
+122.4325 	EXP 	Sing_img: image = 'Images/sleigh.jpg'
+122.4325 	EXP 	Pl_img: size = array([0.41666667, 0.84074074])
+122.4325 	EXP 	Pl_img: image = 'Images/sleigh_pl.jpg'
+122.4325 	EXP 	Sing_txt: text = 'samuk'
+122.4325 	EXP 	Pl_txt: text = 'samugu'
+122.4325 	EXP 	Sing_img: autoDraw = True
+122.4325 	EXP 	Sing_txt: autoDraw = True
+125.4005 	EXP 	Sing_img: autoDraw = False
+125.4005 	EXP 	Sing_txt: autoDraw = False
+125.4165 	EXP 	Pl_img: autoDraw = True
+125.4165 	EXP 	Pl_txt: autoDraw = True
+128.3806 	EXP 	window1: recordFrameIntervals = False
+128.3973 	EXP 	Pl_img: autoDraw = False
+128.3973 	EXP 	Pl_txt: autoDraw = False
+128.3973 	EXP 	Sing_img: autoDraw = False
+128.3973 	EXP 	Pl_img: autoDraw = False
+128.3973 	EXP 	Sing_txt: autoDraw = False
+128.3973 	EXP 	Pl_txt: autoDraw = False
+128.3975 	EXP 	window1: recordFrameIntervals = False
+129.1168 	EXP 	New trial (rep=0, index=18): OrderedDict([('trig', 'lunit'), ('targ', 'lunidu'), ('type', 'alt'), ('trig_img', 'Images/ship.jpg'), ('targ_img', 'Images/ship_pl.jpg'), ('final_c', 'd'), ('new', None), ('num', None), ('instr', None), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'exposure')])
+129.1571 	EXP 	Sing_img: size = array([0.44791667, 0.61851852])
+129.1571 	EXP 	Sing_img: image = 'Images/ship.jpg'
+129.1571 	EXP 	Pl_img: size = array([0.6875    , 0.46481481])
+129.1571 	EXP 	Pl_img: image = 'Images/ship_pl.jpg'
+129.1571 	EXP 	Sing_txt: text = 'lunit'
+129.1571 	EXP 	Pl_txt: text = 'lunidu'
+129.1571 	EXP 	Sing_img: autoDraw = True
+129.1571 	EXP 	Sing_txt: autoDraw = True
+132.1268 	EXP 	Sing_img: autoDraw = False
+132.1268 	EXP 	Sing_txt: autoDraw = False
+132.1430 	EXP 	Pl_img: autoDraw = True
+132.1430 	EXP 	Pl_txt: autoDraw = True
+135.1067 	EXP 	window1: recordFrameIntervals = False
+135.1237 	EXP 	Pl_img: autoDraw = False
+135.1237 	EXP 	Pl_txt: autoDraw = False
+135.1237 	EXP 	Sing_img: autoDraw = False
+135.1237 	EXP 	Pl_img: autoDraw = False
+135.1237 	EXP 	Sing_txt: autoDraw = False
+135.1237 	EXP 	Pl_txt: autoDraw = False
+135.1238 	EXP 	window1: recordFrameIntervals = False
+135.8411 	EXP 	New trial (rep=0, index=19): OrderedDict([('trig', 'runuk'), ('targ', 'runugu'), ('type', 'alt'), ('trig_img', 'Images/cup.jpg'), ('targ_img', 'Images/cup_pl.jpg'), ('final_c', 'g'), ('new', None), ('num', None), ('instr', None), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'exposure')])
+135.8814 	EXP 	Sing_img: size = array([0.46875   , 0.67037037])
+135.8814 	EXP 	Sing_img: image = 'Images/cup.jpg'
+135.8814 	EXP 	Pl_img: size = array([0.6875    , 0.49074074])
+135.8814 	EXP 	Pl_img: image = 'Images/cup_pl.jpg'
+135.8814 	EXP 	Sing_txt: text = 'runuk'
+135.8814 	EXP 	Pl_txt: text = 'runugu'
+135.8814 	EXP 	Sing_img: autoDraw = True
+135.8814 	EXP 	Sing_txt: autoDraw = True
+138.8535 	EXP 	Sing_img: autoDraw = False
+138.8535 	EXP 	Sing_txt: autoDraw = False
+138.8694 	EXP 	Pl_img: autoDraw = True
+138.8694 	EXP 	Pl_txt: autoDraw = True
+141.8331 	EXP 	window1: recordFrameIntervals = False
+141.8498 	EXP 	Pl_img: autoDraw = False
+141.8498 	EXP 	Pl_txt: autoDraw = False
+141.8498 	EXP 	Sing_img: autoDraw = False
+141.8498 	EXP 	Pl_img: autoDraw = False
+141.8498 	EXP 	Sing_txt: autoDraw = False
+141.8498 	EXP 	Pl_txt: autoDraw = False
+141.8500 	EXP 	window1: recordFrameIntervals = False
+142.6379 	EXP 	image_3: image = 'Images/instrProdB.png'
+142.6379 	EXP 	image_3: autoDraw = True
+152.7884 	DATA 	Keypress: space
+152.7887 	EXP 	window1: recordFrameIntervals = False
+152.8051 	EXP 	image_3: autoDraw = False
+152.8051 	EXP 	fixation: autoDraw = True
+152.8053 	EXP 	window1: recordFrameIntervals = False
+153.8105 	EXP 	Imported Lists/OrderProdB.xlsx as conditions, 10 conditions, 14 params
+153.8109 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+153.8116 	EXP 	New trial (rep=0, index=0): OrderedDict([('trig', 'misudu'), ('targ', 'misut'), ('type', 'alt'), ('trig_img', 'Images/bicycle_pl.jpg'), ('targ_img', 'Images/bicycle.jpg'), ('final_c', 'd'), ('new', 'new'), ('num', 'sg'), ('instr', 'Write the singular form on your keyboard - then press enter'), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'prod')])
+153.8813 	EXP 	fixation: autoDraw = False
+153.8813 	EXP 	fixation: autoDraw = False
+153.8813 	EXP 	Target_ins1: text = 'Write the singular form on your keyboard - then press enter'
+153.8813 	EXP 	Trigger_img1: size = array([0.47916667, 0.93888889])
+153.8813 	EXP 	Trigger_img1: image = 'Images/bicycle_pl.jpg'
+153.8813 	EXP 	Target_img1: size = array([0.625     , 0.62777778])
+153.8813 	EXP 	Target_img1: image = 'Images/bicycle.jpg'
+153.8813 	EXP 	Trigger_txt1: text = 'misudu'
+153.8813 	EXP 	txtinp: alignHoriz = 'center'
+153.8813 	EXP 	Trigger_img1: autoDraw = True
+153.8813 	EXP 	Trigger_txt1: autoDraw = True
+158.8318 	EXP 	Target_ins1: autoDraw = True
+158.8318 	EXP 	Trigger_img1: autoDraw = False
+158.8318 	EXP 	Target_img1: autoDraw = True
+158.8318 	EXP 	Trigger_txt1: autoDraw = False
+158.8318 	EXP 	txtinp: autoDraw = True
+159.1984 	DATA 	Keypress: d
+159.2816 	DATA 	Keypress: f
+159.8476 	DATA 	Keypress: return
+159.8652 	EXP 	window1: recordFrameIntervals = False
+159.8806 	EXP 	Target_ins1: autoDraw = False
+159.8806 	EXP 	Trigger_img1: autoDraw = False
+159.8806 	EXP 	Target_img1: autoDraw = False
+159.8806 	EXP 	Trigger_txt1: autoDraw = False
+159.8806 	EXP 	txtinp: autoDraw = False
+159.8807 	EXP 	window1: recordFrameIntervals = False
+160.5966 	EXP 	New trial (rep=0, index=1): OrderedDict([('trig', 'salugu'), ('targ', 'saluk'), ('type', 'alt'), ('trig_img', 'Images/thistle_pl.jpg'), ('targ_img', 'Images/thistle.jpg'), ('final_c', 'g'), ('new', 'new'), ('num', 'sg'), ('instr', 'Write the singular form on your keyboard - then press enter'), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'prod')])
+160.6316 	EXP 	Target_ins1: text = 'Write the singular form on your keyboard - then press enter'
+160.6316 	EXP 	Trigger_img1: size = array([0.72916667, 0.47777778])
+160.6316 	EXP 	Trigger_img1: image = 'Images/thistle_pl.jpg'
+160.6316 	EXP 	Target_img1: size = array([0.46875   , 0.62592593])
+160.6316 	EXP 	Target_img1: image = 'Images/thistle.jpg'
+160.6316 	EXP 	Trigger_txt1: text = 'salugu'
+160.6316 	EXP 	txtinp: alignHoriz = 'center'
+160.6316 	EXP 	Trigger_img1: autoDraw = True
+160.6316 	EXP 	Trigger_txt1: autoDraw = True
+165.6089 	EXP 	Trigger_img1: autoDraw = False
+165.6089 	EXP 	Trigger_txt1: autoDraw = False
+165.6249 	EXP 	Target_ins1: autoDraw = True
+165.6249 	EXP 	Target_img1: autoDraw = True
+165.6249 	EXP 	txtinp: autoDraw = True
+168.6385 	DATA 	Keypress: f
+168.7221 	DATA 	Keypress: g
+169.4048 	DATA 	Keypress: return
+169.4219 	EXP 	window1: recordFrameIntervals = False
+169.4379 	EXP 	Target_ins1: autoDraw = False
+169.4379 	EXP 	Trigger_img1: autoDraw = False
+169.4379 	EXP 	Target_img1: autoDraw = False
+169.4379 	EXP 	Trigger_txt1: autoDraw = False
+169.4379 	EXP 	txtinp: autoDraw = False
+169.4381 	EXP 	window1: recordFrameIntervals = False
+170.1544 	EXP 	New trial (rep=0, index=2): OrderedDict([('trig', 'lumudu'), ('targ', 'lumut'), ('type', 'alt'), ('trig_img', 'Images/knife_pl.jpg'), ('targ_img', 'Images/knife.jpg'), ('final_c', 'd'), ('new', 'new'), ('num', 'sg'), ('instr', 'Write the singular form on your keyboard - then press enter'), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'prod')])
+170.1981 	EXP 	Target_ins1: text = 'Write the singular form on your keyboard - then press enter'
+170.1981 	EXP 	Trigger_img1: size = array([0.39583333, 0.91666667])
+170.1981 	EXP 	Trigger_img1: image = 'Images/knife_pl.jpg'
+170.1981 	EXP 	Target_img1: size = array([0.5       , 0.62407407])
+170.1981 	EXP 	Target_img1: image = 'Images/knife.jpg'
+170.1981 	EXP 	Trigger_txt1: text = 'lumudu'
+170.1981 	EXP 	txtinp: alignHoriz = 'center'
+170.1981 	EXP 	Trigger_img1: autoDraw = True
+170.1981 	EXP 	Trigger_txt1: autoDraw = True
+175.1654 	EXP 	Trigger_img1: autoDraw = False
+175.1654 	EXP 	Trigger_txt1: autoDraw = False
+175.1817 	EXP 	Target_ins1: autoDraw = True
+175.1817 	EXP 	Target_img1: autoDraw = True
+175.1817 	EXP 	txtinp: autoDraw = True
+179.4945 	DATA 	Keypress: f
+179.5944 	DATA 	Keypress: g
+180.4100 	DATA 	Keypress: return
+180.4268 	EXP 	window1: recordFrameIntervals = False
+180.4435 	EXP 	Target_ins1: autoDraw = False
+180.4435 	EXP 	Trigger_img1: autoDraw = False
+180.4435 	EXP 	Target_img1: autoDraw = False
+180.4435 	EXP 	Trigger_txt1: autoDraw = False
+180.4435 	EXP 	txtinp: autoDraw = False
+180.4437 	EXP 	window1: recordFrameIntervals = False
+181.1604 	EXP 	New trial (rep=0, index=3): OrderedDict([('trig', 'sunudu'), ('targ', 'sunut'), ('type', 'non_alt'), ('trig_img', 'Images/flagpole_pl.jpg'), ('targ_img', 'Images/flagpole.jpg'), ('final_c', 'd'), ('new', 'given'), ('num', 'sg'), ('instr', 'Write the singular form on your keyboard - then press enter'), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'prod')])
+181.2069 	EXP 	Target_ins1: text = 'Write the singular form on your keyboard - then press enter'
+181.2069 	EXP 	Trigger_img1: size = array([0.67708333, 0.62037037])
+181.2069 	EXP 	Trigger_img1: image = 'Images/flagpole_pl.jpg'
+181.2069 	EXP 	Target_img1: size = array([0.48958333, 0.91851852])
+181.2069 	EXP 	Target_img1: image = 'Images/flagpole.jpg'
+181.2069 	EXP 	Trigger_txt1: text = 'sunudu'
+181.2069 	EXP 	txtinp: alignHoriz = 'center'
+181.2069 	EXP 	Trigger_img1: autoDraw = True
+181.2069 	EXP 	Trigger_txt1: autoDraw = True
+186.1709 	EXP 	Trigger_img1: autoDraw = False
+186.1709 	EXP 	Trigger_txt1: autoDraw = False
+186.1870 	EXP 	Target_ins1: autoDraw = True
+186.1870 	EXP 	Target_img1: autoDraw = True
+186.1870 	EXP 	txtinp: autoDraw = True
+191.2154 	DATA 	Keypress: g
+191.4320 	DATA 	Keypress: h
+192.1481 	DATA 	Keypress: return
+192.1648 	EXP 	window1: recordFrameIntervals = False
+192.1809 	EXP 	Target_ins1: autoDraw = False
+192.1809 	EXP 	Trigger_img1: autoDraw = False
+192.1809 	EXP 	Target_img1: autoDraw = False
+192.1809 	EXP 	Trigger_txt1: autoDraw = False
+192.1809 	EXP 	txtinp: autoDraw = False
+192.1811 	EXP 	window1: recordFrameIntervals = False
+192.9012 	EXP 	New trial (rep=0, index=4): OrderedDict([('trig', 'silat'), ('targ', 'siladu'), ('type', 'alt'), ('trig_img', 'Images/factory.jpg'), ('targ_img', 'Images/factory_pl.jpg'), ('final_c', 'd'), ('new', 'new'), ('num', 'pl'), ('instr', 'Write the plural form on your keyboard - then press enter'), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'prod')])
+192.9871 	EXP 	Target_ins1: text = 'Write the plural form on your keyboard - then press enter'
+192.9871 	EXP 	Trigger_img1: size = array([0.4375    , 0.63888889])
+192.9871 	EXP 	Trigger_img1: image = 'Images/factory.jpg'
+192.9871 	EXP 	Target_img1: size = array([0.67708333, 0.58148148])
+192.9871 	EXP 	Target_img1: image = 'Images/factory_pl.jpg'
+192.9871 	EXP 	Trigger_txt1: text = 'silat'
+192.9871 	EXP 	txtinp: alignHoriz = 'center'
+192.9871 	EXP 	Trigger_img1: autoDraw = True
+192.9871 	EXP 	Trigger_txt1: autoDraw = True
+197.9082 	EXP 	Trigger_img1: autoDraw = False
+197.9082 	EXP 	Trigger_txt1: autoDraw = False
+197.9249 	EXP 	Target_ins1: autoDraw = True
+197.9249 	EXP 	Target_img1: autoDraw = True
+197.9249 	EXP 	txtinp: autoDraw = True
+225.8964 	DATA 	Keypress: f
+226.0294 	DATA 	Keypress: g
+226.6621 	DATA 	Keypress: return
+226.6795 	EXP 	window1: recordFrameIntervals = False
+226.6960 	EXP 	Target_ins1: autoDraw = False
+226.6960 	EXP 	Trigger_img1: autoDraw = False
+226.6960 	EXP 	Target_img1: autoDraw = False
+226.6960 	EXP 	Trigger_txt1: autoDraw = False
+226.6960 	EXP 	txtinp: autoDraw = False
+226.6961 	EXP 	window1: recordFrameIntervals = False
+227.4149 	EXP 	New trial (rep=0, index=5): OrderedDict([('trig', 'limibu'), ('targ', 'limip'), ('type', 'alt'), ('trig_img', 'Images/ring_pl.jpg'), ('targ_img', 'Images/ring.jpg'), ('final_c', 'b'), ('new', 'new'), ('num', 'sg'), ('instr', 'Write the singular form on your keyboard - then press enter'), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'prod')])
+227.4624 	EXP 	Target_ins1: text = 'Write the singular form on your keyboard - then press enter'
+227.4624 	EXP 	Trigger_img1: size = array([0.72916667, 0.64259259])
+227.4624 	EXP 	Trigger_img1: image = 'Images/ring_pl.jpg'
+227.4624 	EXP 	Target_img1: size = array([0.44791667, 0.79259259])
+227.4624 	EXP 	Target_img1: image = 'Images/ring.jpg'
+227.4624 	EXP 	Trigger_txt1: text = 'limibu'
+227.4624 	EXP 	txtinp: alignHoriz = 'center'
+227.4624 	EXP 	Trigger_img1: autoDraw = True
+227.4624 	EXP 	Trigger_txt1: autoDraw = True
+232.4232 	EXP 	Trigger_img1: autoDraw = False
+232.4232 	EXP 	Trigger_txt1: autoDraw = False
+232.4395 	EXP 	Target_ins1: autoDraw = True
+232.4395 	EXP 	Target_img1: autoDraw = True
+232.4395 	EXP 	txtinp: autoDraw = True
+246.0918 	DATA 	Keypress: f
+246.2087 	DATA 	Keypress: g
+246.9246 	DATA 	Keypress: return
+246.9414 	EXP 	window1: recordFrameIntervals = False
+246.9579 	EXP 	Target_ins1: autoDraw = False
+246.9579 	EXP 	Trigger_img1: autoDraw = False
+246.9579 	EXP 	Target_img1: autoDraw = False
+246.9579 	EXP 	Trigger_txt1: autoDraw = False
+246.9579 	EXP 	txtinp: autoDraw = False
+246.9581 	EXP 	window1: recordFrameIntervals = False
+247.6758 	EXP 	New trial (rep=0, index=6): OrderedDict([('trig', 'rumudu'), ('targ', 'rumut'), ('type', 'alt'), ('trig_img', 'Images/river_pl.jpg'), ('targ_img', 'Images/river.jpg'), ('final_c', 'd'), ('new', 'given'), ('num', 'sg'), ('instr', 'Write the singular form on your keyboard - then press enter'), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'prod')])
+247.7129 	EXP 	Target_ins1: text = 'Write the singular form on your keyboard - then press enter'
+247.7129 	EXP 	Trigger_img1: size = array([0.803125  , 0.49074074])
+247.7129 	EXP 	Trigger_img1: image = 'Images/river_pl.jpg'
+247.7129 	EXP 	Target_img1: size = array([0.37604167, 0.49074074])
+247.7129 	EXP 	Target_img1: image = 'Images/river.jpg'
+247.7129 	EXP 	Trigger_txt1: text = 'rumudu'
+247.7129 	EXP 	txtinp: alignHoriz = 'center'
+247.7129 	EXP 	Trigger_img1: autoDraw = True
+247.7129 	EXP 	Trigger_txt1: autoDraw = True
+252.6853 	EXP 	Trigger_img1: autoDraw = False
+252.6853 	EXP 	Trigger_txt1: autoDraw = False
+252.7015 	EXP 	Target_ins1: autoDraw = True
+252.7015 	EXP 	Target_img1: autoDraw = True
+252.7015 	EXP 	txtinp: autoDraw = True
+270.6833 	DATA 	Keypress: j
+270.7498 	DATA 	Keypress: k
+271.3993 	DATA 	Keypress: return
+271.4164 	EXP 	window1: recordFrameIntervals = False
+271.4327 	EXP 	Target_ins1: autoDraw = False
+271.4327 	EXP 	Trigger_img1: autoDraw = False
+271.4327 	EXP 	Target_img1: autoDraw = False
+271.4327 	EXP 	Trigger_txt1: autoDraw = False
+271.4327 	EXP 	txtinp: autoDraw = False
+271.4329 	EXP 	window1: recordFrameIntervals = False
+272.1504 	EXP 	New trial (rep=0, index=7): OrderedDict([('trig', 'nirudu'), ('targ', 'nirut'), ('type', 'alt'), ('trig_img', 'Images/airplane_pl.jpg'), ('targ_img', 'Images/airplane.jpg'), ('final_c', 'd'), ('new', 'new'), ('num', 'sg'), ('instr', 'Write the singular form on your keyboard - then press enter'), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'prod')])
+272.1956 	EXP 	Target_ins1: text = 'Write the singular form on your keyboard - then press enter'
+272.1956 	EXP 	Trigger_img1: size = array([0.67708333, 0.44814815])
+272.1956 	EXP 	Trigger_img1: image = 'Images/airplane_pl.jpg'
+272.1956 	EXP 	Target_img1: size = array([0.45833333, 0.61111111])
+272.1956 	EXP 	Target_img1: image = 'Images/airplane.jpg'
+272.1956 	EXP 	Trigger_txt1: text = 'nirudu'
+272.1956 	EXP 	txtinp: alignHoriz = 'center'
+272.1956 	EXP 	Trigger_img1: autoDraw = True
+272.1956 	EXP 	Trigger_txt1: autoDraw = True
+277.1600 	EXP 	Trigger_img1: autoDraw = False
+277.1600 	EXP 	Trigger_txt1: autoDraw = False
+277.1763 	EXP 	Target_ins1: autoDraw = True
+277.1763 	EXP 	Target_img1: autoDraw = True
+277.1763 	EXP 	txtinp: autoDraw = True
+278.4088 	DATA 	Keypress: k
+278.4588 	DATA 	Keypress: l
+279.1412 	DATA 	Keypress: return
+279.1584 	EXP 	window1: recordFrameIntervals = False
+279.1747 	EXP 	Target_ins1: autoDraw = False
+279.1747 	EXP 	Trigger_img1: autoDraw = False
+279.1747 	EXP 	Target_img1: autoDraw = False
+279.1747 	EXP 	Trigger_txt1: autoDraw = False
+279.1747 	EXP 	txtinp: autoDraw = False
+279.1749 	EXP 	window1: recordFrameIntervals = False
+279.8916 	EXP 	New trial (rep=0, index=8): OrderedDict([('trig', 'susagu'), ('targ', 'susak'), ('type', 'alt'), ('trig_img', 'Images/box_pl.jpg'), ('targ_img', 'Images/box.jpg'), ('final_c', 'g'), ('new', 'new'), ('num', 'sg'), ('instr', 'Write the singular form on your keyboard - then press enter'), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'prod')])
+279.9294 	EXP 	Target_ins1: text = 'Write the singular form on your keyboard - then press enter'
+279.9294 	EXP 	Trigger_img1: size = array([0.60416667, 0.56481481])
+279.9294 	EXP 	Trigger_img1: image = 'Images/box_pl.jpg'
+279.9294 	EXP 	Target_img1: size = array([0.41666667, 0.77407407])
+279.9294 	EXP 	Target_img1: image = 'Images/box.jpg'
+279.9294 	EXP 	Trigger_txt1: text = 'susagu'
+279.9294 	EXP 	txtinp: alignHoriz = 'center'
+279.9294 	EXP 	Trigger_img1: autoDraw = True
+279.9294 	EXP 	Trigger_txt1: autoDraw = True
+284.9019 	EXP 	Trigger_img1: autoDraw = False
+284.9019 	EXP 	Trigger_txt1: autoDraw = False
+284.9182 	EXP 	Target_ins1: autoDraw = True
+284.9182 	EXP 	Target_img1: autoDraw = True
+284.9182 	EXP 	txtinp: autoDraw = True
+286.6172 	DATA 	Keypress: f
+286.6999 	DATA 	Keypress: g
+287.5161 	DATA 	Keypress: return
+287.5329 	EXP 	window1: recordFrameIntervals = False
+287.5496 	EXP 	Target_ins1: autoDraw = False
+287.5496 	EXP 	Trigger_img1: autoDraw = False
+287.5496 	EXP 	Target_img1: autoDraw = False
+287.5496 	EXP 	Trigger_txt1: autoDraw = False
+287.5496 	EXP 	txtinp: autoDraw = False
+287.5497 	EXP 	window1: recordFrameIntervals = False
+288.2667 	EXP 	New trial (rep=0, index=9): OrderedDict([('trig', 'nirubu'), ('targ', 'nirup'), ('type', 'alt'), ('trig_img', 'Images/glove_pl.jpg'), ('targ_img', 'Images/glove.jpg'), ('final_c', 'b'), ('new', 'new'), ('num', 'sg'), ('instr', 'Write the singular form on your keyboard - then press enter'), ('a', None), ('k', None), ('corr', None), ('lang', 'devoicing'), ('phase', 'prod')])
+288.2982 	EXP 	Target_ins1: text = 'Write the singular form on your keyboard - then press enter'
+288.2982 	EXP 	Trigger_img1: size = array([0.46875  , 0.5962963])
+288.2982 	EXP 	Trigger_img1: image = 'Images/glove_pl.jpg'
+288.2982 	EXP 	Target_img1: size = array([0.4375    , 0.77777778])
+288.2982 	EXP 	Target_img1: image = 'Images/glove.jpg'
+288.2982 	EXP 	Trigger_txt1: text = 'nirubu'
+288.2982 	EXP 	txtinp: alignHoriz = 'center'
+288.2982 	EXP 	Trigger_img1: autoDraw = True
+288.2982 	EXP 	Trigger_txt1: autoDraw = True
+291.6950 	DATA 	Keypress: h
+291.7785 	DATA 	Keypress: j
+293.2767 	EXP 	Trigger_img1: autoDraw = False
+293.2767 	EXP 	Trigger_txt1: autoDraw = False
+293.2929 	EXP 	Target_ins1: autoDraw = True
+293.2929 	EXP 	Target_img1: autoDraw = True
+293.2929 	EXP 	txtinp: autoDraw = True
+293.7271 	DATA 	Keypress: d
+293.8596 	DATA 	Keypress: f
+294.6418 	DATA 	Keypress: return
+294.6589 	EXP 	window1: recordFrameIntervals = False
+294.6751 	EXP 	Target_ins1: autoDraw = False
+294.6751 	EXP 	Trigger_img1: autoDraw = False
+294.6751 	EXP 	Target_img1: autoDraw = False
+294.6751 	EXP 	Trigger_txt1: autoDraw = False
+294.6751 	EXP 	txtinp: autoDraw = False
+294.6754 	EXP 	window1: recordFrameIntervals = False
+295.4532 	EXP 	image_6: image = 'Images/instrFCB.png'
+295.4532 	EXP 	image_6: autoDraw = True
+298.7044 	DATA 	Keypress: space
+298.7047 	EXP 	window1: recordFrameIntervals = False
+298.7211 	EXP 	image_6: autoDraw = False
+298.7211 	EXP 	fixation: autoDraw = True
+298.7213 	EXP 	window1: recordFrameIntervals = False
+299.7141 	EXP 	Imported Lists/OrderFCB.xlsx as conditions, 10 conditions, 14 params
+299.7145 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+299.7150 	EXP 	New trial (rep=0, index=0): OrderedDict([('trig', 'lilidu'), ('targ', None), ('type', 'alt'), ('trig_img', 'Images/hamburger_pl.jpg'), ('targ_img', 'Images/hamburger.jpg'), ('final_c', 'd'), ('new', 'new'), ('num', 'sg'), ('instr', 'Choose the singular form of the word that belongs to the language'), ('a', 'lilid'), ('k', 'lilit'), ('corr', 'k'), ('lang', 'devoicing'), ('phase', 'FC')])
+299.7897 	EXP 	fixation: autoDraw = False
+299.7897 	EXP 	fixation: autoDraw = False
+299.7897 	EXP 	Target_ins2: text = 'Choose the singular form of the word that belongs to the language'
+299.7897 	EXP 	Trigger_img2: size = array([0.72916667, 0.55555556])
+299.7897 	EXP 	Trigger_img2: image = 'Images/hamburger_pl.jpg'
+299.7897 	EXP 	Target_img2: size = array([0.4375    , 0.67407407])
+299.7897 	EXP 	Target_img2: image = 'Images/hamburger.jpg'
+299.7897 	EXP 	Trigger_txt2: text = 'lilidu'
+299.7897 	EXP 	Resp_a: text = 'lilid'
+299.7897 	EXP 	Resp_b: text = 'lilit'
+299.7897 	EXP 	Trigger_img2: autoDraw = True
+299.7897 	EXP 	Trigger_txt2: autoDraw = True
+303.7318 	EXP 	Target_ins2: autoDraw = True
+303.7318 	EXP 	Trigger_img2: autoDraw = False
+303.7318 	EXP 	Target_img2: autoDraw = True
+303.7318 	EXP 	Trigger_txt2: autoDraw = False
+303.7318 	EXP 	Target_instr_l: autoDraw = True
+303.7318 	EXP 	Target_instr_r: autoDraw = True
+303.7318 	EXP 	Resp_a: autoDraw = True
+303.7318 	EXP 	Resp_b: autoDraw = True
+306.4293 	DATA 	Keypress: k
+306.4299 	EXP 	window1: recordFrameIntervals = False
+306.4461 	EXP 	Target_ins2: autoDraw = False
+306.4461 	EXP 	Trigger_img2: autoDraw = False
+306.4461 	EXP 	Target_img2: autoDraw = False
+306.4461 	EXP 	Trigger_txt2: autoDraw = False
+306.4461 	EXP 	Target_instr_l: autoDraw = False
+306.4461 	EXP 	Target_instr_r: autoDraw = False
+306.4461 	EXP 	Resp_a: autoDraw = False
+306.4461 	EXP 	Resp_b: autoDraw = False
+306.4463 	EXP 	window1: recordFrameIntervals = False
+307.1649 	EXP 	New trial (rep=0, index=1): OrderedDict([('trig', 'lisak'), ('targ', None), ('type', 'alt'), ('trig_img', 'Images/flower.jpg'), ('targ_img', 'Images/flower_pl.jpg'), ('final_c', 'g'), ('new', 'new'), ('num', 'pl'), ('instr', 'Choose the plural form of the word that belongs to the language'), ('a', 'lisagu'), ('k', 'lisaku'), ('corr', 'k'), ('lang', 'devoicing'), ('phase', 'FC')])
+307.2392 	EXP 	Target_ins2: text = 'Choose the plural form of the word that belongs to the language'
+307.2392 	EXP 	Trigger_img2: size = array([0.45833333, 0.82037037])
+307.2392 	EXP 	Trigger_img2: image = 'Images/flower.jpg'
+307.2392 	EXP 	Target_img2: size = array([0.59375   , 0.57962963])
+307.2392 	EXP 	Target_img2: image = 'Images/flower_pl.jpg'
+307.2392 	EXP 	Trigger_txt2: text = 'lisak'
+307.2392 	EXP 	Resp_a: text = 'lisagu'
+307.2392 	EXP 	Resp_b: text = 'lisaku'
+307.2392 	EXP 	Trigger_img2: autoDraw = True
+307.2392 	EXP 	Trigger_txt2: autoDraw = True
+311.1749 	EXP 	Trigger_img2: autoDraw = False
+311.1749 	EXP 	Trigger_txt2: autoDraw = False
+311.1910 	EXP 	Target_ins2: autoDraw = True
+311.1910 	EXP 	Target_img2: autoDraw = True
+311.1910 	EXP 	Target_instr_l: autoDraw = True
+311.1910 	EXP 	Target_instr_r: autoDraw = True
+311.1910 	EXP 	Resp_a: autoDraw = True
+311.1910 	EXP 	Resp_b: autoDraw = True
+315.8201 	DATA 	Keypress: a
+315.8209 	EXP 	window1: recordFrameIntervals = False
+315.8367 	EXP 	Target_ins2: autoDraw = False
+315.8367 	EXP 	Trigger_img2: autoDraw = False
+315.8367 	EXP 	Target_img2: autoDraw = False
+315.8367 	EXP 	Trigger_txt2: autoDraw = False
+315.8367 	EXP 	Target_instr_l: autoDraw = False
+315.8367 	EXP 	Target_instr_r: autoDraw = False
+315.8367 	EXP 	Resp_a: autoDraw = False
+315.8367 	EXP 	Resp_b: autoDraw = False
+315.8369 	EXP 	window1: recordFrameIntervals = False
+316.5550 	EXP 	New trial (rep=0, index=2): OrderedDict([('trig', 'munibu'), ('targ', None), ('type', 'alt'), ('trig_img', 'Images/calender_pl.jpg'), ('targ_img', 'Images/calender.jpg'), ('final_c', 'b'), ('new', 'new'), ('num', 'sg'), ('instr', 'Choose the singular form of the word that belongs to the language'), ('a', 'munip'), ('k', 'munib'), ('corr', 'a'), ('lang', 'devoicing'), ('phase', 'FC')])
+316.6187 	EXP 	Target_ins2: text = 'Choose the singular form of the word that belongs to the language'
+316.6187 	EXP 	Trigger_img2: size = array([0.67708333, 0.53148148])
+316.6187 	EXP 	Trigger_img2: image = 'Images/calender_pl.jpg'
+316.6187 	EXP 	Target_img2: size = array([0.46875  , 0.7462963])
+316.6187 	EXP 	Target_img2: image = 'Images/calender.jpg'
+316.6187 	EXP 	Trigger_txt2: text = 'munibu'
+316.6187 	EXP 	Resp_a: text = 'munip'
+316.6187 	EXP 	Resp_b: text = 'munib'
+316.6187 	EXP 	Trigger_img2: autoDraw = True
+316.6187 	EXP 	Trigger_txt2: autoDraw = True
+320.5654 	EXP 	Trigger_img2: autoDraw = False
+320.5654 	EXP 	Trigger_txt2: autoDraw = False
+320.5815 	EXP 	Target_ins2: autoDraw = True
+320.5815 	EXP 	Target_img2: autoDraw = True
+320.5815 	EXP 	Target_instr_l: autoDraw = True
+320.5815 	EXP 	Target_instr_r: autoDraw = True
+320.5815 	EXP 	Resp_a: autoDraw = True
+320.5815 	EXP 	Resp_b: autoDraw = True
+322.7463 	DATA 	Keypress: a
+322.7471 	EXP 	window1: recordFrameIntervals = False
+322.7630 	EXP 	Target_ins2: autoDraw = False
+322.7630 	EXP 	Trigger_img2: autoDraw = False
+322.7630 	EXP 	Target_img2: autoDraw = False
+322.7630 	EXP 	Trigger_txt2: autoDraw = False
+322.7630 	EXP 	Target_instr_l: autoDraw = False
+322.7630 	EXP 	Target_instr_r: autoDraw = False
+322.7630 	EXP 	Resp_a: autoDraw = False
+322.7630 	EXP 	Resp_b: autoDraw = False
+322.7632 	EXP 	window1: recordFrameIntervals = False
+323.4802 	EXP 	New trial (rep=0, index=3): OrderedDict([('trig', 'nuruk'), ('targ', None), ('type', 'alt'), ('trig_img', 'Images/clarinet.jpg'), ('targ_img', 'Images/clarinet_pl.jpg'), ('final_c', 'g'), ('new', 'given'), ('num', 'pl'), ('instr', 'Choose the plural form of the word that belongs to the language'), ('a', 'nurugu'), ('k', 'nuruku'), ('corr', 'a'), ('lang', 'devoicing'), ('phase', 'FC')])
+323.5418 	EXP 	Target_ins2: text = 'Choose the plural form of the word that belongs to the language'
+323.5418 	EXP 	Trigger_img2: size = array([0.5625    , 0.57222222])
+323.5418 	EXP 	Trigger_img2: image = 'Images/clarinet.jpg'
+323.5418 	EXP 	Target_img2: size = array([0.4375    , 0.88333333])
+323.5418 	EXP 	Target_img2: image = 'Images/clarinet_pl.jpg'
+323.5418 	EXP 	Trigger_txt2: text = 'nuruk'
+323.5418 	EXP 	Resp_a: text = 'nurugu'
+323.5418 	EXP 	Resp_b: text = 'nuruku'
+323.5418 	EXP 	Trigger_img2: autoDraw = True
+323.5418 	EXP 	Trigger_txt2: autoDraw = True
+327.4913 	EXP 	Trigger_img2: autoDraw = False
+327.4913 	EXP 	Trigger_txt2: autoDraw = False
+327.5073 	EXP 	Target_ins2: autoDraw = True
+327.5073 	EXP 	Target_img2: autoDraw = True
+327.5073 	EXP 	Target_instr_l: autoDraw = True
+327.5073 	EXP 	Target_instr_r: autoDraw = True
+327.5073 	EXP 	Resp_a: autoDraw = True
+327.5073 	EXP 	Resp_b: autoDraw = True
+329.9054 	DATA 	Keypress: a
+329.9059 	EXP 	window1: recordFrameIntervals = False
+329.9223 	EXP 	Target_ins2: autoDraw = False
+329.9223 	EXP 	Trigger_img2: autoDraw = False
+329.9223 	EXP 	Target_img2: autoDraw = False
+329.9223 	EXP 	Trigger_txt2: autoDraw = False
+329.9223 	EXP 	Target_instr_l: autoDraw = False
+329.9223 	EXP 	Target_instr_r: autoDraw = False
+329.9223 	EXP 	Resp_a: autoDraw = False
+329.9223 	EXP 	Resp_b: autoDraw = False
+329.9224 	EXP 	window1: recordFrameIntervals = False
+330.6405 	EXP 	New trial (rep=0, index=4): OrderedDict([('trig', 'nurat'), ('targ', None), ('type', 'alt'), ('trig_img', 'Images/copier.jpg'), ('targ_img', 'Images/copier_pl.jpg'), ('final_c', 'd'), ('new', 'given'), ('num', 'pl'), ('instr', 'Choose the plural form of the word that belongs to the language'), ('a', 'nuradu'), ('k', 'nuratu'), ('corr', 'a'), ('lang', 'devoicing'), ('phase', 'FC')])
+330.7012 	EXP 	Target_ins2: text = 'Choose the plural form of the word that belongs to the language'
+330.7012 	EXP 	Trigger_img2: size = array([0.46875   , 0.83333333])
+330.7012 	EXP 	Trigger_img2: image = 'Images/copier.jpg'
+330.7012 	EXP 	Target_img2: size = array([0.55208333, 0.56481481])
+330.7012 	EXP 	Target_img2: image = 'Images/copier_pl.jpg'
+330.7012 	EXP 	Trigger_txt2: text = 'nurat'
+330.7012 	EXP 	Resp_a: text = 'nuradu'
+330.7012 	EXP 	Resp_b: text = 'nuratu'
+330.7012 	EXP 	Trigger_img2: autoDraw = True
+330.7012 	EXP 	Trigger_txt2: autoDraw = True
+334.6506 	EXP 	Trigger_img2: autoDraw = False
+334.6506 	EXP 	Trigger_txt2: autoDraw = False
+334.6669 	EXP 	Target_ins2: autoDraw = True
+334.6669 	EXP 	Target_img2: autoDraw = True
+334.6669 	EXP 	Target_instr_l: autoDraw = True
+334.6669 	EXP 	Target_instr_r: autoDraw = True
+334.6669 	EXP 	Resp_a: autoDraw = True
+334.6669 	EXP 	Resp_b: autoDraw = True
+335.8491 	DATA 	Keypress: a
+335.8496 	EXP 	window1: recordFrameIntervals = False
+335.8656 	EXP 	Target_ins2: autoDraw = False
+335.8656 	EXP 	Trigger_img2: autoDraw = False
+335.8656 	EXP 	Target_img2: autoDraw = False
+335.8656 	EXP 	Trigger_txt2: autoDraw = False
+335.8656 	EXP 	Target_instr_l: autoDraw = False
+335.8656 	EXP 	Target_instr_r: autoDraw = False
+335.8656 	EXP 	Resp_a: autoDraw = False
+335.8656 	EXP 	Resp_b: autoDraw = False
+335.8658 	EXP 	window1: recordFrameIntervals = False
+336.5848 	EXP 	New trial (rep=0, index=5): OrderedDict([('trig', 'nirugu'), ('targ', None), ('type', 'alt'), ('trig_img', 'Images/garbage_can_pl.jpg'), ('targ_img', 'Images/garbage_can.jpg'), ('final_c', 'g'), ('new', 'given'), ('num', 'sg'), ('instr', 'Choose the singular form of the word that belongs to the language'), ('a', 'nirug'), ('k', 'niruk'), ('corr', 'k'), ('lang', 'devoicing'), ('phase', 'FC')])
+336.6545 	EXP 	Target_ins2: text = 'Choose the singular form of the word that belongs to the language'
+336.6545 	EXP 	Trigger_img2: size = array([0.55208333, 0.71111111])
+336.6545 	EXP 	Trigger_img2: image = 'Images/garbage_can_pl.jpg'
+336.6545 	EXP 	Target_img2: size = array([0.36458333, 0.9462963 ])
+336.6545 	EXP 	Target_img2: image = 'Images/garbage_can.jpg'
+336.6545 	EXP 	Trigger_txt2: text = 'nirugu'
+336.6545 	EXP 	Resp_a: text = 'nirug'
+336.6545 	EXP 	Resp_b: text = 'niruk'
+336.6545 	EXP 	Trigger_img2: autoDraw = True
+336.6545 	EXP 	Trigger_txt2: autoDraw = True
+340.5945 	EXP 	Trigger_img2: autoDraw = False
+340.5945 	EXP 	Trigger_txt2: autoDraw = False
+340.6104 	EXP 	Target_ins2: autoDraw = True
+340.6104 	EXP 	Target_img2: autoDraw = True
+340.6104 	EXP 	Target_instr_l: autoDraw = True
+340.6104 	EXP 	Target_instr_r: autoDraw = True
+340.6104 	EXP 	Resp_a: autoDraw = True
+340.6104 	EXP 	Resp_b: autoDraw = True
+341.4934 	DATA 	Keypress: a
+341.4939 	EXP 	window1: recordFrameIntervals = False
+341.5104 	EXP 	Target_ins2: autoDraw = False
+341.5104 	EXP 	Trigger_img2: autoDraw = False
+341.5104 	EXP 	Target_img2: autoDraw = False
+341.5104 	EXP 	Trigger_txt2: autoDraw = False
+341.5104 	EXP 	Target_instr_l: autoDraw = False
+341.5104 	EXP 	Target_instr_r: autoDraw = False
+341.5104 	EXP 	Resp_a: autoDraw = False
+341.5104 	EXP 	Resp_b: autoDraw = False
+341.5105 	EXP 	window1: recordFrameIntervals = False
+342.2264 	EXP 	New trial (rep=0, index=6): OrderedDict([('trig', 'naridu'), ('targ', None), ('type', 'alt'), ('trig_img', 'Images/squid_pl.jpg'), ('targ_img', 'Images/squid.jpg'), ('final_c', 'd'), ('new', 'given'), ('num', 'sg'), ('instr', 'Choose the singular form of the word that belongs to the language'), ('a', 'narid'), ('k', 'narit'), ('corr', 'k'), ('lang', 'devoicing'), ('phase', 'FC')])
+342.2770 	EXP 	Target_ins2: text = 'Choose the singular form of the word that belongs to the language'
+342.2770 	EXP 	Trigger_img2: size = array([0.55104167, 0.96111111])
+342.2770 	EXP 	Trigger_img2: image = 'Images/squid_pl.jpg'
+342.2770 	EXP 	Target_img2: size = array([0.26041667, 0.96111111])
+342.2770 	EXP 	Target_img2: image = 'Images/squid.jpg'
+342.2770 	EXP 	Trigger_txt2: text = 'naridu'
+342.2770 	EXP 	Resp_a: text = 'narid'
+342.2770 	EXP 	Resp_b: text = 'narit'
+342.2770 	EXP 	Trigger_img2: autoDraw = True
+342.2770 	EXP 	Trigger_txt2: autoDraw = True
+346.2387 	EXP 	Trigger_img2: autoDraw = False
+346.2387 	EXP 	Trigger_txt2: autoDraw = False
+346.2550 	EXP 	Target_ins2: autoDraw = True
+346.2550 	EXP 	Target_img2: autoDraw = True
+346.2550 	EXP 	Target_instr_l: autoDraw = True
+346.2550 	EXP 	Target_instr_r: autoDraw = True
+346.2550 	EXP 	Resp_a: autoDraw = True
+346.2550 	EXP 	Resp_b: autoDraw = True
+347.3208 	DATA 	Keypress: a
+347.3216 	EXP 	window1: recordFrameIntervals = False
+347.3378 	EXP 	Target_ins2: autoDraw = False
+347.3378 	EXP 	Trigger_img2: autoDraw = False
+347.3378 	EXP 	Target_img2: autoDraw = False
+347.3378 	EXP 	Trigger_txt2: autoDraw = False
+347.3378 	EXP 	Target_instr_l: autoDraw = False
+347.3378 	EXP 	Target_instr_r: autoDraw = False
+347.3378 	EXP 	Resp_a: autoDraw = False
+347.3378 	EXP 	Resp_b: autoDraw = False
+347.3379 	EXP 	window1: recordFrameIntervals = False
+348.0558 	EXP 	New trial (rep=0, index=7): OrderedDict([('trig', 'manigu'), ('targ', None), ('type', 'alt'), ('trig_img', 'Images/hoover_pl.jpg'), ('targ_img', 'Images/hoover.jpg'), ('final_c', 'g'), ('new', 'new'), ('num', 'sg'), ('instr', 'Choose the singular form of the word that belongs to the language'), ('a', 'manig'), ('k', 'manik'), ('corr', 'k'), ('lang', 'devoicing'), ('phase', 'FC')])
+348.1120 	EXP 	Target_ins2: text = 'Choose the singular form of the word that belongs to the language'
+348.1120 	EXP 	Trigger_img2: size = array([0.5       , 0.66851852])
+348.1120 	EXP 	Trigger_img2: image = 'Images/hoover_pl.jpg'
+348.1120 	EXP 	Target_img2: size = array([0.3125    , 0.83703704])
+348.1120 	EXP 	Target_img2: image = 'Images/hoover.jpg'
+348.1120 	EXP 	Trigger_txt2: text = 'manigu'
+348.1120 	EXP 	Resp_a: text = 'manig'
+348.1120 	EXP 	Resp_b: text = 'manik'
+348.1120 	EXP 	Trigger_img2: autoDraw = True
+348.1120 	EXP 	Trigger_txt2: autoDraw = True
+352.0662 	EXP 	Trigger_img2: autoDraw = False
+352.0662 	EXP 	Trigger_txt2: autoDraw = False
+352.0824 	EXP 	Target_ins2: autoDraw = True
+352.0824 	EXP 	Target_img2: autoDraw = True
+352.0824 	EXP 	Target_instr_l: autoDraw = True
+352.0824 	EXP 	Target_instr_r: autoDraw = True
+352.0824 	EXP 	Resp_a: autoDraw = True
+352.0824 	EXP 	Resp_b: autoDraw = True
+352.9007 	DATA 	Keypress: a
+352.9154 	EXP 	window1: recordFrameIntervals = False
+352.9318 	EXP 	Target_ins2: autoDraw = False
+352.9318 	EXP 	Trigger_img2: autoDraw = False
+352.9318 	EXP 	Target_img2: autoDraw = False
+352.9318 	EXP 	Trigger_txt2: autoDraw = False
+352.9318 	EXP 	Target_instr_l: autoDraw = False
+352.9318 	EXP 	Target_instr_r: autoDraw = False
+352.9318 	EXP 	Resp_a: autoDraw = False
+352.9318 	EXP 	Resp_b: autoDraw = False
+352.9319 	EXP 	window1: recordFrameIntervals = False
+353.6502 	EXP 	New trial (rep=0, index=8): OrderedDict([('trig', 'rumap'), ('targ', None), ('type', 'alt'), ('trig_img', 'Images/soldier.jpg'), ('targ_img', 'Images/soldier_pl.jpg'), ('final_c', 'b'), ('new', 'given'), ('num', 'pl'), ('instr', 'Choose the plural form of the word that belongs to the language'), ('a', 'rumabu'), ('k', 'rumapu'), ('corr', 'a'), ('lang', 'devoicing'), ('phase', 'FC')])
+353.7088 	EXP 	Target_ins2: text = 'Choose the plural form of the word that belongs to the language'
+353.7088 	EXP 	Trigger_img2: size = array([0.26041667, 0.92592593])
+353.7088 	EXP 	Trigger_img2: image = 'Images/soldier.jpg'
+353.7088 	EXP 	Target_img2: size = array([0.46875   , 0.80740741])
+353.7088 	EXP 	Target_img2: image = 'Images/soldier_pl.jpg'
+353.7088 	EXP 	Trigger_txt2: text = 'rumap'
+353.7088 	EXP 	Resp_a: text = 'rumabu'
+353.7088 	EXP 	Resp_b: text = 'rumapu'
+353.7088 	EXP 	Trigger_img2: autoDraw = True
+353.7088 	EXP 	Trigger_txt2: autoDraw = True
+357.6601 	EXP 	Trigger_img2: autoDraw = False
+357.6601 	EXP 	Trigger_txt2: autoDraw = False
+357.6765 	EXP 	Target_ins2: autoDraw = True
+357.6765 	EXP 	Target_img2: autoDraw = True
+357.6765 	EXP 	Target_instr_l: autoDraw = True
+357.6765 	EXP 	Target_instr_r: autoDraw = True
+357.6765 	EXP 	Resp_a: autoDraw = True
+357.6765 	EXP 	Resp_b: autoDraw = True
+358.4257 	DATA 	Keypress: a
+358.4262 	EXP 	window1: recordFrameIntervals = False
+358.4426 	EXP 	Target_ins2: autoDraw = False
+358.4426 	EXP 	Trigger_img2: autoDraw = False
+358.4426 	EXP 	Target_img2: autoDraw = False
+358.4426 	EXP 	Trigger_txt2: autoDraw = False
+358.4426 	EXP 	Target_instr_l: autoDraw = False
+358.4426 	EXP 	Target_instr_r: autoDraw = False
+358.4426 	EXP 	Resp_a: autoDraw = False
+358.4426 	EXP 	Resp_b: autoDraw = False
+358.4428 	EXP 	window1: recordFrameIntervals = False
+359.1597 	EXP 	New trial (rep=0, index=9): OrderedDict([('trig', 'milut'), ('targ', None), ('type', 'alt'), ('trig_img', 'Images/banana_pl.jpg'), ('targ_img', 'Images/banana.jpg'), ('final_c', 'd'), ('new', 'given'), ('num', 'pl'), ('instr', 'Choose the plural form of the word that belongs to the language'), ('a', 'miludu'), ('k', 'milutu'), ('corr', 'a'), ('lang', 'devoicing'), ('phase', 'FC')])
+359.2046 	EXP 	Target_ins2: text = 'Choose the plural form of the word that belongs to the language'
+359.2046 	EXP 	Trigger_img2: size = array([0.5       , 0.91851852])
+359.2046 	EXP 	Trigger_img2: image = 'Images/banana_pl.jpg'
+359.2046 	EXP 	Target_img2: size = array([0.5      , 0.4462963])
+359.2046 	EXP 	Target_img2: image = 'Images/banana.jpg'
+359.2046 	EXP 	Trigger_txt2: text = 'milut'
+359.2046 	EXP 	Resp_a: text = 'miludu'
+359.2046 	EXP 	Resp_b: text = 'milutu'
+359.2046 	EXP 	Trigger_img2: autoDraw = True
+359.2046 	EXP 	Trigger_txt2: autoDraw = True
+363.1710 	EXP 	Trigger_img2: autoDraw = False
+363.1710 	EXP 	Trigger_txt2: autoDraw = False
+363.1872 	EXP 	Target_ins2: autoDraw = True
+363.1872 	EXP 	Target_img2: autoDraw = True
+363.1872 	EXP 	Target_instr_l: autoDraw = True
+363.1872 	EXP 	Target_instr_r: autoDraw = True
+363.1872 	EXP 	Resp_a: autoDraw = True
+363.1872 	EXP 	Resp_b: autoDraw = True
+363.9368 	DATA 	Keypress: a
+363.9373 	EXP 	window1: recordFrameIntervals = False
+363.9539 	EXP 	Target_ins2: autoDraw = False
+363.9539 	EXP 	Trigger_img2: autoDraw = False
+363.9539 	EXP 	Target_img2: autoDraw = False
+363.9539 	EXP 	Trigger_txt2: autoDraw = False
+363.9539 	EXP 	Target_instr_l: autoDraw = False
+363.9539 	EXP 	Target_instr_r: autoDraw = False
+363.9539 	EXP 	Resp_a: autoDraw = False
+363.9539 	EXP 	Resp_b: autoDraw = False
+363.9541 	EXP 	window1: recordFrameIntervals = False
+364.6754 	EXP 	text: autoDraw = True
+367.0503 	DATA 	Keypress: a
+367.8495 	DATA 	Keypress: q
+367.9236 	EXP 	window1: mouseVisible = True

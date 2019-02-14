@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.0.0),
-    on februar 14, 2019, at 09:45
+    on februar 14, 2019, at 10:38
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -430,7 +430,7 @@ for thisComponent in ISI_PreComponents:
 # set up handler to look after randomisation of conditions etc
 trials = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions("Lists/Order"+condition+".xlsx", selection='1:11'),
+    trialList=data.importConditions("Lists/Order"+condition+".xlsx", selection='np.random.choice(43, size = 20, replace = False)'),
     seed=None, name='trials')
 thisExp.addLoop(trials)  # add the loop to the experiment
 thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
@@ -729,7 +729,7 @@ for thisComponent in ISI_PreComponents:
 # set up handler to look after randomisation of conditions etc
 trials_2 = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions("Lists/Order"+condition+".xlsx", selection='45:51'),
+    trialList=data.importConditions("Lists/OrderProd"+condition+".xlsx", selection='np.random.choice(31, size = 10, replace = False)'),
     seed=None, name='trials_2')
 thisExp.addLoop(trials_2)  # add the loop to the experiment
 thisTrial_2 = trials_2.trialList[0]  # so we can initialise stimuli with some values
@@ -1097,7 +1097,7 @@ for thisComponent in ISI_PreComponents:
 # set up handler to look after randomisation of conditions etc
 trials_3 = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions("Lists/Order"+condition+".xlsx", selection='75:101'),
+    trialList=data.importConditions("Lists/OrderFC"+condition+".xlsx", selection='np.random.choice(30, size = 10, replace = False)'),
     seed=None, name='trials_3')
 thisExp.addLoop(trials_3)  # add the loop to the experiment
 thisTrial_3 = trials_3.trialList[0]  # so we can initialise stimuli with some values
