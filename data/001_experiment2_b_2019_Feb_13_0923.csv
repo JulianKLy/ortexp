@@ -1,0 +1,5 @@
+﻿lists,trig,targ,type,trig_img,targ_img,final_c,new,num,instr,a,k,corr,lang,phase,trials_4.thisRepN,trials_4.thisTrialN,trials_4.thisN,trials_4.thisIndex,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,key_resp_1.keys,key_resp_1.rt,key_resp_2.keys,key_resp_2.rt,gender,age,language,group,participant,date,expName,psychopyVersion,frameRate,
+Lists/devoicing.xlsx,rinak,rinagu,alt,Images/pen.jpg,Images/pen_pl.jpg,g,None,None,None,None,None,None,devoicing,exposure,0,0,0,0,0,0,0,2,space,0.9636088802576523,,,,,,voicing,001,2019_Feb_13_0923,experiment2_b,3.0.0,59.95815021917424,
+Lists/devoicing.xlsx,musabu,musap,alt,Images/apple_pl.jpg,Images/apple.jpg,b,given,sg,Write the singular form on your keyboard - then press enter,None,None,None,devoicing,prod,0,0,0,0,0,1,1,1,,,,,,,,voicing,001,2019_Feb_13_0923,experiment2_b,3.0.0,59.95815021917424,
+Lists/devoicing.xlsx,namak,namagu,alt,Images/anvil.jpg,Images/anvil_pl.jpg,g,None,None,None,None,None,None,devoicing,exposure,0,0,0,0,0,2,2,0,,,,,,,,voicing,001,2019_Feb_13_0923,experiment2_b,3.0.0,59.95815021917424,
+,,,,,,,,,,,,,,,,,,,,,,,,,space,3.823223811978096,,,,,,,,,,

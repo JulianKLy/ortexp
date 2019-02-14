@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.0.0),
-    on februar 12, 2019, at 15:23
+    on februar 14, 2019, at 09:45
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -29,10 +29,7 @@ os.chdir(_thisDir)
 # Store info about the experiment session
 psychopyVersion = '3.0.0'
 expName = 'experiment2_b'  # from the Builder filename that created this script
-expInfo = {'gender': '', 'age': '', 'language': '', 'group': 'voicing', 'participant': '001'}
-dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
-if dlg.OK == False:
-    core.quit()  # user pressed cancel
+expInfo = {'gender': '', 'age': '', 'participant': '001', 'language': ''}
 expInfo['date'] = data.getDateStr()  # add a simple timestamp
 expInfo['expName'] = expName
 expInfo['psychopyVersion'] = psychopyVersion
@@ -71,11 +68,13 @@ else:
 Instruction_IntroClock = core.Clock()
 lub = visual.ImageStim(
     win=win, name='lub',
-    image='Images/Instruction_Screen.png', mask=None,
+    image='sin', mask=None,
     ori=0, pos=(0, 0), size=(2, 2),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=-1.0)
+import random
+condition = random.choice(('A','B'))
 
 # Initialize components for Routine "ISI_Pre"
 ISI_PreClock = core.Clock()
@@ -127,7 +126,7 @@ ISI_2 = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI_2')
 Instruction_ProdClock = core.Clock()
 image_3 = visual.ImageStim(
     win=win, name='image_3',
-    image='Images/Instruction_Screen_Prod.png', mask=None,
+    image='sin', mask=None,
     ori=0, pos=(0, 0), size=(2, 2),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -191,7 +190,7 @@ ISI_2 = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI_2')
 Instruction_FCClock = core.Clock()
 image_6 = visual.ImageStim(
     win=win, name='image_6',
-    image='Images/Instruction_Screen_FC.png', mask=None,
+    image='sin', mask=None,
     ori=0, pos=(0, 0), size=(2, 2),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -292,6 +291,8 @@ frameN = -1
 continueRoutine = True
 # update component parameters for each repeat
 key_resp_1 = event.BuilderKeyResponse()
+lub.setImage("Images/intro"+condition+".png")
+
 # keep track of which components have finished
 Instruction_IntroComponents = [key_resp_1, lub]
 for thisComponent in Instruction_IntroComponents:
@@ -333,6 +334,7 @@ while continueRoutine:
         lub.frameNStart = frameN  # exact frame index
         lub.setAutoDraw(True)
     
+    
     # check if all components have finished
     if not continueRoutine:  # a component has requested a forced-end of Routine
         break
@@ -361,6 +363,7 @@ thisExp.addData('key_resp_1.keys',key_resp_1.keys)
 if key_resp_1.keys != None:  # we had a response
     thisExp.addData('key_resp_1.rt', key_resp_1.rt)
 thisExp.nextEntry()
+
 # the Routine "Instruction_Intro" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
@@ -427,7 +430,7 @@ for thisComponent in ISI_PreComponents:
 # set up handler to look after randomisation of conditions etc
 trials = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions(group + '.xlsx', selection='0:3'),
+    trialList=data.importConditions("Lists/Order"+condition+".xlsx", selection='1:11'),
     seed=None, name='trials')
 thisExp.addLoop(trials)  # add the loop to the experiment
 thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
@@ -589,6 +592,7 @@ Instruction_ProdClock.reset()  # clock
 frameN = -1
 continueRoutine = True
 # update component parameters for each repeat
+image_3.setImage("Images/instrProd"+condition+".png")
 key_resp_2 = event.BuilderKeyResponse()
 # keep track of which components have finished
 Instruction_ProdComponents = [image_3, key_resp_2]
@@ -725,7 +729,7 @@ for thisComponent in ISI_PreComponents:
 # set up handler to look after randomisation of conditions etc
 trials_2 = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions(group + '.xlsx', selection='45:47'),
+    trialList=data.importConditions("Lists/Order"+condition+".xlsx", selection='45:51'),
     seed=None, name='trials_2')
 thisExp.addLoop(trials_2)  # add the loop to the experiment
 thisTrial_2 = trials_2.trialList[0]  # so we can initialise stimuli with some values
@@ -956,6 +960,7 @@ Instruction_FCClock.reset()  # clock
 frameN = -1
 continueRoutine = True
 # update component parameters for each repeat
+image_6.setImage("Images/instrFC"+condition+".png")
 key_resp_4 = event.BuilderKeyResponse()
 # keep track of which components have finished
 Instruction_FCComponents = [image_6, key_resp_4]
@@ -1092,7 +1097,7 @@ for thisComponent in ISI_PreComponents:
 # set up handler to look after randomisation of conditions etc
 trials_3 = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions(group + '.xlsx', selection='75:77'),
+    trialList=data.importConditions("Lists/Order"+condition+".xlsx", selection='75:101'),
     seed=None, name='trials_3')
 thisExp.addLoop(trials_3)  # add the loop to the experiment
 thisTrial_3 = trials_3.trialList[0]  # so we can initialise stimuli with some values
@@ -1368,6 +1373,7 @@ for thisComponent in Thank_youComponents:
         thisComponent.setAutoDraw(False)
 # the Routine "Thank_you" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
+
 
 # these shouldn't be strictly necessary (should auto-save)
 thisExp.saveAsWideText(filename+'.csv')

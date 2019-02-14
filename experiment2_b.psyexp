@@ -4,7 +4,7 @@
     <Param name="Completed URL" updates="None" val="" valType="str"/>
     <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
     <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
-    <Param name="Experiment info" updates="None" val="{'gender': '', 'age': '', 'language': '', 'group': 'voicing', 'participant': '001'}" valType="code"/>
+    <Param name="Experiment info" updates="None" val="{'gender': '', 'age': '', 'participant': '001', 'language': ''}" valType="code"/>
     <Param name="Force stereo" updates="None" val="True" valType="bool"/>
     <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
     <Param name="HTML path" updates="None" val="html" valType="str"/>
@@ -17,7 +17,7 @@
     <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
     <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
     <Param name="Screen" updates="None" val="1" valType="num"/>
-    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show info dlg" updates="None" val="False" valType="bool"/>
     <Param name="Show mouse" updates="None" val="False" valType="bool"/>
     <Param name="Units" updates="None" val="use prefs" valType="str"/>
     <Param name="Use version" updates="None" val="" valType="str"/>
@@ -53,7 +53,7 @@
         <Param name="durationEstim" updates="None" val="" valType="code"/>
         <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
         <Param name="flipVert" updates="constant" val="False" valType="bool"/>
-        <Param name="image" updates="constant" val="Images/Instruction_Screen.png" valType="str"/>
+        <Param name="image" updates="set every repeat" val="$&quot;Images/intro&quot;+condition+&quot;.png&quot;" valType="str"/>
         <Param name="interpolate" updates="constant" val="linear" valType="str"/>
         <Param name="mask" updates="constant" val="None" valType="str"/>
         <Param name="name" updates="None" val="lub" valType="code"/>
@@ -69,6 +69,20 @@
         <Param name="texture resolution" updates="constant" val="128" valType="code"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
       </ImageComponent>
+      <CodeComponent name="code">
+        <Param name="Begin Experiment" updates="constant" val="import random&amp;#10;condition = random.choice(('A','B'))" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="function random_character() {&amp;#10;    var chars = &quot;AB&quot;;&amp;#10;    return chars.substr( Math.floor(Math.random() * 2), 1);&amp;#10;}&amp;#10;&amp;#10;condition = random_character();" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Both" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+      </CodeComponent>
     </Routine>
     <Routine name="Exposure">
       <ImageComponent name="Sing_img">
@@ -165,7 +179,7 @@
         <Param name="durationEstim" updates="None" val="" valType="code"/>
         <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
         <Param name="flipVert" updates="constant" val="False" valType="bool"/>
-        <Param name="image" updates="constant" val="Images/Instruction_Screen_Prod.png" valType="str"/>
+        <Param name="image" updates="set every repeat" val="$&quot;Images/instrProd&quot;+condition+&quot;.png&quot;" valType="str"/>
         <Param name="interpolate" updates="constant" val="linear" valType="str"/>
         <Param name="mask" updates="constant" val="None" valType="str"/>
         <Param name="name" updates="None" val="image_3" valType="code"/>
@@ -356,7 +370,7 @@
         <Param name="durationEstim" updates="None" val="" valType="code"/>
         <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
         <Param name="flipVert" updates="constant" val="False" valType="bool"/>
-        <Param name="image" updates="constant" val="Images/Instruction_Screen_FC.png" valType="str"/>
+        <Param name="image" updates="set every repeat" val="$&quot;Images/instrFC&quot;+condition+&quot;.png&quot;" valType="str"/>
         <Param name="interpolate" updates="constant" val="linear" valType="str"/>
         <Param name="mask" updates="constant" val="None" valType="str"/>
         <Param name="name" updates="None" val="image_6" valType="code"/>
@@ -703,9 +717,9 @@
     <Routine name="Instruction_Intro"/>
     <Routine name="ISI_Pre"/>
     <LoopInitiator loopType="TrialHandler" name="trials">
-      <Param name="Selected rows" updates="None" val="0:3" valType="str"/>
+      <Param name="Selected rows" updates="None" val="1:11" valType="str"/>
       <Param name="conditions" updates="None" val="None" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="$group + '.xlsx'" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="$&quot;Lists/Order&quot;+condition+&quot;.xlsx&quot;" valType="str"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
@@ -719,9 +733,9 @@
     <Routine name="Instruction_Prod"/>
     <Routine name="ISI_Pre"/>
     <LoopInitiator loopType="TrialHandler" name="trials_2">
-      <Param name="Selected rows" updates="None" val="45:47" valType="str"/>
+      <Param name="Selected rows" updates="None" val="45:51" valType="str"/>
       <Param name="conditions" updates="None" val="None" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="$group + '.xlsx'" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="$&quot;Lists/Order&quot;+condition+&quot;.xlsx&quot;" valType="str"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
@@ -735,9 +749,9 @@
     <Routine name="Instruction_FC"/>
     <Routine name="ISI_Pre"/>
     <LoopInitiator loopType="TrialHandler" name="trials_3">
-      <Param name="Selected rows" updates="None" val="75:77" valType="str"/>
+      <Param name="Selected rows" updates="None" val="75:101" valType="str"/>
       <Param name="conditions" updates="None" val="None" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="$group + '.xlsx'" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="$&quot;Lists/Order&quot;+condition+&quot;.xlsx&quot;" valType="str"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>

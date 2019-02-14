@@ -1,0 +1,6 @@
+10.5415 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([1., 1., 1.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0E39B2B0>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0F500E10>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.5415 	EXP 	window1: recordFrameIntervals = False
+10.7012 	EXP 	window1: recordFrameIntervals = True
+10.8844 	EXP 	window1: recordFrameIntervals = False
+10.8918 	ERROR 	Couldn't find image Images/Instruction_Screen.png; check path? (tried: C:\Users\julianrl_adm\Experiment_Orthography\Images\Instruction_Screen.png)
+10.9547 	EXP 	window1: mouseVisible = True

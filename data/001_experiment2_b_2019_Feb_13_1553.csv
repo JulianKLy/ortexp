@@ -1,0 +1,4 @@
+﻿trig,targ,type,trig_img,targ_img,final_c,new,num,instr,a,k,corr,lang,phase,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,key_resp_1.keys,key_resp_1.rt,gender,age,language,group,participant,date,expName,psychopyVersion,frameRate,
+,,,,,,,,,,,,,,,,,,space,1.4287899292467046,,,,A,001,2019_Feb_13_1553,experiment2_b,3.0.0,60.358199577469016,
+larub,larupu,alt,Images/rock.jpg,Images/rock_pl.jpg,b,None,None,None,None,None,None,voicing,exposure,0,0,0,0,,,,,,A,001,2019_Feb_13_1553,experiment2_b,3.0.0,60.358199577469016,
+minub,minupu,alt,Images/raindrop.jpg,Images/raindrop_pl.jpg,b,None,None,None,None,None,None,voicing,exposure,0,1,1,6,,,,,,A,001,2019_Feb_13_1553,experiment2_b,3.0.0,60.358199577469016,

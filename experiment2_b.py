@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.0.0),
-    on januar 25, 2019, at 11:08
+    on februar 13, 2019, at 13:18
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -29,7 +29,7 @@ os.chdir(_thisDir)
 # Store info about the experiment session
 psychopyVersion = '3.0.0'
 expName = 'experiment2_b'  # from the Builder filename that created this script
-expInfo = {'participant': '', 'session': '001'}
+expInfo = {'gender': '', 'age': '', 'language': '', 'group': 'voicing', 'participant': '001'}
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False:
     core.quit()  # user pressed cancel
@@ -77,43 +77,47 @@ lub = visual.ImageStim(
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=-1.0)
 
+# Initialize components for Routine "ISI_Pre"
+ISI_PreClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+fixation = visual.ShapeStim(
+    win=win, name='fixation', vertices='cross',units='deg', 
+    size=(0.5, 0.5),
+    ori=0, pos=(0, 0),
+    lineWidth=1, lineColor=[1,1,1], lineColorSpace='rgb',
+    fillColor=[-1.000,-1.000,-1.000], fillColorSpace='rgb',
+    opacity=1, depth=-1.0, interpolate=True)
+
 # Initialize components for Routine "Exposure"
 ExposureClock = core.Clock()
-Instr = visual.TextStim(win=win, name='Instr',
-    text='Say the words you see out loud',
-    font='Arial',
-    pos=(0, 0.8), height=0.08, wrapWidth=None, ori=0, 
-    color=[-1.000,-1.000,-1.000], colorSpace='rgb', opacity=0.95, 
-    languageStyle='LTR',
-    depth=0.0);
 Sing_img = visual.ImageStim(
     win=win, name='Sing_img',
     image='sin', mask=None,
-    ori=0, pos=(0, 0), size=None,
+    ori=0, pos=(0, 0.2), size=None,
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=-1.0)
+    texRes=128, interpolate=True, depth=0.0)
 Pl_img = visual.ImageStim(
     win=win, name='Pl_img',
     image='sin', mask=None,
-    ori=0, pos=(0, 0), size=None,
+    ori=0, pos=(0, 0.2), size=None,
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=-2.0)
+    texRes=128, interpolate=True, depth=-1.0)
 Sing_txt = visual.TextStim(win=win, name='Sing_txt',
     text='default text',
     font='Arial',
-    pos=(0, -0.5), height=0.3, wrapWidth=None, ori=0, 
+    pos=(0, -0.6), height=0.3, wrapWidth=None, ori=0, 
     color=[1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
-    depth=-3.0);
+    depth=-2.0);
 Pl_txt = visual.TextStim(win=win, name='Pl_txt',
     text='default text',
     font='Arial',
-    pos=(0, -0.5), height=0.3, wrapWidth=None, ori=0, 
+    pos=(0, -0.6), height=0.3, wrapWidth=None, ori=0, 
     color=[1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
-    depth=-4.0);
+    depth=-3.0);
 
 # Initialize components for Routine "ISI_1sec"
 ISI_1secClock = core.Clock()
@@ -129,51 +133,55 @@ image_3 = visual.ImageStim(
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
 
+# Initialize components for Routine "ISI_Pre"
+ISI_PreClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+fixation = visual.ShapeStim(
+    win=win, name='fixation', vertices='cross',units='deg', 
+    size=(0.5, 0.5),
+    ori=0, pos=(0, 0),
+    lineWidth=1, lineColor=[1,1,1], lineColorSpace='rgb',
+    fillColor=[-1.000,-1.000,-1.000], fillColorSpace='rgb',
+    opacity=1, depth=-1.0, interpolate=True)
+
 # Initialize components for Routine "Test_Prod"
 Test_ProdClock = core.Clock()
-Trigger_ins1 = visual.TextStim(win=win, name='Trigger_ins1',
-    text='Read the word out loud',
+Target_ins1 = visual.TextStim(win=win, name='Target_ins1',
+    text='default text',
     font='Arial',
-    pos=(0, 0.8), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0.85), height=0.1, wrapWidth=None, ori=0, 
     color=[-1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
-Target_ins1 = visual.TextStim(win=win, name='Target_ins1',
-    text='Write down the singular form - then press ENTER',
-    font='Arial',
-    pos=(0, 0.8), height=0.1, wrapWidth=None, ori=0, 
-    color=[-1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 Trigger_img1 = visual.ImageStim(
     win=win, name='Trigger_img1',
     image='sin', mask=None,
-    ori=0, pos=(0, 0), size=None,
+    ori=0, pos=(0, 0.2), size=None,
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=-2.0)
+    texRes=128, interpolate=True, depth=-1.0)
 Target_img1 = visual.ImageStim(
     win=win, name='Target_img1',
     image='sin', mask=None,
-    ori=0, pos=(0, 0), size=None,
+    ori=0, pos=(0, 0.2), size=None,
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=-3.0)
+    texRes=128, interpolate=True, depth=-2.0)
 Trigger_txt1 = visual.TextStim(win=win, name='Trigger_txt1',
     text='default text',
     font='Arial',
-    pos=(0, -0.5), height=0.3, wrapWidth=None, ori=0, 
+    pos=(0, -0.6), height=0.3, wrapWidth=None, ori=0, 
     color=[1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
-    depth=-4.0);
+    depth=-3.0);
 inputText = ""
 txtinp = visual.TextStim(win=win, name='txtinp',
     text='default text',
     font='Arial',
-    pos=(0, -0.5), height=0.3, wrapWidth=None, ori=0, 
+    pos=(0, -0.6), height=0.3, wrapWidth=None, ori=0, 
     color=[1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
-    depth=-6.0);
+    depth=-5.0);
 
 # Initialize components for Routine "ISI_1sec"
 ISI_1secClock = core.Clock()
@@ -189,75 +197,89 @@ image_6 = visual.ImageStim(
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=0.0)
 
+# Initialize components for Routine "ISI_Pre"
+ISI_PreClock = core.Clock()
+ISI = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
+fixation = visual.ShapeStim(
+    win=win, name='fixation', vertices='cross',units='deg', 
+    size=(0.5, 0.5),
+    ori=0, pos=(0, 0),
+    lineWidth=1, lineColor=[1,1,1], lineColorSpace='rgb',
+    fillColor=[-1.000,-1.000,-1.000], fillColorSpace='rgb',
+    opacity=1, depth=-1.0, interpolate=True)
+
 # Initialize components for Routine "Test_FC"
 Test_FCClock = core.Clock()
-Trigger_ins2 = visual.TextStim(win=win, name='Trigger_ins2',
-    text='Repeat the word you see',
+Target_ins2 = visual.TextStim(win=win, name='Target_ins2',
+    text='default text',
     font='Arial',
-    pos=(0, 0.8), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0.85), height=0.1, wrapWidth=None, ori=0, 
     color=[-1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
-Target_ins2 = visual.TextStim(win=win, name='Target_ins2',
-    text='Choose the form of the singular you believe is found in the language',
-    font='Arial',
-    pos=(0, 0.8), height=0.1, wrapWidth=None, ori=0, 
-    color=[-1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
-    languageStyle='LTR',
-    depth=-1.0);
 Trigger_img2 = visual.ImageStim(
     win=win, name='Trigger_img2',
     image='sin', mask=None,
-    ori=0, pos=(0, 0), size=None,
+    ori=0, pos=(0, 0.2), size=None,
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=-2.0)
+    texRes=128, interpolate=True, depth=-1.0)
 Target_img2 = visual.ImageStim(
     win=win, name='Target_img2',
     image='sin', mask=None,
-    ori=0, pos=(0, 0), size=None,
+    ori=0, pos=(0, 0.2), size=None,
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
-    texRes=128, interpolate=True, depth=-3.0)
+    texRes=128, interpolate=True, depth=-2.0)
 Trigger_txt2 = visual.TextStim(win=win, name='Trigger_txt2',
     text='default text',
     font='Arial',
-    pos=(0, -0.5), height=0.3, wrapWidth=None, ori=0, 
+    pos=(0, -0.6), height=0.3, wrapWidth=None, ori=0, 
     color=[1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
-    depth=-4.0);
+    depth=-3.0);
 Target_instr_l = visual.TextStim(win=win, name='Target_instr_l',
     text='Press a\n\n',
     font='Arial',
-    pos=(-0.5, -0.8), height=0.08, wrapWidth=None, ori=0, 
+    pos=(-0.5, -0.9), height=0.08, wrapWidth=None, ori=0, 
     color=[-1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
-    depth=-5.0);
+    depth=-4.0);
 Target_instr_r = visual.TextStim(win=win, name='Target_instr_r',
     text='Press k',
     font='Arial',
-    pos=(0.5, -0.7), height=0.08, wrapWidth=None, ori=0, 
+    pos=(0.5, -0.8), height=0.08, wrapWidth=None, ori=0, 
     color=[-1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
-    depth=-6.0);
+    depth=-5.0);
 Resp_a = visual.TextStim(win=win, name='Resp_a',
     text='default text',
     font='Arial',
-    pos=(-0.5, -0.5), height=0.3, wrapWidth=None, ori=0, 
+    pos=(-0.5, -0.6), height=0.3, wrapWidth=None, ori=0, 
     color=[1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
-    depth=-8.0);
+    depth=-7.0);
 Resp_b = visual.TextStim(win=win, name='Resp_b',
     text='default text',
     font='Arial',
-    pos=(0.5, -0.5), height=0.3, wrapWidth=None, ori=0, 
+    pos=(0.5, -0.6), height=0.3, wrapWidth=None, ori=0, 
     color=[1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
-    depth=-9.0);
+    depth=-8.0);
 
 # Initialize components for Routine "ISI_1sec"
 ISI_1secClock = core.Clock()
 ISI_2 = clock.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI_2')
+
+# Initialize components for Routine "Thank_you"
+Thank_youClock = core.Clock()
+text = visual.TextStim(win=win, name='text',
+    text='Thank you very much for participating!',
+    font='Arial',
+    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    color=[-1.000,-1.000,-1.000], colorSpace='rgb', opacity=1, 
+    languageStyle='LTR',
+    depth=0.0);
 
 # Create some handy timers
 globalClock = core.Clock()  # to track the time since experiment started
@@ -342,10 +364,70 @@ thisExp.nextEntry()
 # the Routine "Instruction_Intro" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
+# ------Prepare to start Routine "ISI_Pre"-------
+t = 0
+ISI_PreClock.reset()  # clock
+frameN = -1
+continueRoutine = True
+routineTimer.add(1.000000)
+# update component parameters for each repeat
+# keep track of which components have finished
+ISI_PreComponents = [ISI, fixation]
+for thisComponent in ISI_PreComponents:
+    if hasattr(thisComponent, 'status'):
+        thisComponent.status = NOT_STARTED
+
+# -------Start Routine "ISI_Pre"-------
+while continueRoutine and routineTimer.getTime() > 0:
+    # get current time
+    t = ISI_PreClock.getTime()
+    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+    # update/draw components on each frame
+    
+    # *fixation* updates
+    if t >= 0.0 and fixation.status == NOT_STARTED:
+        # keep track of start time/frame for later
+        fixation.tStart = t
+        fixation.frameNStart = frameN  # exact frame index
+        fixation.setAutoDraw(True)
+    frameRemains = 0.0 + 1.0- win.monitorFramePeriod * 0.75  # most of one frame period left
+    if fixation.status == STARTED and t >= frameRemains:
+        fixation.setAutoDraw(False)
+    # *ISI* period
+    if t >= 0.0 and ISI.status == NOT_STARTED:
+        # keep track of start time/frame for later
+        ISI.tStart = t
+        ISI.frameNStart = frameN  # exact frame index
+        ISI.start(1)
+    elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+        ISI.complete()  # finish the static period
+    
+    # check if all components have finished
+    if not continueRoutine:  # a component has requested a forced-end of Routine
+        break
+    continueRoutine = False  # will revert to True if at least one component still running
+    for thisComponent in ISI_PreComponents:
+        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+            continueRoutine = True
+            break  # at least one component has not yet finished
+    
+    # check for quit (the Esc key)
+    if endExpNow or event.getKeys(keyList=["escape"]):
+        core.quit()
+    
+    # refresh the screen
+    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+        win.flip()
+
+# -------Ending Routine "ISI_Pre"-------
+for thisComponent in ISI_PreComponents:
+    if hasattr(thisComponent, "setAutoDraw"):
+        thisComponent.setAutoDraw(False)
+
 # set up handler to look after randomisation of conditions etc
 trials = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('Lists/Experiment_Word_list_voicing.xlsx', selection='0:1'),
+    trialList=data.importConditions("Lists/"+expInfo['group']+".xlsx", selection='0:3'),
     seed=None, name='trials')
 thisExp.addLoop(trials)  # add the loop to the experiment
 thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
@@ -368,12 +450,12 @@ for thisTrial in trials:
     continueRoutine = True
     routineTimer.add(6.000000)
     # update component parameters for each repeat
-    Sing_img.setImage(Picture)
-    Pl_img.setImage(Picture_pl)
-    Sing_txt.setText(Singular)
-    Pl_txt.setText(Plural)
+    Sing_img.setImage(trig_img)
+    Pl_img.setImage(targ_img)
+    Sing_txt.setText(trig)
+    Pl_txt.setText(targ)
     # keep track of which components have finished
-    ExposureComponents = [Instr, Sing_img, Pl_img, Sing_txt, Pl_txt]
+    ExposureComponents = [Sing_img, Pl_img, Sing_txt, Pl_txt]
     for thisComponent in ExposureComponents:
         if hasattr(thisComponent, 'status'):
             thisComponent.status = NOT_STARTED
@@ -384,16 +466,6 @@ for thisTrial in trials:
         t = ExposureClock.getTime()
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
-        
-        # *Instr* updates
-        if t >= 0 and Instr.status == NOT_STARTED:
-            # keep track of start time/frame for later
-            Instr.tStart = t
-            Instr.frameNStart = frameN  # exact frame index
-            Instr.setAutoDraw(True)
-        frameRemains = 0 + 6- win.monitorFramePeriod * 0.75  # most of one frame period left
-        if Instr.status == STARTED and t >= frameRemains:
-            Instr.setAutoDraw(False)
         
         # *Sing_img* updates
         if t >= 0.0 and Sing_img.status == NOT_STARTED:
@@ -590,10 +662,70 @@ thisExp.nextEntry()
 # the Routine "Instruction_Prod" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
+# ------Prepare to start Routine "ISI_Pre"-------
+t = 0
+ISI_PreClock.reset()  # clock
+frameN = -1
+continueRoutine = True
+routineTimer.add(1.000000)
+# update component parameters for each repeat
+# keep track of which components have finished
+ISI_PreComponents = [ISI, fixation]
+for thisComponent in ISI_PreComponents:
+    if hasattr(thisComponent, 'status'):
+        thisComponent.status = NOT_STARTED
+
+# -------Start Routine "ISI_Pre"-------
+while continueRoutine and routineTimer.getTime() > 0:
+    # get current time
+    t = ISI_PreClock.getTime()
+    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+    # update/draw components on each frame
+    
+    # *fixation* updates
+    if t >= 0.0 and fixation.status == NOT_STARTED:
+        # keep track of start time/frame for later
+        fixation.tStart = t
+        fixation.frameNStart = frameN  # exact frame index
+        fixation.setAutoDraw(True)
+    frameRemains = 0.0 + 1.0- win.monitorFramePeriod * 0.75  # most of one frame period left
+    if fixation.status == STARTED and t >= frameRemains:
+        fixation.setAutoDraw(False)
+    # *ISI* period
+    if t >= 0.0 and ISI.status == NOT_STARTED:
+        # keep track of start time/frame for later
+        ISI.tStart = t
+        ISI.frameNStart = frameN  # exact frame index
+        ISI.start(1)
+    elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+        ISI.complete()  # finish the static period
+    
+    # check if all components have finished
+    if not continueRoutine:  # a component has requested a forced-end of Routine
+        break
+    continueRoutine = False  # will revert to True if at least one component still running
+    for thisComponent in ISI_PreComponents:
+        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+            continueRoutine = True
+            break  # at least one component has not yet finished
+    
+    # check for quit (the Esc key)
+    if endExpNow or event.getKeys(keyList=["escape"]):
+        core.quit()
+    
+    # refresh the screen
+    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+        win.flip()
+
+# -------Ending Routine "ISI_Pre"-------
+for thisComponent in ISI_PreComponents:
+    if hasattr(thisComponent, "setAutoDraw"):
+        thisComponent.setAutoDraw(False)
+
 # set up handler to look after randomisation of conditions etc
 trials_2 = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('Lists\\Prod_voicing.xlsx', selection='0:1'),
+    trialList=data.importConditions("Lists/"+expInfo['group']+".xlsx", selection='46:49'),
     seed=None, name='trials_2')
 thisExp.addLoop(trials_2)  # add the loop to the experiment
 thisTrial_2 = trials_2.trialList[0]  # so we can initialise stimuli with some values
@@ -615,15 +747,16 @@ for thisTrial_2 in trials_2:
     frameN = -1
     continueRoutine = True
     # update component parameters for each repeat
-    Trigger_img1.setImage(Trigger_img)
-    Target_img1.setImage(Target_img)
-    Trigger_txt1.setText(Trigger_txt)
+    Target_ins1.setText(instr)
+    Trigger_img1.setImage(trig_img)
+    Target_img1.setImage(targ_img)
+    Trigger_txt1.setText(trig)
     theseKeys=""
     shift_flag = False
     txtinp.alignHoriz ='center'
     text_resp = event.BuilderKeyResponse()
     # keep track of which components have finished
-    Test_ProdComponents = [Trigger_ins1, Target_ins1, Trigger_img1, Target_img1, Trigger_txt1, txtinp, text_resp]
+    Test_ProdComponents = [Target_ins1, Trigger_img1, Target_img1, Trigger_txt1, txtinp, text_resp]
     for thisComponent in Test_ProdComponents:
         if hasattr(thisComponent, 'status'):
             thisComponent.status = NOT_STARTED
@@ -634,16 +767,6 @@ for thisTrial_2 in trials_2:
         t = Test_ProdClock.getTime()
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
-        
-        # *Trigger_ins1* updates
-        if t >= 0.0 and Trigger_ins1.status == NOT_STARTED:
-            # keep track of start time/frame for later
-            Trigger_ins1.tStart = t
-            Trigger_ins1.frameNStart = frameN  # exact frame index
-            Trigger_ins1.setAutoDraw(True)
-        frameRemains = 0.0 + 5- win.monitorFramePeriod * 0.75  # most of one frame period left
-        if Trigger_ins1.status == STARTED and t >= frameRemains:
-            Trigger_ins1.setAutoDraw(False)
         
         # *Target_ins1* updates
         if t >= 5 and Target_ins1.status == NOT_STARTED:
@@ -906,10 +1029,70 @@ thisExp.nextEntry()
 # the Routine "Instruction_FC" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
+# ------Prepare to start Routine "ISI_Pre"-------
+t = 0
+ISI_PreClock.reset()  # clock
+frameN = -1
+continueRoutine = True
+routineTimer.add(1.000000)
+# update component parameters for each repeat
+# keep track of which components have finished
+ISI_PreComponents = [ISI, fixation]
+for thisComponent in ISI_PreComponents:
+    if hasattr(thisComponent, 'status'):
+        thisComponent.status = NOT_STARTED
+
+# -------Start Routine "ISI_Pre"-------
+while continueRoutine and routineTimer.getTime() > 0:
+    # get current time
+    t = ISI_PreClock.getTime()
+    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+    # update/draw components on each frame
+    
+    # *fixation* updates
+    if t >= 0.0 and fixation.status == NOT_STARTED:
+        # keep track of start time/frame for later
+        fixation.tStart = t
+        fixation.frameNStart = frameN  # exact frame index
+        fixation.setAutoDraw(True)
+    frameRemains = 0.0 + 1.0- win.monitorFramePeriod * 0.75  # most of one frame period left
+    if fixation.status == STARTED and t >= frameRemains:
+        fixation.setAutoDraw(False)
+    # *ISI* period
+    if t >= 0.0 and ISI.status == NOT_STARTED:
+        # keep track of start time/frame for later
+        ISI.tStart = t
+        ISI.frameNStart = frameN  # exact frame index
+        ISI.start(1)
+    elif ISI.status == STARTED:  # one frame should pass before updating params and completing
+        ISI.complete()  # finish the static period
+    
+    # check if all components have finished
+    if not continueRoutine:  # a component has requested a forced-end of Routine
+        break
+    continueRoutine = False  # will revert to True if at least one component still running
+    for thisComponent in ISI_PreComponents:
+        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+            continueRoutine = True
+            break  # at least one component has not yet finished
+    
+    # check for quit (the Esc key)
+    if endExpNow or event.getKeys(keyList=["escape"]):
+        core.quit()
+    
+    # refresh the screen
+    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+        win.flip()
+
+# -------Ending Routine "ISI_Pre"-------
+for thisComponent in ISI_PreComponents:
+    if hasattr(thisComponent, "setAutoDraw"):
+        thisComponent.setAutoDraw(False)
+
 # set up handler to look after randomisation of conditions etc
 trials_3 = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('Lists\\FC_voicing.xlsx', selection='0:4'),
+    trialList=data.importConditions("Lists/"+expInfo['group']+".xlsx", selection='78:81'),
     seed=None, name='trials_3')
 thisExp.addLoop(trials_3)  # add the loop to the experiment
 thisTrial_3 = trials_3.trialList[0]  # so we can initialise stimuli with some values
@@ -931,14 +1114,15 @@ for thisTrial_3 in trials_3:
     frameN = -1
     continueRoutine = True
     # update component parameters for each repeat
-    Trigger_img2.setImage(Trigger_img)
-    Target_img2.setImage(Target_img)
-    Trigger_txt2.setText(Trigger_txt)
+    Target_ins2.setText(instr)
+    Trigger_img2.setImage(trig_img)
+    Target_img2.setImage(targ_img)
+    Trigger_txt2.setText(trig)
     FC_resp = event.BuilderKeyResponse()
-    Resp_a.setText(Corr)
-    Resp_b.setText(Incorr)
+    Resp_a.setText(a)
+    Resp_b.setText(k)
     # keep track of which components have finished
-    Test_FCComponents = [Trigger_ins2, Target_ins2, Trigger_img2, Target_img2, Trigger_txt2, Target_instr_l, Target_instr_r, FC_resp, Resp_a, Resp_b]
+    Test_FCComponents = [Target_ins2, Trigger_img2, Target_img2, Trigger_txt2, Target_instr_l, Target_instr_r, FC_resp, Resp_a, Resp_b]
     for thisComponent in Test_FCComponents:
         if hasattr(thisComponent, 'status'):
             thisComponent.status = NOT_STARTED
@@ -949,16 +1133,6 @@ for thisTrial_3 in trials_3:
         t = Test_FCClock.getTime()
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
-        
-        # *Trigger_ins2* updates
-        if t >= 0.0 and Trigger_ins2.status == NOT_STARTED:
-            # keep track of start time/frame for later
-            Trigger_ins2.tStart = t
-            Trigger_ins2.frameNStart = frameN  # exact frame index
-            Trigger_ins2.setAutoDraw(True)
-        frameRemains = 0.0 + 4- win.monitorFramePeriod * 0.75  # most of one frame period left
-        if Trigger_ins2.status == STARTED and t >= frameRemains:
-            Trigger_ins2.setAutoDraw(False)
         
         # *Target_ins2* updates
         if t >= 4 and Target_ins2.status == NOT_STARTED:
@@ -1126,6 +1300,74 @@ for thisTrial_3 in trials_3:
     
 # completed 1 repeats of 'trials_3'
 
+
+# ------Prepare to start Routine "Thank_you"-------
+t = 0
+Thank_youClock.reset()  # clock
+frameN = -1
+continueRoutine = True
+# update component parameters for each repeat
+key_resp_3 = event.BuilderKeyResponse()
+# keep track of which components have finished
+Thank_youComponents = [text, key_resp_3]
+for thisComponent in Thank_youComponents:
+    if hasattr(thisComponent, 'status'):
+        thisComponent.status = NOT_STARTED
+
+# -------Start Routine "Thank_you"-------
+while continueRoutine:
+    # get current time
+    t = Thank_youClock.getTime()
+    frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+    # update/draw components on each frame
+    
+    # *text* updates
+    if t >= 0.0 and text.status == NOT_STARTED:
+        # keep track of start time/frame for later
+        text.tStart = t
+        text.frameNStart = frameN  # exact frame index
+        text.setAutoDraw(True)
+    
+    # *key_resp_3* updates
+    if t >= 0.0 and key_resp_3.status == NOT_STARTED:
+        # keep track of start time/frame for later
+        key_resp_3.tStart = t
+        key_resp_3.frameNStart = frameN  # exact frame index
+        key_resp_3.status = STARTED
+        # keyboard checking is just starting
+    if key_resp_3.status == STARTED:
+        theseKeys = event.getKeys(keyList=['q'])
+        
+        # check for quit:
+        if "escape" in theseKeys:
+            endExpNow = True
+        if len(theseKeys) > 0:  # at least one key was pressed
+            # a response ends the routine
+            continueRoutine = False
+    
+    # check if all components have finished
+    if not continueRoutine:  # a component has requested a forced-end of Routine
+        break
+    continueRoutine = False  # will revert to True if at least one component still running
+    for thisComponent in Thank_youComponents:
+        if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+            continueRoutine = True
+            break  # at least one component has not yet finished
+    
+    # check for quit (the Esc key)
+    if endExpNow or event.getKeys(keyList=["escape"]):
+        core.quit()
+    
+    # refresh the screen
+    if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+        win.flip()
+
+# -------Ending Routine "Thank_you"-------
+for thisComponent in Thank_youComponents:
+    if hasattr(thisComponent, "setAutoDraw"):
+        thisComponent.setAutoDraw(False)
+# the Routine "Thank_you" was not non-slip safe, so reset the non-slip timer
+routineTimer.reset()
 
 # these shouldn't be strictly necessary (should auto-save)
 thisExp.saveAsWideText(filename+'.csv')
